@@ -190,6 +190,7 @@ export function ScoutDashboard({ datasets }: Props) {
   const [selectedId, setSelectedId] = useState<string>("");
   const [query, setQuery] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [showDesktopDetail, setShowDesktopDetail] = useState(false);
   const deferredQuery = useDeferredValue(query);
 
   const active = datasets.find((dataset) => dataset.key === activeDataset) ?? datasets[0];
@@ -209,6 +210,24 @@ export function ScoutDashboard({ datasets }: Props) {
       setSelectedId(selectedTarget.id);
     }
   }, [active.targets, selectedId, selectedTarget]);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 1280px)");
+    const syncViewportState = (event?: MediaQueryListEvent) => {
+      const matches = event?.matches ?? mediaQuery.matches;
+      setShowDesktopDetail(matches);
+      if (matches) {
+        setMobileOpen(false);
+      }
+    };
+
+    syncViewportState();
+    mediaQuery.addEventListener("change", syncViewportState);
+
+    return () => {
+      mediaQuery.removeEventListener("change", syncViewportState);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">
@@ -306,7 +325,9 @@ export function ScoutDashboard({ datasets }: Props) {
                   aria-pressed={selectedTarget?.id === target.id}
                   onClick={() => {
                     setSelectedId(target.id);
-                    setMobileOpen(true);
+                    if (!showDesktopDetail) {
+                      setMobileOpen(true);
+                    }
                   }}
                   type="button"
                 >
