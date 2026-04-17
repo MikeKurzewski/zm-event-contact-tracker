@@ -6115,5 +6115,16 @@
     "website_about_title": "",
     "website_about_meta_description": "",
     "website_about_headings": ""
+  },
+  "http://www.bayer.com.br": {
+    "website_home_url": "http://www.bayer.com.br",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "403 Client Error: Forbidden for url: https://www.bayer.com.br/"
   }
 }

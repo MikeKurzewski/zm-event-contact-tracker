@@ -73,26 +73,57 @@ WEBSITE_EMPTY = {
 POSITIVE_KEYWORDS = {
     "flat_product": {
         "keywords": [
+            "flat rolled",
+            "flat-rolled",
             "sheet metal",
+            "sheet steel",
+            "steel sheet",
             "sheet",
             "coil",
+            "slit coil",
             "strip",
+            "wide strip",
             "plate",
             "foil",
             "film",
             "membrane",
-            "panel",
-            "panels",
-            "board",
-            "boards",
+            "flat panel",
+            "flat panels",
+            "wall panel",
+            "wall panels",
+            "door panel",
+            "door panels",
+            "cabinet panel",
+            "cabinet panels",
+            "laminated panel",
+            "laminated panels",
+            "decorative panel",
+            "decorative panels",
+            "sandwich panel",
+            "sandwich panels",
             "laminate",
             "laminated",
+            "coil coated",
+            "coil-coated",
+            "galvanized",
+            "galvanised",
+            "cold rolled",
+            "cold-rolled",
+            "hot rolled",
+            "hot-rolled",
+            "blank",
+            "blanks",
+            "blanking",
+            "slitting",
             "nonwoven",
             "woven",
             "textile",
             "fabric",
+            "coated fabric",
+            "coated fabrics",
+            "laminated fabric",
+            "laminated fabrics",
             "web inspection",
-            "glass",
         ],
         "weight": 6,
         "cap": 30,
@@ -111,9 +142,16 @@ POSITIVE_KEYWORDS = {
             "forged",
             "stamping",
             "press tools",
+            "pressing",
             "roll forming",
+            "rolling mill",
+            "pickling",
             "machined parts",
             "semi-finished",
+            "slab",
+            "slabs",
+            "flat bar",
+            "flat bars",
             "wire mesh",
         ],
         "weight": 4,
@@ -133,13 +171,89 @@ POSITIVE_KEYWORDS = {
             "fiber-reinforced",
             "fibre-reinforced",
             "prepreg",
+            "pre-preg",
+            "pultrusion",
+            "pullwinding",
+            "filament winding",
+            "resin transfer moulding",
+            "resin transfer molding",
+            "rtm",
+            "sheet moulding compound",
+            "sheet molding compound",
+            "smc",
+            "bulk moulding compound",
+            "bulk molding compound",
+            "bmc",
+            "gfrp",
+            "cfrp",
+            "frp",
+            "woven roving",
+            "woven rovings",
+            "glass mat",
+            "carbon fabric",
+            "glass fabric",
+            "technical fabric",
+            "technical fabrics",
+            "filtration fabric",
+            "filtration fabrics",
+            "coating carrier",
+            "coating carriers",
+            "scrim",
+            "scrims",
+            "needle punched",
+            "needle-punched",
+            "needle felt",
+            "needlefelt",
+            "spunlace",
+            "spunlaced",
+            "spunbond",
+            "hydroentanglement",
+            "air through bonding",
+            "air-through bonding",
+            "woven mesh",
+            "calendering",
+            "calendaring",
             "nonwoven",
+            "nonwovens",
             "fabric",
             "textile",
             "laminate",
         ],
         "weight": 5,
         "cap": 28,
+    },
+    "furniture_casework": {
+        "keywords": [
+            "cabinet door",
+            "cabinet doors",
+            "drawer front",
+            "drawer fronts",
+            "casework",
+            "millwork",
+            "architectural woodwork",
+            "furniture component",
+            "furniture components",
+            "furniture panel",
+            "furniture panels",
+            "decorative laminate",
+            "thermally fused laminate",
+            "tfl",
+            "hpdl",
+            "hpl",
+            "mdf",
+            "particleboard",
+            "plywood",
+            "veneer panel",
+            "veneer panels",
+            "face veneer",
+            "panel layup",
+            "edgebanding",
+            "edge banding",
+            "laminated board",
+            "laminated boards",
+        ],
+        "weight": 5,
+        "cap": 24,
     },
     "specialty_glass": {
         "keywords": [
@@ -296,24 +410,93 @@ MANUFACTURING_CONFIRMATION_KEYWORDS = [
     "manufacturers",
     "manufacture",
     "manufactures",
+    "manufactured",
     "manufacturing",
     "production",
     "producer",
     "producers",
     "produces",
+    "produced",
     "factory",
     "factories",
     "fabrication",
     "fabricator",
     "fabricators",
     "fabricating",
+    "fabricated",
     "production facility",
     "production facilities",
     "production plant",
     "production plants",
     "industrial producer",
     "oem",
+    "rolling mill",
+    "cold rolling",
+    "hot rolling",
+    "coil coating",
+    "slitting",
+    "blanking",
+    "pultrusion",
+    "filament winding",
+    "resin transfer moulding",
+    "resin transfer molding",
+    "sheet moulding compound",
+    "sheet molding compound",
+    "press moulding",
+    "press molding",
+    "weaving",
+    "knitting",
+    "nonwovens production",
+    "lamination",
+    "laminating",
+    "coating",
+    "coated",
+    "impregnated",
+    "machining",
+    "panel layup",
+    "edgebanding",
 ]
+
+MANUAL_EXCLUDED_COMPANIES = {
+    "24 VISION a.s.": "Clear AI visual inspection competitor rather than a partner target.",
+    "AMA Digital Networks GmbH": "Media publisher, not an inspection hardware or manufacturing target.",
+    "ANTICIPATE GmbH": "Clear AI quality inspection competitor rather than a partner target.",
+    "Aeon Robotics GmbH": "General robotics company, not a strong inspection-specific target.",
+    "Ai-Innovate Solution Inc.": "Clear AI machine vision inspection competitor.",
+    "Automation Steeg und Hoffmeyer GmbH": "Automation and machine builder for composites, not a target manufacturer.",
+    "Brandenburgische Technische Universität Cottbus-Senftenberg +4930912075": "University/science park entry, not an exhibitor target account.",
+    "Camara de Comercio de Gipuzkoa": "Chamber of commerce / supplier matching service, not a manufacturer target.",
+    "Coriolis Group SAS": "Composite production automation vendor, not a target manufacturer.",
+    "Dataguess Teknoloji San. ve Tic. A.S.": "AI/computer vision inspection software competitor.",
+    "Dell Technologies Inc.": "Generic industrial AI infrastructure vendor, too broad for this target list.",
+    "Deutsche Messe AG": "Trade fair organizer / academy content, not an outreach target.",
+    "Duatic AG": "Robotics company, not a target manufacturer.",
+    "Ehrt - Maschinenbau GmbH & Co. KG": "Machine builder, not a target manufacturer.",
+    "Follow Inspiration, S.A.": "Robotics automation company, not an inspection-focused target.",
+    "Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung IFAM": "Research institute, not a commercial outreach target.",
+    "Generative Robotics BV": "General robotics automation company, not an inspection-focused target.",
+    "Gestalt Automation GmbH": "AI-powered inspection systems competitor.",
+    "Gräbener Maschinentechnik GmbH & Co. KG": "Manufacturing process and machine developer, not a target manufacturer.",
+    "IndustrialMind.ai INC.": "Generic manufacturing AI platform, not a focused inspection target.",
+    "Infinite Uptime Inc.": "Industrial AI maintenance/reliability platform, not a manufacturing or inspection target.",
+    "Instituto de Soldadura e Qualidade, ISQ": "Inspection/testing/training services organization, not a product partner target.",
+    "Invisible AI Inc.": "Production visibility analytics company, not a focused inspection target.",
+    "Kurokesu UAB": "Generic imaging/mechatronics supplier across robotics and research, not a focused inspection target.",
+    "Ma.ia Solutions Ltda.": "AI/computer vision inspection SaaS competitor.",
+    "Mztec - Servicos em Tecnologia Ltda": "AI-driven visual inspection software competitor.",
+    "NanoSen GmbH": "Generic force sensor company, not a focused inspection/metrology target for this list.",
+    "Panni e Lazzarini srl": "Industrial assembly services company, not a core inspection partner target.",
+    "RealSense, Inc.": "General robot perception/depth sensing platform, not a focused inspection target.",
+    "Robert Bosch GmbH": "Too broad and generic as a conglomerate-level target.",
+    "Steiner Elektronik EOOD": "EMS / PCB assembly provider, not a core inspection partner target.",
+    "Stierli-Bieger AG": "Machine builder, not a target manufacturer.",
+    "Termica Solutions Engenharia Ltda": "AI-driven quality-control software competitor.",
+    "Vaski Group Oy": "Metalworking machinery and production-line supplier, not a target manufacturer.",
+    "Virtek Vision International Inc.": "Inspection systems vendor misclassified as a manufacturer target.",
+    "ZET Redüktör Sanayi ve Ticaret A.S.": "Gearbox manufacturer misclassified as an inspection/metrology target.",
+    "dp-Consultec e.K.": "Consulting / representative company, not a manufacturer target.",
+    "psps business abroad b.v.": "Trade promotion / export support company, not a direct target.",
+}
 
 PRIORITY_THRESHOLDS = {"A": 36, "B": 26, "C": 18}
 
@@ -698,11 +881,14 @@ def derive_category(hit_map: Dict[str, List[str]], has_manufacturing_signal: boo
         hit_map["flat_product"]
         or hit_map["metals"]
         or hit_map["composites_textiles"]
+        or hit_map["furniture_casework"]
         or hit_map["specialty_glass"]
         or hit_map["roofing_building"]
     )
     manufacturer_signal = product_signal and has_manufacturing_signal
 
+    if hit_map["furniture_casework"] and manufacturer_signal:
+        return "manufacturer_target", "furniture_casework_panels"
     if hit_map["roofing_building"] and manufacturer_signal:
         return "manufacturer_target", "roofing_building_materials"
     if hit_map["specialty_glass"] and manufacturer_signal:
@@ -723,6 +909,8 @@ def derive_category(hit_map: Dict[str, List[str]], has_manufacturing_signal: boo
 
 
 def build_outreach_angle(category: str, subcategory: str) -> str:
+    if subcategory == "furniture_casework_panels":
+        return "Discuss surface inspection and component verification for cabinet doors, drawer fronts, laminated panels, and furniture casework parts."
     if subcategory == "flat_metal_products":
         return "Discuss inline surface defect inspection and component verification for sheet, strip, plate, or coil-like products."
     if subcategory == "specialty_glass_products":
@@ -740,6 +928,10 @@ def build_outreach_angle(category: str, subcategory: str) -> str:
     if subcategory == "ai_inspection_or_data_partner":
         return "Explore partnership around synthetic data, computer vision, and industrial AI inspection workflows."
     return "Manual review recommended before outreach."
+
+
+def manual_exclusion_reason(row: Dict[str, str]) -> str:
+    return MANUAL_EXCLUDED_COMPANIES.get(row.get("company_name", "").strip(), "")
 
 
 def should_exclude_partner_competitor(row: Dict[str, str], category: str) -> bool:
@@ -824,6 +1016,12 @@ def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict
         row["outreach_angle"] = "Excluded from outreach because the exhibitor is based in China."
         return row
 
+    manual_reason = manual_exclusion_reason(row)
+    if manual_reason:
+        category = "excluded"
+        subcategory = "manual_curation"
+        negative_hits = sorted(dict.fromkeys(negative_hits + ["manual exclusion"]))
+
     if should_exclude_partner_competitor(row, category):
         category = "excluded"
         subcategory = "ai_synthetic_data_competitor"
@@ -855,7 +1053,9 @@ def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict
     row["negative_keywords"] = ", ".join(sorted(dict.fromkeys(negative_hits)))
     row["country_priority_bucket"] = country_priority_bucket
     row["country_priority_boost"] = str(country_boost)
-    if subcategory == "ai_synthetic_data_competitor":
+    if subcategory == "manual_curation":
+        row["outreach_angle"] = manual_reason
+    elif subcategory == "ai_synthetic_data_competitor":
         row["outreach_angle"] = (
             "Excluded from partner outreach because the exhibitor describes both synthetic data and AI,"
             " making them more likely to be a direct competitor than a partner."
@@ -866,6 +1066,7 @@ def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict
             hit_map["flat_product"]
             or hit_map["metals"]
             or hit_map["composites_textiles"]
+            or hit_map["furniture_casework"]
             or hit_map["specialty_glass"]
             or hit_map["roofing_building"]
         )
