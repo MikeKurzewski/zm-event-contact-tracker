@@ -277,6 +277,44 @@ NEGATIVE_KEYWORDS = [
     "newsletter",
 ]
 
+SYNTHETIC_DATA_COMPETITOR_KEYWORDS = [
+    "synthetic data",
+    "synthetic dataset",
+    "synthetic datasets",
+]
+
+AI_COMPETITOR_KEYWORDS = [
+    "ai",
+    "artificial intelligence",
+    "machine learning",
+    "computer vision",
+    "industrial ai",
+]
+
+MANUFACTURING_CONFIRMATION_KEYWORDS = [
+    "manufacturer",
+    "manufacturers",
+    "manufacture",
+    "manufactures",
+    "manufacturing",
+    "production",
+    "producer",
+    "producers",
+    "produces",
+    "factory",
+    "factories",
+    "fabrication",
+    "fabricator",
+    "fabricators",
+    "fabricating",
+    "production facility",
+    "production facilities",
+    "production plant",
+    "production plants",
+    "industrial producer",
+    "oem",
+]
+
 PRIORITY_THRESHOLDS = {"A": 36, "B": 26, "C": 18}
 
 EXCLUDED_COUNTRIES = {
@@ -655,23 +693,25 @@ def keyword_hits(text: str, keywords: Iterable[str]) -> List[str]:
     return hits
 
 
-def derive_category(hit_map: Dict[str, List[str]]) -> Tuple[str, str]:
-    manufacturer_signal = bool(
+def derive_category(hit_map: Dict[str, List[str]], has_manufacturing_signal: bool) -> Tuple[str, str]:
+    product_signal = bool(
         hit_map["flat_product"]
         or hit_map["metals"]
         or hit_map["composites_textiles"]
         or hit_map["specialty_glass"]
         or hit_map["roofing_building"]
     )
-    if hit_map["roofing_building"]:
+    manufacturer_signal = product_signal and has_manufacturing_signal
+
+    if hit_map["roofing_building"] and manufacturer_signal:
         return "manufacturer_target", "roofing_building_materials"
-    if hit_map["specialty_glass"]:
+    if hit_map["specialty_glass"] and manufacturer_signal:
         return "manufacturer_target", "specialty_glass_products"
-    if hit_map["composites_textiles"]:
+    if hit_map["composites_textiles"] and manufacturer_signal:
         return "manufacturer_target", "composites_textiles_materials"
-    if hit_map["flat_product"] and hit_map["metals"]:
+    if hit_map["flat_product"] and hit_map["metals"] and manufacturer_signal:
         return "manufacturer_target", "flat_metal_products"
-    if hit_map["metals"]:
+    if hit_map["metals"] and manufacturer_signal:
         return "manufacturer_target", "metal_components_or_processing"
     if hit_map["ai_inspection"] and not manufacturer_signal:
         return "partner_target", "ai_inspection_or_data_partner"
@@ -700,6 +740,27 @@ def build_outreach_angle(category: str, subcategory: str) -> str:
     if subcategory == "ai_inspection_or_data_partner":
         return "Explore partnership around synthetic data, computer vision, and industrial AI inspection workflows."
     return "Manual review recommended before outreach."
+
+
+def should_exclude_partner_competitor(row: Dict[str, str], category: str) -> bool:
+    if category != "partner_target":
+        return False
+
+    description_text = normalize_space(
+        " ".join(
+            [
+                row.get("profile_meta_description", ""),
+                row.get("website_home_meta_description", ""),
+                row.get("website_about_meta_description", ""),
+            ]
+        )
+    )
+    if not description_text:
+        return False
+
+    synthetic_hits = keyword_hits(description_text, SYNTHETIC_DATA_COMPETITOR_KEYWORDS)
+    ai_hits = keyword_hits(description_text, AI_COMPETITOR_KEYWORDS)
+    return bool(synthetic_hits and ai_hits)
 
 
 def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict[str, str]:
@@ -748,7 +809,8 @@ def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict
     if "hall 17" in row.get("booth", "").lower() or "hall 26" in row.get("booth", "").lower():
         score += 2
 
-    category, subcategory = derive_category(hit_map)
+    manufacturing_confirmation_hits = keyword_hits(full_text, MANUFACTURING_CONFIRMATION_KEYWORDS)
+    category, subcategory = derive_category(hit_map, bool(manufacturing_confirmation_hits))
 
     if country_priority_bucket == "excluded_china":
         row["score"] = str(score)
@@ -761,6 +823,16 @@ def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict
         row["country_priority_boost"] = str(country_boost)
         row["outreach_angle"] = "Excluded from outreach because the exhibitor is based in China."
         return row
+
+    if should_exclude_partner_competitor(row, category):
+        category = "excluded"
+        subcategory = "ai_synthetic_data_competitor"
+        negative_hits = sorted(
+            dict.fromkeys(
+                negative_hits
+                + ["synthetic data competitor", "ai competitor"]
+            )
+        )
 
     if negative_hits and score < PRIORITY_THRESHOLDS["C"]:
         category = "excluded"
@@ -783,7 +855,28 @@ def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict
     row["negative_keywords"] = ", ".join(sorted(dict.fromkeys(negative_hits)))
     row["country_priority_bucket"] = country_priority_bucket
     row["country_priority_boost"] = str(country_boost)
-    row["outreach_angle"] = build_outreach_angle(category, subcategory)
+    if subcategory == "ai_synthetic_data_competitor":
+        row["outreach_angle"] = (
+            "Excluded from partner outreach because the exhibitor describes both synthetic data and AI,"
+            " making them more likely to be a direct competitor than a partner."
+        )
+    elif (
+        category == "review_target"
+        and (
+            hit_map["flat_product"]
+            or hit_map["metals"]
+            or hit_map["composites_textiles"]
+            or hit_map["specialty_glass"]
+            or hit_map["roofing_building"]
+        )
+        and not manufacturing_confirmation_hits
+    ):
+        row["outreach_angle"] = (
+            "Manual review recommended because product keywords matched, but the description does not clearly say"
+            " the exhibitor is a manufacturer or production company."
+        )
+    else:
+        row["outreach_angle"] = build_outreach_angle(category, subcategory)
     return row
 
 

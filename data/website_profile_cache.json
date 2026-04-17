@@ -6064,5 +6064,56 @@
     "website_about_title": "",
     "website_about_meta_description": "",
     "website_about_headings": ""
+  },
+  "https://www.tuvsud.com/rail": {
+    "website_home_url": "https://www.tuvsud.com/rail",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "403 Client Error: Forbidden for url: https://www.tuvsud.com/rail"
+  },
+  "https://www.gishnugears.com": {
+    "website_home_url": "https://www.gishnugears.com/",
+    "website_home_title": "Gishnu",
+    "website_home_meta_description": "Welcome to Gishnu Gears, a leading gearbox manufacturer in Coimbatore, Tamil Nadu, specializing in custom-built gear solutions for industrial, automotive, textile, and nuclear applications. With over 20 years of expertise in gear engineering, we have been delivering high-performance gearboxes that meet the most demanding requirements",
+    "website_home_headings": "GISHNU is the partner of choice for valve technology solutions for the mobility of the future. | GAL - Series | A - Series | B0 - Series | C - Series | G - Series | H - Series | O - Series",
+    "website_about_url": "https://www.gishnugears.com/about-us/",
+    "website_about_title": "About us",
+    "website_about_meta_description": "Welcome to Gishnu Gears, a leading gearbox manufacturer in Coimbatore, Tamil Nadu, specializing in custom-built gear solutions for industrial, automotive, textile, and nuclear applications. With over 20 years of expertise in gear engineering, we have been delivering high-performance gearboxes that meet the most demanding requirements",
+    "website_about_headings": "About Us | Our Global Growth Story — From Gishnu Gears | Need Custom Gear Solutions?"
+  },
+  "http://www.dconstruct.ai": {
+    "website_home_url": "https://www.dconstruct.ai/",
+    "website_home_title": "dConstruct Robotics | AI & Autonomous Robotics Solutions for Business Impact",
+    "website_home_meta_description": "Discover how dConstruct Robotics unifies AI, robotics, and data intelligence to deliver end-to-end automation for industries like construction, inspection, and urban logistics. Smarter robots, measurable results.",
+    "website_home_headings": "Book a demo | Smarter Robots, Better World. | Smarter Robots, Better World. | From autonomous robotics to data intelligence, we deliver end-to-end AI and robotics solutions that drive measurable business impact. | Tailored Solutions | AI-Driven Technology | Expert Training | Seamless Deployment",
+    "website_about_url": "https://www.dconstruct.ai/about",
+    "website_about_title": "About Us | dConstruct Robotics – Robotics & AI Industry Leaders",
+    "website_about_meta_description": "Learn about dConstruct Robotics, a global company creating AI-driven robotics solutions for automation, safety, and efficiency across construction, surveillance, and logistics sectors.​",
+    "website_about_headings": "Book a demo | Building Smarter Robots for a Better World | From Singapore to San Francisco, Toronto, and Munich | Our Vision & Mission | Meet our team | The first AI & Robotics Hub in Singapore | Purpose-Built for AI & Robotics | Vibrant Community"
+  },
+  "https://innowave.com.sg": {
+    "website_home_url": "https://www.innowave.com.sg/",
+    "website_home_title": "Innowave Tech | Manufacturing Simplified",
+    "website_home_meta_description": "Innowave Tech develops Agentic AI to enable autonomous fab operations for manufacturing machines and processes. Enter IWave: a domain-specific agentic AI platform purpose-built for the semiconductor industry. From fab floor to cloud, IWave delivers end-to-end AI methodologies tailored to the nuances of semiconductor manufacturing, solving what generic AI can’t.",
+    "website_home_headings": "Products | Factory AI Agents for | Trusted by Tier 1 Semiconductor Manufacturers | 7 | 50+ | <0.1% | 100% | Up to 2X",
+    "website_about_url": "https://www.innowave.com.sg/about-us",
+    "website_about_title": "About Us | Innowave Tech",
+    "website_about_meta_description": "Innowave Tech aims to create agentic AI designed to revolutionize semiconductor manufacturing. Tackle dynamic workflows, defect data scarcity, and streamline data collection with end-to-end domain-specific solutions.",
+    "website_about_headings": "Products | From Automation to Intelligence | Who we are | Our Mission | Our Values | Our Locations | Global Offices | Let’s Build the Future of Manufacturing"
+  },
+  "http://pacificjsc.com/lien-he": {
+    "website_home_url": "https://pacificjsc.com/lien-he",
+    "website_home_title": "Liên hệ với chúng tôi",
+    "website_home_meta_description": "Liên hệ với chúng tôi",
+    "website_home_headings": "Liên hệ với chúng tôi | Trò Chuyện Trực Tiếp. | Trở Thành Đối Tác | Câu Hỏi Thường Gặp | Thông tin liên hệ | Đăng ký nhận thông tin | Thông tin | Facebook",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
   }
 }
