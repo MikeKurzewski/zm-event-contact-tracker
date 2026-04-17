@@ -59,6 +59,15 @@ function geoLabel(bucket: string) {
   return bucket.replace("priority_", "").replace(/_/g, " ");
 }
 
+function hallQueryTokens(query: string) {
+  return query
+    .toLowerCase()
+    .replace(/hall/g, " ")
+    .split(/[^a-z0-9]+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+}
+
 function targetMatchesSearch(target: ScoutTarget, query: string) {
   if (!query) return true;
   const haystack = [
@@ -78,6 +87,18 @@ function targetMatchesSearch(target: ScoutTarget, query: string) {
   return haystack.includes(query.toLowerCase());
 }
 
+function targetMatchesHall(target: ScoutTarget, query: string) {
+  const tokens = hallQueryTokens(query);
+
+  if (!tokens.length) {
+    return true;
+  }
+
+  const hallHaystack = [target.booth, ...target.hallNumbers].join(" ").toLowerCase();
+
+  return tokens.every((token) => hallHaystack.includes(token));
+}
+
 function DetailSection({
   label,
   value
@@ -91,7 +112,7 @@ function DetailSection({
       <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
         {label}
       </p>
-      <p className="text-sm leading-6 text-foreground">{value}</p>
+      <p className="break-words text-sm leading-6 text-foreground">{value}</p>
     </div>
   );
 }
@@ -114,9 +135,9 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
     <Card className="border-border bg-card shadow-sm">
       <CardHeader className="flex flex-col gap-4">
         <div className="flex flex-wrap items-start justify-between gap-4">
-          <div className="flex flex-col gap-2">
-            <CardTitle className="text-2xl tracking-tight">{target.companyName}</CardTitle>
-            <CardDescription className="max-w-xl text-sm leading-6">
+          <div className="flex min-w-0 flex-col gap-2">
+            <CardTitle className="break-words text-2xl tracking-tight">{target.companyName}</CardTitle>
+            <CardDescription className="max-w-xl break-words text-sm leading-6">
               {target.overview || "No summary available."}
             </CardDescription>
           </div>
@@ -131,7 +152,15 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
       </CardHeader>
       <CardContent className="flex flex-col gap-6">
         <div className="grid gap-4 md:grid-cols-2">
-          <DetailSection label="Booth" value={target.booth} />
+          <DetailSection label={target.hallNumbers.length > 1 ? "Halls" : "Hall"} value={target.hallNumbers.join(", ")} />
+          <DetailSection
+            label={target.standNumbers.length > 1 ? "Booths" : "Booth"}
+            value={target.standNumbers.join(", ")}
+          />
+          <DetailSection
+            label={target.booth.includes("|") ? "Full Booth Listing" : "Booth Listing"}
+            value={target.booth}
+          />
           <DetailSection label="Country" value={target.country} />
           <DetailSection label="Country Priority" value={geoLabel(target.countryPriority)} />
           <DetailSection label="Category" value={humanizeLabel(target.category || target.targetType)} />
@@ -157,7 +186,7 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
       </CardContent>
       <CardFooter className="flex flex-wrap gap-3">
         {target.website ? (
-          <Button asChild>
+          <Button asChild className="w-full text-primary-foreground hover:text-primary-foreground sm:w-auto">
             <a href={target.website} rel="noreferrer" target="_blank">
               <ExternalLink data-icon="inline-end" />
               Company Website
@@ -165,7 +194,7 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
           </Button>
         ) : null}
         {target.profileUrl ? (
-          <Button asChild variant="outline">
+          <Button asChild className="w-full sm:w-auto" variant="outline">
             <a href={target.profileUrl} rel="noreferrer" target="_blank">
               <ExternalLink data-icon="inline-end" />
               Hannover Profile
@@ -173,7 +202,7 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
           </Button>
         ) : null}
         {target.crmCardUrl ? (
-          <Button asChild variant="secondary">
+          <Button asChild className="w-full sm:w-auto" variant="secondary">
             <a href={target.crmCardUrl} rel="noreferrer" target="_blank">
               <ExternalLink data-icon="inline-end" />
               CRM Card
@@ -189,12 +218,16 @@ export function ScoutDashboard({ datasets }: Props) {
   const [activeDataset, setActiveDataset] = useState<DatasetKey>("priority");
   const [selectedId, setSelectedId] = useState<string>("");
   const [query, setQuery] = useState("");
+  const [hallQuery, setHallQuery] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [showDesktopDetail, setShowDesktopDetail] = useState(false);
   const deferredQuery = useDeferredValue(query);
+  const deferredHallQuery = useDeferredValue(hallQuery);
 
   const active = datasets.find((dataset) => dataset.key === activeDataset) ?? datasets[0];
-  const filteredTargets = active.targets.filter((target) => targetMatchesSearch(target, deferredQuery));
+  const filteredTargets = active.targets.filter(
+    (target) => targetMatchesSearch(target, deferredQuery) && targetMatchesHall(target, deferredHallQuery)
+  );
   const selectedTarget =
     filteredTargets.find((target) => target.id === selectedId) ??
     active.targets.find((target) => target.id === selectedId) ??
@@ -230,24 +263,24 @@ export function ScoutDashboard({ datasets }: Props) {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="mx-auto flex w-full max-w-[1600px] flex-col gap-8 px-4 py-6 md:px-8 md:py-8">
+    <div className="min-h-screen overflow-x-clip bg-background">
+      <div className="mx-auto flex w-full max-w-[1600px] flex-col gap-8 px-4 py-6 md:px-6 md:py-8 xl:px-8">
         <Card className="overflow-hidden border-border bg-card shadow-sm">
           <CardHeader className="gap-5">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-              <div className="flex max-w-3xl flex-col gap-3">
+              <div className="flex max-w-3xl min-w-0 flex-col gap-3">
                 <CardDescription className="text-xs font-semibold uppercase tracking-[0.28em] text-muted-foreground">
                   Hannover Messe Scout
                 </CardDescription>
-                <CardTitle className="text-3xl tracking-tight md:text-4xl">
+                <CardTitle className="break-words text-3xl tracking-tight md:text-4xl">
                   CSV-driven scouting dashboard for booth-side outreach
                 </CardTitle>
-                <p className="text-sm leading-7 text-muted-foreground">
+                <p className="break-words text-sm leading-7 text-muted-foreground">
                   The app reads the generated CSV outputs directly from the repo and surfaces booth numbers,
                   scoring, target type, and company context in a clean mobile-friendly layout.
                 </p>
               </div>
-              <div className="grid min-w-[280px] gap-3 sm:grid-cols-3">
+              <div className="grid w-full min-w-0 gap-3 sm:grid-cols-3 lg:w-auto lg:min-w-[320px]">
                 {datasets.slice(0, 3).map((dataset) => {
                   const Icon = datasetIcon(dataset.key);
                   return (
@@ -284,6 +317,7 @@ export function ScoutDashboard({ datasets }: Props) {
                         onClick={() => {
                           setActiveDataset(dataset.key);
                           setQuery("");
+                          setHallQuery("");
                         }}
                         aria-pressed={dataset.key === activeDataset}
                         variant={dataset.key === activeDataset ? "default" : "outline"}
@@ -296,19 +330,30 @@ export function ScoutDashboard({ datasets }: Props) {
                     );
                   })}
                 </div>
-                <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
                   <div className="flex flex-col gap-1">
                     <CardTitle>{active.label}</CardTitle>
                     <CardDescription>{active.description}</CardDescription>
                   </div>
-                  <div className="relative w-full md:max-w-sm">
-                    <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-                    <Input
-                      value={query}
-                      onChange={(event) => setQuery(event.target.value)}
-                      className="pl-9"
-                      placeholder="Search company, booth, type, country..."
-                    />
+                  <div className="grid w-full min-w-0 gap-3 sm:grid-cols-2 lg:max-w-2xl">
+                    <div className="relative min-w-0">
+                      <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+                      <Input
+                        value={query}
+                        onChange={(event) => setQuery(event.target.value)}
+                        className="pl-9"
+                        placeholder="Search company, booth, type, country..."
+                      />
+                    </div>
+                    <div className="relative min-w-0">
+                      <MapPin className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+                      <Input
+                        value={hallQuery}
+                        onChange={(event) => setHallQuery(event.target.value)}
+                        className="pl-9"
+                        placeholder="Filter by hall number..."
+                      />
+                    </div>
                   </div>
                 </div>
               </CardHeader>
@@ -319,7 +364,7 @@ export function ScoutDashboard({ datasets }: Props) {
                 <button
                   key={target.id}
                   className={cn(
-                    "cursor-pointer rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition-colors hover:bg-accent/50",
+                    "cursor-pointer overflow-hidden rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition-colors hover:bg-accent/50",
                     selectedTarget?.id === target.id && "border-primary bg-accent"
                   )}
                   aria-pressed={selectedTarget?.id === target.id}
@@ -334,7 +379,7 @@ export function ScoutDashboard({ datasets }: Props) {
                   <div className="flex flex-col gap-3">
                     <div className="flex flex-wrap items-start justify-between gap-3">
                       <div className="flex min-w-0 flex-col gap-1">
-                        <p className="truncate text-lg font-semibold tracking-tight">{target.companyName}</p>
+                        <p className="break-words text-lg font-semibold tracking-tight">{target.companyName}</p>
                         <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
                           {target.booth ? (
                             <span className="inline-flex items-center gap-1.5">
@@ -357,10 +402,11 @@ export function ScoutDashboard({ datasets }: Props) {
                         ) : null}
                       </div>
                     </div>
-                    <p className="line-clamp-2 text-sm leading-6 text-muted-foreground">
+                    <p className="line-clamp-2 break-words text-sm leading-6 text-muted-foreground">
                       {target.overview || "No summary available."}
                     </p>
                     <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.16em] text-muted-foreground">
+                      {target.hallNumbers.length ? <span>Hall {target.hallNumbers.join(", ")}</span> : null}
                       {target.websiteLabel ? <span>{target.websiteLabel}</span> : null}
                       {target.crmSource ? <span>CRM {target.crmSource}</span> : null}
                       {target.confidence ? <span>{target.confidence} confidence</span> : null}
@@ -380,7 +426,7 @@ export function ScoutDashboard({ datasets }: Props) {
                 <Card className="border-dashed border-border bg-card">
                   <CardContent className="flex flex-col gap-2 p-8 text-sm text-muted-foreground">
                     <p className="font-medium text-foreground">No matches for this search.</p>
-                    <p>Try a company name, country, booth, or target type.</p>
+                    <p>Try a company name, hall number, booth, country, or target type.</p>
                   </CardContent>
                 </Card>
               ) : null}
@@ -388,7 +434,7 @@ export function ScoutDashboard({ datasets }: Props) {
           </div>
 
           <div className="hidden xl:block">
-            <div className="sticky top-6">
+            <div className="sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pr-1">
               <TargetDetail target={selectedTarget} />
             </div>
           </div>

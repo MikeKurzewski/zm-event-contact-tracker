@@ -18,6 +18,8 @@ export type ScoutTarget = {
   companyName: string;
   country: string;
   booth: string;
+  hallNumbers: string[];
+  standNumbers: string[];
   score: number | null;
   targetType: string;
   category: string;
@@ -104,23 +106,96 @@ function pickOverview(row: Record<string, string>) {
   );
 }
 
+type BoothEntry = {
+  raw: string;
+  hallNumber: string;
+  standNumber: string;
+};
+
+function uniqueStrings(values: Array<string | undefined>) {
+  return [...new Set(values.map((value) => value?.trim()).filter(Boolean) as string[])];
+}
+
+function compareNaturally(left: string, right: string) {
+  return left.localeCompare(right, undefined, {
+    numeric: true,
+    sensitivity: "base"
+  });
+}
+
+function parseBoothEntries(value: string) {
+  return value
+    .split(/\s+\|\s+|\n+/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((raw) => {
+      const hallNumber = raw.match(/hall\s+(\d+)/i)?.[1] ?? "";
+      const standNumber = raw.match(/stand\s+([^,|]+)/i)?.[1]?.trim() ?? "";
+
+      return {
+        raw,
+        hallNumber,
+        standNumber
+      } satisfies BoothEntry;
+    });
+}
+
+function collectBoothEntries(values: string[]) {
+  return [...new Map(values.flatMap(parseBoothEntries).map((entry) => [entry.raw.toLowerCase(), entry])).values()].sort(
+    (left, right) => {
+      if (left.hallNumber && right.hallNumber && left.hallNumber !== right.hallNumber) {
+        return compareNaturally(left.hallNumber, right.hallNumber);
+      }
+      if (left.standNumber && right.standNumber && left.standNumber !== right.standNumber) {
+        return compareNaturally(left.standNumber, right.standNumber);
+      }
+      return compareNaturally(left.raw, right.raw);
+    }
+  );
+}
+
+function pickLongestText(values: Array<string | undefined>) {
+  return uniqueStrings(values).sort((left, right) => right.length - left.length)[0] ?? "";
+}
+
+function joinDistinct(values: Array<string | undefined>, separator = " | ") {
+  return uniqueStrings(values).join(separator);
+}
+
+function pickFirst(values: Array<string | undefined>) {
+  return uniqueStrings(values)[0] ?? "";
+}
+
+function pickConfidence(values: Array<string | undefined>) {
+  const ranking = new Map([
+    ["high", 3],
+    ["medium", 2],
+    ["low", 1]
+  ]);
+
+  return uniqueStrings(values).sort((left, right) => (ranking.get(right) ?? 0) - (ranking.get(left) ?? 0))[0] ?? "";
+}
+
 function buildBaseId(dataset: DatasetKey, row: Record<string, string>) {
   const companyName = row.company_name || row.hannover_company_name || row.crm_company_name || "";
-  const booth = row.booth || row.hannover_booths || "na";
-  return `${dataset}-${slugify(companyName)}-${slugify(booth)}`;
+  return `${dataset}-${slugify(companyName) || "target"}`;
 }
 
 function normalizeTarget(dataset: DatasetKey, row: Record<string, string>): ScoutTarget {
   const companyName = row.company_name || row.hannover_company_name || row.crm_company_name || "";
   const website = row.website || row.hannover_website || "";
   const overview = pickOverview(row);
+  const booth = row.booth || row.hannover_booths || "";
+  const boothEntries = collectBoothEntries([booth]);
 
   return {
     id: buildBaseId(dataset, row),
     dataset,
     companyName,
     country: row.country || row.hannover_country || "",
-    booth: row.booth || row.hannover_booths || "",
+    booth,
+    hallNumbers: uniqueStrings(boothEntries.map((entry) => entry.hallNumber)).sort(compareNaturally),
+    standNumbers: uniqueStrings(boothEntries.map((entry) => entry.standNumber)).sort(compareNaturally),
     score: row.score || row.hannover_score ? Number(row.score || row.hannover_score) : null,
     targetType: row.subcategory || row.hannover_subcategory || row.match_reason || "general",
     category: row.category || row.hannover_category || "",
@@ -151,6 +226,62 @@ function normalizeTarget(dataset: DatasetKey, row: Record<string, string>): Scou
   };
 }
 
+function mergeTargets(dataset: DatasetKey, targets: ScoutTarget[]) {
+  const grouped = new Map<string, ScoutTarget[]>();
+
+  for (const target of targets) {
+    const key = slugify(target.companyName) || target.id;
+    const group = grouped.get(key) ?? [];
+    group.push(target);
+    grouped.set(key, group);
+  }
+
+  return [...grouped.entries()].map(([key, group]) => {
+    const boothEntries = collectBoothEntries(group.map((target) => target.booth));
+    const scoreValues = group
+      .map((target) => target.score)
+      .filter((score): score is number => score !== null);
+    const website = pickFirst(group.map((target) => target.website));
+
+    return {
+      id: `${dataset}-${key}`,
+      dataset,
+      companyName: pickFirst(group.map((target) => target.companyName)),
+      country: pickFirst(group.map((target) => target.country)),
+      booth: boothEntries.map((entry) => entry.raw).join(" | "),
+      hallNumbers: uniqueStrings(boothEntries.map((entry) => entry.hallNumber)).sort(compareNaturally),
+      standNumbers: uniqueStrings(boothEntries.map((entry) => entry.standNumber)).sort(compareNaturally),
+      score: scoreValues.length ? Math.max(...scoreValues) : null,
+      targetType: joinDistinct(group.map((target) => target.targetType)),
+      category: joinDistinct(group.map((target) => target.category)),
+      overview: pickLongestText(group.map((target) => target.overview)),
+      website,
+      websiteLabel: compactUrl(website),
+      profileUrl: pickFirst(group.map((target) => target.profileUrl)),
+      countryPriority: pickFirst(group.map((target) => target.countryPriority)),
+      outreachAngle: joinDistinct(group.map((target) => target.outreachAngle)),
+      confidence: pickConfidence(group.map((target) => target.confidence)),
+      crmSource: joinDistinct(group.map((target) => target.crmSource)),
+      crmCompanyName: joinDistinct(group.map((target) => target.crmCompanyName)),
+      crmListName: joinDistinct(group.map((target) => target.crmListName)),
+      crmPriority: joinDistinct(group.map((target) => target.crmPriority)),
+      crmLeadSource: joinDistinct(group.map((target) => target.crmLeadSource)),
+      crmIndustry: joinDistinct(group.map((target) => target.crmIndustry)),
+      crmProduct: joinDistinct(group.map((target) => target.crmProduct)),
+      crmCountry: joinDistinct(group.map((target) => target.crmCountry)),
+      crmWebsite: joinDistinct(group.map((target) => target.crmWebsite)),
+      crmCardUrl: pickFirst(group.map((target) => target.crmCardUrl)),
+      crmLastActivityDate: pickFirst(group.map((target) => target.crmLastActivityDate)),
+      companySiteAbout: pickLongestText(group.map((target) => target.companySiteAbout)),
+      companySiteHome: pickLongestText(group.map((target) => target.companySiteHome)),
+      officialOverview: pickLongestText(group.map((target) => target.officialOverview)),
+      matchedKeywords: uniqueStrings(group.flatMap((target) => target.matchedKeywords)).sort(compareNaturally),
+      negativeKeywords: uniqueStrings(group.flatMap((target) => target.negativeKeywords)).sort(compareNaturally),
+      matchReason: joinDistinct(group.map((target) => target.matchReason))
+    } satisfies ScoutTarget;
+  });
+}
+
 async function readCsv(fileName: string) {
   const filePath = path.join(process.cwd(), "output", fileName);
   const content = await fs.readFile(filePath, "utf-8");
@@ -164,22 +295,9 @@ export async function loadDatasets(): Promise<DatasetSummary[]> {
   const entries = await Promise.all(
     Object.entries(DATASET_FILES).map(async ([key, meta]) => {
       const rows = await readCsv(meta.file);
-      const seenIds = new Map<string, number>();
-      const targets = rows.map((row) => {
-        const target = normalizeTarget(key as DatasetKey, row);
-        const occurrence = (seenIds.get(target.id) ?? 0) + 1;
-        seenIds.set(target.id, occurrence);
+      const normalizedTargets = rows.map((row) => normalizeTarget(key as DatasetKey, row));
+      const targets = mergeTargets(key as DatasetKey, normalizedTargets);
 
-        if (occurrence === 1) {
-          return target;
-        }
-
-        return {
-          ...target,
-          // Some CSVs contain repeated exhibitor+booth combinations.
-          id: `${target.id}-${occurrence}`
-        };
-      });
       return {
         key: key as DatasetKey,
         label: meta.label,
