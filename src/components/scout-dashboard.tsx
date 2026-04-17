@@ -25,6 +25,15 @@ import {
   CardTitle
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue
+} from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import {
   Sheet,
@@ -59,13 +68,11 @@ function geoLabel(bucket: string) {
   return bucket.replace("priority_", "").replace(/_/g, " ");
 }
 
-function hallQueryTokens(query: string) {
-  return query
-    .toLowerCase()
-    .replace(/hall/g, " ")
-    .split(/[^a-z0-9]+/)
-    .map((token) => token.trim())
-    .filter(Boolean);
+function compareHallNumbers(left: string, right: string) {
+  return left.localeCompare(right, undefined, {
+    numeric: true,
+    sensitivity: "base"
+  });
 }
 
 function targetMatchesSearch(target: ScoutTarget, query: string) {
@@ -87,16 +94,12 @@ function targetMatchesSearch(target: ScoutTarget, query: string) {
   return haystack.includes(query.toLowerCase());
 }
 
-function targetMatchesHall(target: ScoutTarget, query: string) {
-  const tokens = hallQueryTokens(query);
-
-  if (!tokens.length) {
+function targetMatchesHall(target: ScoutTarget, hallNumber: string) {
+  if (!hallNumber) {
     return true;
   }
 
-  const hallHaystack = [target.booth, ...target.hallNumbers].join(" ").toLowerCase();
-
-  return tokens.every((token) => hallHaystack.includes(token));
+  return target.hallNumbers.includes(hallNumber);
 }
 
 function DetailSection({
@@ -218,15 +221,16 @@ export function ScoutDashboard({ datasets }: Props) {
   const [activeDataset, setActiveDataset] = useState<DatasetKey>("priority");
   const [selectedId, setSelectedId] = useState<string>("");
   const [query, setQuery] = useState("");
-  const [hallQuery, setHallQuery] = useState("");
+  const [selectedHall, setSelectedHall] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [showDesktopDetail, setShowDesktopDetail] = useState(false);
   const deferredQuery = useDeferredValue(query);
-  const deferredHallQuery = useDeferredValue(hallQuery);
+  const deferredHall = useDeferredValue(selectedHall);
 
   const active = datasets.find((dataset) => dataset.key === activeDataset) ?? datasets[0];
+  const availableHalls = [...new Set(active.targets.flatMap((target) => target.hallNumbers))].sort(compareHallNumbers);
   const filteredTargets = active.targets.filter(
-    (target) => targetMatchesSearch(target, deferredQuery) && targetMatchesHall(target, deferredHallQuery)
+    (target) => targetMatchesSearch(target, deferredQuery) && targetMatchesHall(target, deferredHall)
   );
   const selectedTarget =
     filteredTargets.find((target) => target.id === selectedId) ??
@@ -317,7 +321,7 @@ export function ScoutDashboard({ datasets }: Props) {
                         onClick={() => {
                           setActiveDataset(dataset.key);
                           setQuery("");
-                          setHallQuery("");
+                          setSelectedHall("");
                         }}
                         aria-pressed={dataset.key === activeDataset}
                         variant={dataset.key === activeDataset ? "default" : "outline"}
@@ -346,13 +350,22 @@ export function ScoutDashboard({ datasets }: Props) {
                       />
                     </div>
                     <div className="relative min-w-0">
-                      <MapPin className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-                      <Input
-                        value={hallQuery}
-                        onChange={(event) => setHallQuery(event.target.value)}
-                        className="pl-9"
-                        placeholder="Filter by hall number..."
-                      />
+                      <Select value={selectedHall || "all"} onValueChange={(value) => setSelectedHall(value === "all" ? "" : value)}>
+                        <SelectTrigger>
+                          <SelectValue placeholder="Filter by hall..." />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectGroup>
+                            <SelectLabel>Halls With Results</SelectLabel>
+                            <SelectItem value="all">All halls</SelectItem>
+                            {availableHalls.map((hall) => (
+                              <SelectItem key={hall} value={hall}>
+                                Hall {hall}
+                              </SelectItem>
+                            ))}
+                          </SelectGroup>
+                        </SelectContent>
+                      </Select>
                     </div>
                   </div>
                 </div>
