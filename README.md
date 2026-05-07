@@ -9,7 +9,7 @@ The current use case is Zetamotion outreach at Hannover Messe: identifying manuf
 
 ## What The App Does
 
-The app is a static scouting dashboard built with Next.js, Tailwind CSS, and shadcn/ui. It reads generated CSV files directly from the `output/` folder and presents them as a searchable target list.
+The app is a static scouting dashboard built with Next.js, Tailwind CSS, and shadcn/ui. It discovers event folders under `events/`, reads each event's generated CSV files from that event's `output/` folder, and presents them as searchable target lists.
 
 It is designed for someone walking the event and needing fast access to:
 
@@ -25,9 +25,32 @@ It is designed for someone walking the event and needing fast access to:
 
 Selecting a company opens a detail view with the main outreach context, including the official Hannover summary and website-derived summary if the enrichment pipeline found one.
 
+## Event Folders
+
+Each event lives in its own folder:
+
+```text
+events/
+  hannover-messe/
+    event.json
+    data/
+      hannover_exhibitors_raw.csv
+      hannover_exhibitors_enriched.csv
+      profile_cache.json
+      website_profile_cache.json
+    output/
+      zetamotion_priority_meeting_targets.csv
+      zetamotion_manufacturer_targets.csv
+      zetamotion_partner_targets.csv
+      zetamotion_relevant_companies.csv
+      crm_hannovermesse_accounts_matches.csv
+```
+
+The home page lists discovered event folders. Clicking an event opens `/events/<event-slug>` with the same dashboard populated from that event's CSVs. Adding a new folder with the expected output CSV names automatically creates a page at build time.
+
 ## Main Datasets
 
-The dashboard currently reads these CSVs from `output/`:
+For each event, the dashboard reads these CSVs from `events/<event-slug>/output/` when present:
 
 - `zetamotion_priority_meeting_targets.csv`
   - Top-ranked companies for immediate outreach.
@@ -126,9 +149,26 @@ If the target CSVs change, regenerate them with the Python scripts, then redeplo
 Typical flow:
 
 ```bash
-python scripts/build_target_lists.py
-python scripts/crossref_crm_hannover.py
+python scripts/build_target_lists.py --event-slug hannover-messe --event-name "Hannover Messe"
+python scripts/crossref_crm_hannover.py --event-slug hannover-messe --event-name "Hannover Messe"
 ```
+
+For another Hannover-style export, provide a new slug and export URL:
+
+```bash
+python scripts/build_target_lists.py --event-slug example-event-2026 --event-name "Example Event 2026" --export-url "https://example.com/csvExport"
+python scripts/crossref_crm_hannover.py --event-slug example-event-2026 --event-name "Example Event 2026"
+```
+
+The scripts create the event folder, `data/`, `output/`, and `event.json` automatically.
+
+Optatec uses a different exhibitor source, so it has a dedicated ingestion script:
+
+```bash
+python scripts/build_optatec_target_lists.py --event-slug optatec --event-name "Optatec 2026"
+```
+
+That script downloads the official Optatec complete XLSX export, scrapes the paginated exhibitor cards and profiles, enriches company websites where available, scores the rows with Optatec-specific optics/metrology/manufacturing signals, and writes the same dashboard CSV filenames under `events/optatec/`.
 
 The dashboard does not currently use a database. It is build-time/file-based and intended to stay lightweight.
 
@@ -138,7 +178,7 @@ The app is suitable for a basic Vercel deployment.
 
 Current model:
 
-- commit the repo with the generated CSVs present in `output/`
+- commit the repo with generated CSVs present under `events/<event-slug>/output/`
 - deploy as a standard Next.js app
 - when rankings are refreshed, redeploy
 
@@ -154,6 +194,6 @@ Supabase or another backend would only be useful if you want:
 
 ## Notes
 
-- The dashboard assumes the expected CSV files already exist in `output/`.
+- The dashboard assumes each event uses the expected CSV filenames in `events/<event-slug>/output/`.
 - If a CSV schema changes, `src/lib/targets.ts` may need to be updated to map fields correctly.
 - The current CRM dataset shown in the app is the accounts match file, not the broader leads review set.

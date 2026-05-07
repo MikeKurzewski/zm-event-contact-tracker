@@ -1,0 +1,1205 @@
+{
+  "https:// www.nikon.com/products/components": {
+    "website_home_url": "https:// www.nikon.com/products/components",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='%20www.nikon.com', port=443): Max retries exceeded with url: /products/components (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E94D597750>: Failed to resolve '%20www.nikon.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "https://": {
+    "website_home_url": "https://",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "Invalid URL 'https://': No host supplied"
+  },
+  "https://optics.org": {
+    "website_home_url": "https://optics.org/",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "https://optics.org/about",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://https//inlightcn.com/en/": {
+    "website_home_url": "https://https//inlightcn.com/en/",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: /inlightcn.com/en/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E94D597D90>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "https://https:/www.ntgmotion.de": {
+    "website_home_url": "https://https:/www.ntgmotion.de",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: /www.ntgmotion.de (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E94D597ED0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "https://https//www.tokaioptical.com/en/": {
+    "website_home_url": "https://https//www.tokaioptical.com/en/",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: /www.tokaioptical.com/en/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E950474050>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "https://japan-shinchi.co.jp/": {
+    "website_home_url": "https://japan-shinchi.co.jp/",
+    "website_home_title": "日本信智株式会社",
+    "website_home_meta_description": "製造拠点を中国に置き、多数の協力工場を持ち、日本企業のご要望にお応えした光学部品をご提供します。",
+    "website_home_headings": "NEWS | 製品",
+    "website_about_url": "https://japan-shinchi.co.jp/company.html",
+    "website_about_title": "日本信智について｜日本信智株式会社",
+    "website_about_meta_description": "製造拠点を中国に置き、多数の協力工場を持ち、日本企業のご要望にお応えした光学部品をご提供します。",
+    "website_about_headings": "About Us 日本信智について | ご挨拶 | 経営理念 | 会社概要 | 沿革 信智グループ | マップ"
+  },
+  "https://industry.nikon.com/de-de/": {
+    "website_home_url": "https://industry.nikon.com/de-de/",
+    "website_home_title": "Nikon Industrial Metrology - Home",
+    "website_home_meta_description": "Nikon Metrology offers solutions for all industrial measurement, inspection and quality assurance needs in manufacturing and production environments.",
+    "website_home_headings": "Select Your Region and Language | Innovative Messlösungen für Ihren Fertigungsbereich. | Produkte | Röntgen-CT | Laser Radar | Video-Messsysteme | Manuelles Messen | Industriemikroskopie",
+    "website_about_url": "https://industry.nikon.com/de-de/uber-uns/",
+    "website_about_title": "Über uns - Nikon Industrial Metrology",
+    "website_about_meta_description": "",
+    "website_about_headings": "Select Your Region and Language | Über uns | Nikon’s Industrial Solutions Business Unit (IDSBU) stellt sich vor | Digitalisierung und Automatisierung | Drei Säulen der der Exzellenz | Zukunftsfähigkeit | Nachhaltigkeit | Arbeiten im Geschäftsbereich Industrielle Messtechnik (IDSBU)"
+  },
+  "http://www.argotech.cz": {
+    "website_home_url": "https://www.argotech.cz/",
+    "website_home_title": "Argotech: Back-end assembly services for semiconductor photonics",
+    "website_home_meta_description": "Supporting customers worldwide with manufacturing, R&D and evaluation focused on design, process development and expertise in optics, electronics and mechanics.",
+    "website_home_headings": "Advanced semiconductor photonics assembly | Core Competencies | OUR MISSION: | Silicon Photonics | Assembly and Packaging | Design and Qualification | Our Services and Technologies | Manufacturing",
+    "website_about_url": "https://www.argotech.cz/about-us/",
+    "website_about_title": "Argotech: Service provider for your semiconductor and photonics needs",
+    "website_about_meta_description": "We excel at providing advanced packaging solutions for semiconductor photonics, combining traditional and latest technology approaches within quality standards.",
+    "website_about_headings": "Service provider in photonics since 2006 | About ARGOTECH | OUR MISSION: | The Benefits Of Argotech | 2022 | 2021 | 2020 | 2019"
+  },
+  "https://fbmn.h-da.de/obv": {
+    "website_home_url": "https://fbmn.h-da.de/optotechnik-und-bildverarbeitung",
+    "website_home_title": "Optotechnik und Bildverarbeitung an der h_da studieren – Fachbereich Mathematik und Naturwissenschaften",
+    "website_home_meta_description": "Der FB Mathematik und Naturwissenschaften bietet Optotechnik und Bildverarbeitung (Bachelor/ Master Abschluss) an - ein europaweit einzigartiges Angebot. Optotechnik und Bildverarbeitung ist ein Ingenieursstudiengang mit hohem Informatikanteil.",
+    "website_home_headings": "Quicklinks | Optotechnik und Bildverarbeitung | Studiere Optotechnik und Bildverarbeitung, | Unsere Studiengänge | Besuche uns vom 5. -7. Mai auf der OPTATEC 2026 - | Workshops an der hobit contact | Unser duales Studienmodell | Medizinische Bildverarbeitung",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://somoir.com": {
+    "website_home_url": "https://somoir.com",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='somoir.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'somoir.com'. (_ssl.c:1032)\")))"
+  },
+  "https://photonengr.com/": {
+    "website_home_url": "https://photonengr.com/",
+    "website_home_title": "Home",
+    "website_home_meta_description": "",
+    "website_home_headings": "Leaders in providing tools and services for design and virtual prototyping of optical systems. | FRED Optical Engineering Software | Physical Optics Modeling | Optomechanical Design & Analysis | Stray Light Analysis | Illumination & Non-Imaging Systems | Biomedical Systems | FRED Editions",
+    "website_about_url": "https://photonengr.com/about-us",
+    "website_about_title": "About Us",
+    "website_about_meta_description": "",
+    "website_about_headings": "About Us"
+  },
+  "https://spie.org": {
+    "website_home_url": "https://spie.org/",
+    "website_home_title": "SPIE, the international society for optics and photonics",
+    "website_home_meta_description": "SPIE is a non-profit dedicated to advancing the scientific research and engineering applications of optics and photonics through international conferences, education programs and publications.",
+    "website_home_headings": "SPIE Astronomical Telescopes + Instrumentation | Honor exceptional colleagues with an SPIE Society Award | Explore new titles from SPIE Press | Stay current with evolving technology | The world's largest optics and photonics membership society | The world's largest optics and photonics membership society | Connecting minds. Advancing light. | Recent news and stories",
+    "website_about_url": "https://spie.org/publications/spie-press-books/about-spotlights-and-author-calls",
+    "website_about_title": "About Spotlights and Call for Spotlight Authors",
+    "website_about_meta_description": "Get information on becoming a Spotlights author, and submit your proposal to begin the process of getting published to expand your impact to a global audience.",
+    "website_about_headings": "About Spotlights and Call for Spotlight Authors | What are Spotlights? | Each Spotlight is: | SPIE is seeking submissions for Spotlight eBooks on the following topics:"
+  },
+  "https://www.amus.de": {
+    "website_home_url": "https://www.amus.de/",
+    "website_home_title": "aÂµs microoptics",
+    "website_home_meta_description": "Design, development and fabrication of the microoptic components and systems.<br />microoptics, microoptic, microoptical, microlens, microlens array, microoptical array, collimator, diffuzor, Flat Top, Top Hat, FlatTop, Tophat, homogenizer, homogeneous, fiber coupling, line generator, cylindrical lens, optical components, optics for telecommunication, wave front analyser, optics, lenses, lenslet, Mikrooptik, mikrooprik, mikrooptisch, Mikrolinse, mikrolinse, Mikrolinsenraster, mikrooptische raster, kollimator, diffusor, zylindrischen Linsen, homogenisch, Faser-Kopplung, Liniengenerator, optischen Komponenten, Optik fÃ¼r die Telekommunikation, Optik fÃ¼r die Analyse der Wellenfront, Linse, La microoptique, microoptique, la microlentille, le collimateur, la conque, l'homogÃ©nisateur, homogÃ¨ne, l'introduction Ã la fibre, gÃ©nÃ©rateur Ã la ligne, lentilles cylindriques, composants optiques, l'optique pour la tÃ©lÃ©communication, l'optique pour l'analyse du front d'onde, la lentille, microÃ³ptica, microÃ³ptico, microlente, la trama microÃ³ptica, colimador, difusor, homogenizador, homogÃ©neo, introducciÃ³n en la fibra, generador en la lÃ­nea, las lentes cilÃ­ndricas, componentes Ã³pticos, la Ã³ptica para la telecomunicaciÃ³n, ÐÐ¸ÐºÑÐ¾Ð¾Ð¿ÑÐ¸ÐºÐ°, Ð¼Ð¸ÐºÑÐ¾Ð¾Ð¿ÑÐ¸ÑÐµÑÐºÐ¸Ð¹, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ð°, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ñ, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ð¾Ð²ÑÐ¹, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ð¾Ð²ÑÐ¹ ÑÐ°ÑÑÑ, Ð¼Ð¸ÐºÑÐ¾Ð¾Ð¿ÑÐ¸ÑÐµÑÐºÐ¸Ð¹ ÑÐ°ÑÑÑ, ÐºÐ¾Ð»Ð»Ð¸Ð¼Ð°ÑÐ¾Ñ, Ð´Ð¸ÑÑÑÐ·Ð¾Ñ, Ð¤Ð»ÑÑ Ð¢Ð¾Ð¿, Ð³Ð¾Ð¼Ð¾Ð³ÐµÐ½Ð¸Ð·Ð°ÑÐ¾Ñ, Ð³Ð¾Ð¼Ð¾Ð³ÐµÐ½Ð½ÑÐ¹, Ð²Ð²Ð¾Ð´ Ð² Ð²Ð¾Ð»Ð¾ÐºÐ½Ð¾, Ð³ÐµÐ½ÐµÑÐ°ÑÐ¾Ñ Ð² Ð»Ð¸Ð½Ð¸Ñ, ÑÐ¸Ð»Ð¸Ð½Ð´ÑÐ¸ÑÐµÑÐºÐ¸Ðµ Ð»Ð¸Ð½Ð·Ñ, Ð¾Ð¿ÑÐ¸ÑÐµÑÐºÐ¸Ðµ ÐºÐ¾Ð¼Ð¿Ð¾Ð½ÐµÐ½ÑÑ, Ð¾Ð¿ÑÐ¸ÐºÐ° Ð´Ð»Ñ ÑÐµÐ»ÐµÐºÐ¾Ð¼Ð¼ÑÐ½Ð¸ÐºÐ°ÑÐ¸Ð¸, Ð¾Ð¿ÑÐ¸ÐºÐ° Ð´Ð»Ñ Ð°Ð½Ð°Ð»Ð¸Ð·Ð° Ð²Ð¾Ð»Ð½Ð¾Ð²Ð¾Ð³Ð¾ ÑÑÐ¾Ð½ÑÐ°, Ð»Ð¸Ð½Ð·Ñ,",
+    "website_home_headings": "aÂµs microoptics",
+    "website_about_url": "https://www.amus.de/index.html#ABOUT",
+    "website_about_title": "aÂµs microoptics",
+    "website_about_meta_description": "Design, development and fabrication of the microoptic components and systems.<br />microoptics, microoptic, microoptical, microlens, microlens array, microoptical array, collimator, diffuzor, Flat Top, Top Hat, FlatTop, Tophat, homogenizer, homogeneous, fiber coupling, line generator, cylindrical lens, optical components, optics for telecommunication, wave front analyser, optics, lenses, lenslet, Mikrooptik, mikrooprik, mikrooptisch, Mikrolinse, mikrolinse, Mikrolinsenraster, mikrooptische raster, kollimator, diffusor, zylindrischen Linsen, homogenisch, Faser-Kopplung, Liniengenerator, optischen Komponenten, Optik fÃ¼r die Telekommunikation, Optik fÃ¼r die Analyse der Wellenfront, Linse, La microoptique, microoptique, la microlentille, le collimateur, la conque, l'homogÃ©nisateur, homogÃ¨ne, l'introduction Ã la fibre, gÃ©nÃ©rateur Ã la ligne, lentilles cylindriques, composants optiques, l'optique pour la tÃ©lÃ©communication, l'optique pour l'analyse du front d'onde, la lentille, microÃ³ptica, microÃ³ptico, microlente, la trama microÃ³ptica, colimador, difusor, homogenizador, homogÃ©neo, introducciÃ³n en la fibra, generador en la lÃ­nea, las lentes cilÃ­ndricas, componentes Ã³pticos, la Ã³ptica para la telecomunicaciÃ³n, ÐÐ¸ÐºÑÐ¾Ð¾Ð¿ÑÐ¸ÐºÐ°, Ð¼Ð¸ÐºÑÐ¾Ð¾Ð¿ÑÐ¸ÑÐµÑÐºÐ¸Ð¹, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ð°, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ñ, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ð¾Ð²ÑÐ¹, Ð¼Ð¸ÐºÑÐ¾Ð»Ð¸Ð½Ð·Ð¾Ð²ÑÐ¹ ÑÐ°ÑÑÑ, Ð¼Ð¸ÐºÑÐ¾Ð¾Ð¿ÑÐ¸ÑÐµÑÐºÐ¸Ð¹ ÑÐ°ÑÑÑ, ÐºÐ¾Ð»Ð»Ð¸Ð¼Ð°ÑÐ¾Ñ, Ð´Ð¸ÑÑÑÐ·Ð¾Ñ, Ð¤Ð»ÑÑ Ð¢Ð¾Ð¿, Ð³Ð¾Ð¼Ð¾Ð³ÐµÐ½Ð¸Ð·Ð°ÑÐ¾Ñ, Ð³Ð¾Ð¼Ð¾Ð³ÐµÐ½Ð½ÑÐ¹, Ð²Ð²Ð¾Ð´ Ð² Ð²Ð¾Ð»Ð¾ÐºÐ½Ð¾, Ð³ÐµÐ½ÐµÑÐ°ÑÐ¾Ñ Ð² Ð»Ð¸Ð½Ð¸Ñ, ÑÐ¸Ð»Ð¸Ð½Ð´ÑÐ¸ÑÐµÑÐºÐ¸Ðµ Ð»Ð¸Ð½Ð·Ñ, Ð¾Ð¿ÑÐ¸ÑÐµÑÐºÐ¸Ðµ ÐºÐ¾Ð¼Ð¿Ð¾Ð½ÐµÐ½ÑÑ, Ð¾Ð¿ÑÐ¸ÐºÐ° Ð´Ð»Ñ ÑÐµÐ»ÐµÐºÐ¾Ð¼Ð¼ÑÐ½Ð¸ÐºÐ°ÑÐ¸Ð¸, Ð¾Ð¿ÑÐ¸ÐºÐ° Ð´Ð»Ñ Ð°Ð½Ð°Ð»Ð¸Ð·Ð° Ð²Ð¾Ð»Ð½Ð¾Ð²Ð¾Ð³Ð¾ ÑÑÐ¾Ð½ÑÐ°, Ð»Ð¸Ð½Ð·Ñ,",
+    "website_about_headings": "aÂµs microoptics"
+  },
+  "https://www.bluelink-tech.com": {
+    "website_home_url": "https://www.bluelink-tech.com",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='www.bluelink-tech.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.bluelink-tech.com'. (_ssl.c:1032)\")))"
+  },
+  "https://www.blfoptik.com": {
+    "website_home_url": "https://www.blfoptik.com/",
+    "website_home_title": "BLF Optics & Technology",
+    "website_home_meta_description": "BLF Optik Teknoloji San. A.Å., short BLF, was founded in 2015 and specializes in the manufacture of high-quality optics and optical components. Our company is located in the Technology Park of UludaÄ University in Bursa, Turkey.",
+    "website_home_headings": "Optics & Technology | Customized Solutions | The World of Custom made Optics",
+    "website_about_url": "https://www.blfoptik.com/about.html",
+    "website_about_title": "BLF Optics & Technology",
+    "website_about_meta_description": "BLF Optik Teknoloji San. A.Å., short BLF, was founded in 2015 and specializes in the manufacture of high-quality optics and optical components. Our company is located in the Technology Park of UludaÄ University in Bursa, Turkey.",
+    "website_about_headings": "Leading in Optics Manufacturing | Focus on Perfection | Quality Policy"
+  },
+  "https://www.a-optical.com": {
+    "website_home_url": "https://www.a-optical.com/",
+    "website_home_title": "A. Optical Components company | Optical Components Manufacturer.",
+    "website_home_meta_description": "Optical Components Manufacturer of precision optics specializing in custom optics for military, medical and industrial use from prototype to mass production.",
+    "website_home_headings": "Custom made high quality optics for industrial applications | About Us | A. Optical Components LTD perfection made precisely | Optics components | Why Clients Choose Us?",
+    "website_about_url": "https://www.a-optical.com/about-us/",
+    "website_about_title": "About Us | Learn about A. Optical Components LTD",
+    "website_about_meta_description": "A. Optical Components LTD is known for its superior products, uncompromising quality ‎control procedures and excellent customer service and is a leading company in optics Israel.",
+    "website_about_headings": "About A. Optical Components"
+  },
+  "https://www.agc-plasma.com": {
+    "website_home_url": "https://www.agc-plasma.com/",
+    "website_home_title": "AGC Plasma: Plasma Tech Solutions",
+    "website_home_meta_description": "Partner with AGC for advanced vacuum coating. Benefit from our thin film expertise, demo labs, and turn-key solutions globally.",
+    "website_home_headings": "Your partner for industrial vacuum coating equipment | We are active in the following industries | Explore our range of vacuum thin-film coating equipment | Sheet-to-Sheet Coaters | Roll-to-Roll Coaters | Custom Built Equipment | What are the benefits of working together? | We partner with our customers by providing the following services",
+    "website_about_url": "https://www.agc-plasma.com/who-we-are/",
+    "website_about_title": "About company - Who we are | AGC Plasma Technology",
+    "website_about_meta_description": "AGC Plasma Technology Solutions unites PVD and PECVD experts, supporting start-ups, SMEs, and companies to industrialize plasma coatings.",
+    "website_about_headings": "AGC Plasma Technology Solutions | Our locations | AGC Technovation Centre Gosselies (BE) | AGC Demonstration & Research Centre Lauenförde (DE) | AGC Sacramento Research Facility Sacramento (US) | AGC Inc., the World’s Leading Glass Group | Contact us"
+  },
+  "https://www.MPO.im": {
+    "website_home_url": "https://mpo.im/",
+    "website_home_title": "Home : Manx Precision Optics",
+    "website_home_meta_description": "Manx Precision Optics Ltd. is a leading manufacturer of high LIDT optics, selling a range of custom and catalogue optics",
+    "website_home_headings": "Precision optics for high-energy laser systems | Meeting customers’ needs. Shaping the future of lasers. | Manufacturing high quality custom optics | Harness the full power of your lasers. Choose MPO for world-class HIGH-ENERGY LASER OPTICS, custom solutions with unmatched performance. | Our PRODUCTS | Our Offering | Insights and News | How we work",
+    "website_about_url": "https://mpo.im/about-us/",
+    "website_about_title": "About Us : Manx Precision Optics %",
+    "website_about_meta_description": "We are a precision optics manufacturer offering both off the shelf and bespoke optics. Our highly trained team with over 100 years combined experience",
+    "website_about_headings": "About Us | Our Vision | Our Purpose | Our Mission | Our Values | Innovative | Expert | Integrity"
+  },
+  "https://www.bluetube-technology.com": {
+    "website_home_url": "https://www.bluetube-technology.com/",
+    "website_home_title": "BlueTubeÂ® â UV-LED optical fiber curing",
+    "website_home_meta_description": "Transforming optical fiber curing into an intelligent, eco-friendly process that powers the future of fiber optics.",
+    "website_home_headings": "",
+    "website_about_url": "https://www.bluetube-technology.com/about",
+    "website_about_title": "BlueTubeÂ® â UV-LED optical fiber curing",
+    "website_about_meta_description": "Transforming optical fiber curing into an intelligent, eco-friendly process that powers the future of fiber optics.",
+    "website_about_headings": ""
+  },
+  "https://www.americanphotonics.com": {
+    "website_home_url": "https://americanphotonics.com/",
+    "website_home_title": "American Photonics 100% Made in USA - Fast Delivery",
+    "website_home_meta_description": "100% Made in USA CO2 laser lenses, Si Mirror, Nozzles, Protective Window, Fiber Laser Engraving, K40 Upgrade, Replacement Parts for Trumpf®, OmTech® & more",
+    "website_home_headings": "Find the Right Product for Your Machine | Reduce Risk — Buy Laser Optics Made in America | Top Sellers | Featured blogs | Top 5 Signs You Need to Replace Your CO₂ Laser Optics | Which CO2 laser tube do I need? | Light Insights: A Guide to Focusing Lenses | Let customers speak for us",
+    "website_about_url": "https://americanphotonics.com/pages/about-us",
+    "website_about_title": "American Photonics About Us",
+    "website_about_meta_description": "Headquartered in Bradenton, Florida, American Photonics (APC) was created in 2000 to bring an American presence into the CO2 laser optics industry. APC is a world class facility designed and built to maximize efficiency and precision with high speed production. APC has incorporated the latest technology in optical fabrication and coating.",
+    "website_about_headings": "Find the Right Product for Your Machine | Our Mission | COMMITMENT TO SECURITY, QUALITY, & MILITARY READINESS | ISO Management System & Operational Excellence | ITAR Compliance – Securing National Interests | AMERICAN PHOTONICS CYBERSECURITY | WHY APC? | Innovation From the Beginning"
+  },
+  "https://www.bilz.ag": {
+    "website_home_url": "https://www.bilz.ag/",
+    "website_home_title": "Bilz Vibration Technology AG - Ihr Experte für Schwingungstechnik",
+    "website_home_meta_description": "Ihr Experte für Schwingungsisolierung und Maschinenaufstelltechnik. Für jedes Schwingungsproblem finden wir eine Lösung. Made in Germany",
+    "website_home_headings": "Bilz Vibration Technology AG | Bilz Vibration Technology AG | Schwingungsfrei bedeutet Präzision und Qualität | Unerreicht große Produktpalette | Qualität messen wir an den höchsten Standards | BIAIR®-ED-AL | Wir sind Wegbereiter für Ihren Erfolg | Bewerben Sie sich jetzt!",
+    "website_about_url": "https://www.bilz.ag/unternehmen/",
+    "website_about_title": "Alles zu unserem Unternehmen - Bilz Vibration Technology AG",
+    "website_about_meta_description": "Alles zu unserem Unternehmen für Schwingungstechnik und Schwingungsisolierung - Bilz Vibration Technology AG: Marktührer in Europa",
+    "website_about_headings": "Für jede Schwingung eine Lösung | Überall dort, wo Schwingungen stören | Darauf können Sie sich verlassen | Verantwortung | Unsere Kunden profitieren von unserem Know-how"
+  },
+  "https://www.buhlergroup.com/leyboldoptics": {
+    "website_home_url": "https://www.buhlergroup.com/global/en/industries/leyboldoptics.html",
+    "website_home_title": "Leybold Optics | Bühler Leybold Optics",
+    "website_home_meta_description": "With over 150 years of experience, Bühler Leybold Optics is a leading supplier of thin-film vacuum coating technology. Our state-of-the art solutions include precision or ophthalmic optics applications, the metalization of headlights for the automotive industry; architectural glass for a wide range of buildings, roll-to-roll substrates for the food industry or capacitors. All of our solutions are tailored to your specific market demands.",
+    "website_home_headings": "Leybold Optics | Leybold Optics | Industries | Facts about Leybold Optics | 650 Employees | CHF > 250m | 5%‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎ | 650 Employees",
+    "website_about_url": "https://www.buhlergroup.com/global/en/purpose-community/about-buhler.html",
+    "website_about_title": "About Bühler I Careers I Bühler Group",
+    "website_about_meta_description": "Bühler is driven by its purpose of creating innovations for a better world, balancing the needs of economy, humanity, and nature. Billions of people come into contact with Bühler technologies as they cover their basic needs for food and mobility every day.",
+    "website_about_headings": "Where passion meets purpose | Why Bühler is unique | Family-owned business culture | Global spirit | Sustainability | Innovation | Lifelong learning | Inspiring company purpose"
+  },
+  "https://www.bxoptic.com": {
+    "website_home_url": "https://www.bxoptic.com/",
+    "website_home_title": "BOXIN",
+    "website_home_meta_description": "",
+    "website_home_headings": "Business Introduction | Optical Lenses | Optical Coatings | Telephoto Cameras | Optical System Solutions | Inspection Capabilities | Machine Vision | About us",
+    "website_about_url": "https://www.bxoptic.com/companyProfile.html",
+    "website_about_title": "Company Profile - BOXIN",
+    "website_about_meta_description": "",
+    "website_about_headings": "BOXIN Overview | About Us | Business Areas | Development History | BOXIN Officially Established | Establishment of North American Branch, Expanding into International Markets | Relocation to New Factory, Acquisition of Qioptiq | Introduction of International Advanced Production Lines, Expansion and Capacity Increase"
+  },
+  "https://www.cadfem.de": {
+    "website_home_url": "https://www.cadfem.de",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "403 Client Error: Forbidden for url: https://www.cadfem.net/de/de/"
+  },
+  "https://www.cpgoptics.com": {
+    "website_home_url": "https://www.cpgoptics.com/",
+    "website_home_title": "CPG Optics",
+    "website_home_meta_description": "",
+    "website_home_headings": "Featured Products | Spherical Lenses | Super Polishing | Transmission Sphere & Flats | Aspherical Lenses | Prisms | Mirrors | Windows",
+    "website_about_url": "https://www.cpgoptics.com/company/why-cpg/",
+    "website_about_title": "Why CPG | Why CPG",
+    "website_about_meta_description": "",
+    "website_about_headings": "Why CPG"
+  },
+  "https://www.curvature.com/": {
+    "website_home_url": "https://www.curvature.com/",
+    "website_home_title": "Curvature IT Hardware for Your Enterprise & Data Center",
+    "website_home_meta_description": "Buy High-Performance Networking, Server and Storage Equipment from Curvature and Third Party Maintenance Services from Park Place. Leading Provider of HP, Dell EMC, Arista, and Cisco Servers, Routers, Switches, Firewalls, and Wireless.",
+    "website_home_headings": "Hardware Products | Hardware Services | Park Place Maintenance | Park Place Professional Services | About Us | Resources | Hardware solutions you can trust . | Never overpay for hardware again.",
+    "website_about_url": "https://www.curvature.com/about-us/",
+    "website_about_title": "Managed IT Services & Network Equipment Supplier | Curvature",
+    "website_about_meta_description": "Curvature is the global leader in independent, multi-vendor support and pre-owned network and data center equipment. Learn how we may help meet your needs.",
+    "website_about_headings": "Hardware Products | Hardware Services | Park Place Maintenance | Park Place Professional Services | About Us | Resources | Transforming the way you buy your hardware . | The global leader in new and preowned IT hardware."
+  },
+  "https://www.dopa-diatools.com": {
+    "website_home_url": "https://www.dopa-diatools.com/",
+    "website_home_title": "Home » dopa Diamond Tools",
+    "website_home_meta_description": "",
+    "website_home_headings": "Aktuelle Messetermine | Aktuelle Messetermine | Produkt-Highlights: Optiken | Diamantwerkzeuge | Hilfsmittel & Betriebsstoffe | Maschinen- & Anlagenbau | Planoptik | Lohnarbeit & Dienstleistungen",
+    "website_about_url": "https://www.dopa-diatools.com/dopa/",
+    "website_about_title": "dopa » dopa Diamond Tools",
+    "website_about_meta_description": "",
+    "website_about_headings": "dopa Unternehmensprofil | Developing Efficiency | Ihre Vorteile | Wir verstehen unsere Kunden | Schnelle Lieferzeiten | Kundenspezifische Produkte | Modernste Maschinen | Entwicklung und Lieferung von Gesamtsystemen"
+  },
+  "https://www.colorlink.co.jp/": {
+    "website_home_url": "https://www.colorlink.co.jp/",
+    "website_home_title": "カラーリンク・ジャパン",
+    "website_home_meta_description": "偏光利用機器(LCOSプロジェクター、光学ピックアップ、3D等)向けに偏光操作のキーデバイスを提供するカラーリンク・ジャパンホームページ",
+    "website_home_headings": "その感動を、もっと色鮮やかに 「見える」を「魅せる」技術 Transforming Sight into Spellbinding Artistry | NEWS | 製品情報 | 技術情報 | 主な事業領域 | ABOUT US",
+    "website_about_url": "https://www.colorlink.co.jp/info/about/",
+    "website_about_title": "カラーリンク・ジャパンの強み - カラーリンク・ジャパン",
+    "website_about_meta_description": "",
+    "website_about_headings": "世界トップクラスの偏光操作技術で お客様と未来を創る | カラーリンク・ジャパンが 選ばれる理由 | 世界トップクラスの偏光操作技術 | 安定した品質を実現する生産体制 | 設計から量産まで社内一貫対応 | カスタム設計から量産まで | ご相談ヒアリング | ご提案お見積り"
+  },
+  "https://www.europascience.com/": {
+    "website_home_url": "https://www.europascience.com/",
+    "website_home_title": "Home - Europa Science",
+    "website_home_meta_description": "Our Global Reach We connect with leading science and technology brands worldwide through our impressive global reach 123K Global Users 36K Newsletter Subscribers 18K Social Followers Turn insight into impact At Europa Science, we transform data into strategy, strategy into campaigns, and campaigns into measurable results. From precision targeting to ongoing optimisation, we help you […]",
+    "website_home_headings": "Smart Publishing Strategic Marketing Results That Matter | Our Global Reach | We connect with leading science and technology brands worldwide through our impressive global reach | 123K | Global Users | 36K | Newsletter Subscribers | 18K",
+    "website_about_url": "https://www.europascience.com/about-us/",
+    "website_about_title": "About - Europa Science",
+    "website_about_meta_description": "Our Key Milestones For over 20 years, Europa Science Ltd has led publishing and marketing in photonics, optical communications, imaging, and scientific computing. We connect industry professionals through authoritative content and bespoke marketing solutions that drive growth and innovation. Leading Industry Publications Since 2003, our flagship titles like Electro Optics and Scientific Computing World have […]",
+    "website_about_headings": "Trusted Expertise Powerful Communities Real Impact | Our Key Milestones | For over 20 years, Europa Science Ltd has led publishing and marketing in photonics, optical communications, imaging, and scientific computing. We connect industry professionals through authoritative content and bespoke marketing solutions that drive growth and innovation. | Leading Industry Publications | Expanding Reach | Marketing & Community Building | Mark Elliott | Fin O’Reilly"
+  },
+  "https://www.dumaoptronics.com": {
+    "website_home_url": "https://dumaoptronics.com/",
+    "website_home_title": "Duma Optronics: Profiling, Laser Beam Profilers, Analyzers, Positioning, Nesher, Israel",
+    "website_home_meta_description": "A manufacturer of Optronics Instrumentation, offering optical beam positioning, beam profilers, M2 and Divergence meters and electronic autocollimators. Precision at Best! 激光光束分析仪 光束测量 电子自准直仪 光学对准 光束发散度测量仪 光束质量测量 高功率激光光束分析仪 光束定位 多波长光束分析 红外光束分析 光学计量",
+    "website_home_headings": "Instruments of Light for Light Measurements | Instruments of Light for Light Measurements | Duma Optronics line-up includes laser beam positioning, beam divergence measurement, M2, multi-wavelength including near-IR, laser beam profiling, high power laser beam profiling, alignment and all in one multi-tasking Total Station Autocollimator. | Electronic Autocollimators | Alignment Sensing | Position Sensing | Beam Profiling | High Power Beam Analysis",
+    "website_about_url": "https://dumaoptronics.com/about/",
+    "website_about_title": "About - Duma Optronics",
+    "website_about_meta_description": "Duma Optronics designs and manufactures advanced laser beam profilers, digital autocollimators, and optical alignment systems for industrial, defense, and research applications.",
+    "website_about_headings": "About | Company Profile | Quality | Quality Policy | ISO 9001:2015 | ISO 9001:2015 | IQNET | Inquiry Form"
+  },
+  "https://www.ecoclean-group.net": {
+    "website_home_url": "https://ecoclean-group.net/",
+    "website_home_title": "Industrial Parts Cleaning and Surface Treatment ǀ Ecoclean - Parts Cleaning and Surface Treatment",
+    "website_home_meta_description": "Innovative solutions for industrial parts cleaning & surface treatment. Ecoclean develops efficient, sustainable systems for highest cleanliness requirements worldwide.",
+    "website_home_headings": "Callback | Efficient and Sustainable Solutions for Parts Cleaning and Surface Processing | For highest cleanliness requirements! | Industrial Parts Cleaning Systems – Economical, Powerful & Reliable. | Ultrasonic Precision Cleaning Systems – For Highest Cleanliness Requirements | Ecoclean Test Centers – Cleaning Trials Under Production-Like Conditions | Ecoclean Academy – Know How And First Hand Advice For Maximum Benefit | Because knowledge makes the difference.",
+    "website_about_url": "https://ecoclean-group.net/company/academy/knowledge-base/",
+    "website_about_title": "Knowledge Base ǀ Ecoclean - Parts Cleaning and Surface Treatment",
+    "website_about_meta_description": "The Ecoclean Knowledge Base for parts cleaning is a reference book on industrial cleaning technology.",
+    "website_about_headings": "Callback | Knowledge Base – Knowledge makes the difference | Cleaning Technology | Batch cleaning technology | Single part cleaning technology | Precision cleaning technology | Surface treatment technology | Cleaning Media"
+  },
+  "https://www.eksmaoptics.com": {
+    "website_home_url": "https://eksmaoptics.com/",
+    "website_home_title": "EKSMA Optics",
+    "website_home_meta_description": "EKSMA Optics is a manufacturer and global supplier of precision optical components, opto-mechanics, nonlinear and laser crystals, electro-optical Pockels cells.",
+    "website_home_headings": "Optical Components | Nonlinear and Laser Crystals | Electro-Optics and Laser Electronics | Other products categories | About us | ARE YOU SURE YOU WANT TO REMOVE THIS ITEM? | AR TIKRAI NORITE IŠTRINTI ADRESĄ?",
+    "website_about_url": "https://eksmaoptics.com/about-us/",
+    "website_about_title": "About Us | EKSMA Optics",
+    "website_about_meta_description": "Manufacturer and global supplier of precision optical components, Pockels cells, laser windows, pulse-picking and Q-Switching Kits, opto-mechanics, nonlinear and laser crystals.",
+    "website_about_headings": "About Us | EKSMA Optics is ISO 9001:2015 certified. Certification issued by Bureau Veritas. | EKSMA Optics is ISO 14001:2015 certified. Certification issued by Bureau Veritas. | ARE YOU SURE YOU WANT TO REMOVE THIS ITEM? | AR TIKRAI NORITE IŠTRINTI ADRESĄ?"
+  },
+  "https://www.dioptic.de": {
+    "website_home_url": "https://www.dioptic.de/",
+    "website_home_title": "DIOPTIC GmbH - Creating optical solutions",
+    "website_home_meta_description": "Optikentwicklung und Technologieberatung bis an die Grenzen des physikalisch Machbaren. DIOPTIC forscht und entwickelt an optischen Technologien.",
+    "website_home_headings": "Creating Optical Solutions | Creating: Wir realisieren optische Systeme für Ihre Vision. Optical: Wir sind die Expert:innen für optische Messtechnik. Solutions: Für Ihre Lösung loten wir die Grenzen des physikalisch Machbaren aus. | Produkte | Leistungen | Branchen | Aktuelles | ARGOS nexus für automatisierte Oberflächenprüfung | DIOPTIC stellt ARGOS nexus vor – universelle Plattform für die automatisierte Scratch/Dig-Inspektion",
+    "website_about_url": "https://www.dioptic.de/ueber-dioptic/",
+    "website_about_title": "Über DIOPTIC - DIOPTIC GmbH",
+    "website_about_meta_description": "Die Expertise der DIOPTIC reicht von der Optik und Optomechanik über Sensorik und Lasertechnologie bis zur erfolgreichen Systemintegration.",
+    "website_about_headings": "Über DIOPTIC | „Erfolg beginnt mit Einstellung. Und die richtige Einstellung heißt bei uns, dass wir uns mit Sorgfalt und Umsicht, Engagement und Herzblut einer Aufgabe widmen. Das sind ideale Voraussetzungen, um einzigartige Lösungen zu erarbeiten.“ | Firmenprofil | Optikentwicklung und Technologieberatung | Kundennutzen | Innovationspotenziale ausschöpfen | Von ganzheitlicher Unterstützung profitieren | Auf höchste Qualität verlassen"
+  },
+  "https://www.exosens.com": {
+    "website_home_url": "https://www.exosens.com/",
+    "website_home_title": "Exosens | Global leader in amplification, detection and imaging technologies",
+    "website_home_meta_description": "Exosens is a group, with experience in the innovation, development, manufacture and sale of technologies in the field of particles, photo detection, imaging.",
+    "website_home_headings": "Exosens | Exosens markets | Defense & Surveillance | Life Sciences & Environment | Industrial Control | Nuclear | Discover our technologies | Ultraviolet",
+    "website_about_url": "https://www.exosens.com/about-exosens",
+    "website_about_title": "About Exosens Group | Our Mission & Expertise",
+    "website_about_meta_description": "Exosens provides innovative Amplification, Detection and Imaging technology solutions for a safer world",
+    "website_about_headings": "About Exosens | Your trusted partner for innovative Amplification, Detection and Imaging technology solutions for a safer world | Exosens provides innovative Amplification, Detection and Imaging technology solutions for a safer world | UNITING FORCES FOR SHARED SUCCESS | Markets we serve | Defense & Surveillance | Life Sciences & Environment | Industrial Control"
+  },
+  "https://www.dama.ch": {
+    "website_home_url": "https://dama.ch/",
+    "website_home_title": "Dama Technologies AG – Präzision in CNC-Schleiftechnik - dama technologies ag",
+    "website_home_meta_description": "Dama Technologies AG entwickelt und produziert CNC-Schleifmaschinen für höchste Präzision in der Feinwerktechnik.",
+    "website_home_headings": "Zuverlässigkeit trifft Innovation. | Unsere Lösungen | Über uns | Philosophie | Service und Support | Unsere Geschichte | Frischer Look für dama technologies ag | Unsere Maschinen",
+    "website_about_url": "https://dama.ch/category/unternehmen/",
+    "website_about_title": "Unternehmen Archive - dama technologies ag",
+    "website_about_meta_description": "",
+    "website_about_headings": "Unternehmen | Frischer Look für dama technologies ag | Haben Sie Fragen zu Unternehmen? | Standort | Romanshornerstrasse 7 CH-9308 Lömmenschwil | Kontakt | +41 71 988 34 20 | E-Mail"
+  },
+  "https://www.everixopticalfilters.com": {
+    "website_home_url": "https://www.everixopticalfilters.com/",
+    "website_home_title": "Everix Optical Filters | USA | Ultra-Thin",
+    "website_home_meta_description": "The thinnest optical filters in industry - 100-500 microns thick - optical curves comparable with hard-coated filters",
+    "website_home_headings": "Thinnest Optical Filters | The World's THINNEST Optical Filters | Everix Optical Filters for Innovative System Designs | Compact & Complex Forms | Enhanced Signal-to-Noise Ratio | Conformal to Free-Form Optics | Light Weight | Compensated Angular Shift",
+    "website_about_url": "https://www.everixopticalfilters.com/about",
+    "website_about_title": "About | everixopticalfilters",
+    "website_about_meta_description": "Born of an idea inspired by the optical fiber manufacturing process, Everix is a community of caring members who genuinely want to deliver optical filters that meet or exceed customer expectations.",
+    "website_about_headings": "Thinnest Optical Filters"
+  },
+  "https://www.ferropermoptics.com": {
+    "website_home_url": "https://ferropermoptics.com/en/home/",
+    "website_home_title": "Ferroperm Optics",
+    "website_home_meta_description": "",
+    "website_home_headings": "Ferroperm Optics A/S is the manufacturer of choice for optical filter solutions worldwide. | Our Core Values | Discover our cutting-edge filter solutions today | Our Unique Value Proposition",
+    "website_about_url": "https://ferropermoptics.com/en/about/",
+    "website_about_title": "About – Ferroperm Optics",
+    "website_about_meta_description": "",
+    "website_about_headings": "We Develop and Produce High-Quality Optical Filters | Crafting Bespoke Optical Solutions | Our Cutting-Edge Approach to Optical Innovation | Ferroperm Optics A/S was established in 1999"
+  },
+  "https://www.fiberware.de": {
+    "website_home_url": "https://www.fiberware.de/",
+    "website_home_title": "fiberware GmbH",
+    "website_home_meta_description": "",
+    "website_home_headings": "17. Optatec Frankfurt | Optische FASERN - unsere Passion | IHR PARTNER FÃR SPEZIELLE GLASFASER-LÃSUNGEN | SPEZIALkabel und BÃ¼ndel PRÃZISION, LEISTUNG und INNOVATION! | fiberware GmbH | Spezialfaser | Spezialkabel | Konfektionierung",
+    "website_about_url": "https://www.fiberware.de/ueber-uns/unternehmen.html",
+    "website_about_title": "Unternehmen",
+    "website_about_meta_description": "FÃ¼hrender Hersteller optischer Spezialfasern, Spezialkabel, faseroptischer Sensoren, FaserbÃ¼ndel, Kapillaren und anderer faseroptischer Produkte.",
+    "website_about_headings": "Unternehmen | Entwicklung einer Unternehmensgruppe | 1990 fiberware | 1996 Hauptsitz Mittweida | 2003 advanced fiber tools | 2022 Harnessing Light Holding | QualitÃ¤t & Innovation | Management Statement"
+  },
+  "https://www.changchunfenghua.com": {
+    "website_home_url": "https://www.changchunfenghua.com",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='www.changchunfenghua.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E9504742D0>: Failed to resolve 'www.changchunfenghua.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "https://www.evatecnet.com": {
+    "website_home_url": "https://evatecnet.com/",
+    "website_home_title": "Evatec AG - The Thin Film Powerhouse",
+    "website_home_meta_description": "Evatec is a global supplier of thin film deposition systems for semiconductor, optoelectronics, MEMS, and photonics applications – innovation in every layer.",
+    "website_home_headings": "About Us | Careers | Karriere | Markets | Technology | Products | Service | News & Events",
+    "website_about_url": "https://evatecnet.com/",
+    "website_about_title": "Evatec AG - The Thin Film Powerhouse",
+    "website_about_meta_description": "Evatec is a global supplier of thin film deposition systems for semiconductor, optoelectronics, MEMS, and photonics applications – innovation in every layer.",
+    "website_about_headings": "About Us | Careers | Karriere | Markets | Technology | Products | Service | News & Events"
+  },
+  "https://www.evo-chem.de": {
+    "website_home_url": "https://www.evo-chem.de/",
+    "website_home_title": "Sputtering Targets, Aufdampfmaterialien, PVD-Zubehöre, hydrophobe Materialien | EVOCHEM",
+    "website_home_meta_description": "Entdecken Sie unsere umfangreiche Auswahl an Dünnschichtmaterialien für jede Anwendung! Von 60 verschiedenen Aufdampfmaterialien über PVD-Verbrauchsmaterialien bis hin zu Sputter Targets – finden Sie die perfekte Lösung für Ihre Projekte. Besuchen Sie uns und erfahren Sie mehr über unsere innovative hydrophobe Produktlinie!",
+    "website_home_headings": "EU Verordnung bzgl. C9-C14 PFCA | Sputter Targets | Aufdampfmaterialien - Oxide | Wolframfilamente | Aufdampfmaterialien | Hochreine Metalle | Next Level Top Coats | PVD-Materialien - Ihr zuverlässiger Lieferant",
+    "website_about_url": "https://www.evo-chem.de/unternehmen",
+    "website_about_title": "Dünnschichtmaterialien, Sputter Targets, Aufdampfmaterialien | EVOCHEM",
+    "website_about_meta_description": "Dünnschichtmaterialien für alle Anwendungen, hochreine Metalle",
+    "website_about_headings": "EU Verordnung bzgl. C9-C14 PFCA | Sputter Targets | Aufdampfmaterialien - Oxide | Wolframfilamente | Aufdampfmaterialien | Hochreine Metalle | Next Level Top Coats | Zwei Produktbereiche - Ihr Vorteil"
+  },
+  "https://www.fhr.biz": {
+    "website_home_url": "https://www.fhr.biz/",
+    "website_home_title": "FHR Anlagenbau GmbH - The Thin Film Company",
+    "website_home_meta_description": "FHR Anlagenbau - Ihr Experte für individuelle Vakuumbeschichtungsanlagen und effiziente Materialien | Unsere Technologien für die Zukunft!",
+    "website_home_headings": "Jetzt Anrufen | Vakuum-Beschichtungsanlagen | Beschichtungs- materialien | Beschichtungs- service | Kundenservice | Vakuum-Beschichtungsanlagen | Beschichtungs- materialien | Beschichtungs- service",
+    "website_about_url": "https://www.fhr.biz/we-are-fhr",
+    "website_about_title": "FHR Anlagenbau: Ihre Experten für Dünnschichttechnik",
+    "website_about_meta_description": "Entdecken Sie FHR Anlagenbau, die Pioniere der Dünnschichttechnologie. Erfahren Sie mehr über unser Fachwissen, unsere Kernkompetenzen.",
+    "website_about_headings": "Jetzt Anrufen | Die FHR als Unternehmen | Die FHR Anlagenbau GmbH | We are FHR | Der Motor unseres Wachstums | What we do | Engineering | Unser Anspruch"
+  },
+  "https://www.fresnel-optics.de": {
+    "website_home_url": "https://www.orafol.com/en/solutions/divisions/optic-solutions",
+    "website_home_title": "Optic Solutions",
+    "website_home_meta_description": "The ORAFOL Optics Solution Division is represented by ORAFOL Fresnel Optics. A wide range of microstructured optical components are developed and manufactured.",
+    "website_home_headings": "EMEAI | Europe | South Africa | Turkey | Americas | Americas | APAC | Australia",
+    "website_about_url": "https://www.orafol.com/en/products?tab=products&app=1149&cat=985",
+    "website_about_title": "Products",
+    "website_about_meta_description": "",
+    "website_about_headings": "EMEAI | Europe | South Africa | Turkey | Americas | Americas | APAC | Australia"
+  },
+  "https://www.gbneuhaus.de": {
+    "website_home_url": "https://www.gbneuhaus.de/en/welcome.html",
+    "website_home_title": "State-of-the-art Nano Technology for Functional Coatings - GBneuhaus GmbH",
+    "website_home_meta_description": "Durable nano coatings for metal, plastic and glass: hydrophobic, hydrophilic, dirt-repellent, scratch resistance, antistatic, antimicrobial.",
+    "website_home_headings": "GBneuhaus GmbH | News about nano technology | Meet GBneuhaus 2026 | Your Opportunity: Meet Us at These Trade Fairs in 2025 | GBneuhaus GmbH Receives ISO 14001 Environmental Management Certification | Production of functional surface coatings in Germany since 1991 | Functional nano coating with sol-gel-process | Individual contract manufacturing and industrial series production for functional surface coatings",
+    "website_about_url": "https://www.gbneuhaus.de/en/about-us.html",
+    "website_about_title": "Sustainable Surface Coatings with Nano Technology - GBneuhaus GmbH",
+    "website_about_meta_description": "We coat surfaces made of plastic, glass, metal and metal alloys. Benefit from our decades of experience with nano coatings to the highest quality standards!",
+    "website_about_headings": "Your service partner for functional surface coatings"
+  },
+  "https://www.flp-microfinishing.de": {
+    "website_home_url": "https://www.flp-microfinishing.de/",
+    "website_home_title": "FLP Microfinishing GmbH - Feinschleifen, Läppen & Polieren",
+    "website_home_meta_description": "✓ Führender Hersteller von Feinschleif-, Läpp- und Poliermaschinen in Europa ✓ Anbieter für komplexe Oberflächen-Feinstbearbeitung",
+    "website_home_headings": "Willkommen bei FLP Microfinishing GmbH - IHREM EXPERTEN FÜR FEINSCHLEIFEN, LÄPPEN UND POLIEREN | Maschinenbau – Innovative Maschinenlösungen in modularer Bauweise | Maschinenbau – Innovative Maschinenlösungen in modularer Bauweise | Alle Baureihen unserer Maschinen | Lohnarbeit – Feinschleifen, Läppen und Polieren mit hoher Präzision | Lohnarbeit – Feinschleifen, Läppen und Polieren mit hoher Präzision | Referenzen | Handel – Qualitative Verbrauchsmaterialen nach neusten Entwicklungsstandards",
+    "website_about_url": "https://www.flp-microfinishing.de/unternehmen/",
+    "website_about_title": "Unternehmen - FLP Microfinishing GmbH",
+    "website_about_meta_description": "",
+    "website_about_headings": "Unternehmen | Geschichte | Messen | News | Archiv | Referenzen | AGB | Über uns"
+  },
+  "https://www.hongfengcarbon.com/": {
+    "website_home_url": "https://www.hongfengcarbon.com/",
+    "website_home_title": "Specialized Graphite and Carbon Product Solutions | Hongfeng Carbon",
+    "website_home_meta_description": "Global leader for specialized material development & processing, and advanced manufacturing of graphite and Carbon-based products.",
+    "website_home_headings": "Optimizing Carbon Materials for High-Performance Industries | We Are Experts in Graphite and Carbon-Based Materials with Three Core Strengths | Why We Are Passionate | 2025 | 2024 | 2021 | 2015 | 2010",
+    "website_about_url": "https://www.hongfengcarbon.com/about-us",
+    "website_about_title": "Global Leader in Specialized Carbon Solutions | Hongfeng Carbon",
+    "website_about_meta_description": "Discover Hongfeng Carbon Solutions, a global leader in innovative carbon and graphite materials. We provide cutting-edge solutions and reliable manufacturing for high-performance industries.",
+    "website_about_headings": "About Hongfeng Carbon Solutions | Hongfeng Carbon Solutions recognizes the vital role Carbon-based materials have in advancing the technologies and quality of life for our planet. This is why we strive to develop the most advanced materials and quality manufacturing processes that our partners rely on. | To establish Hongfeng as a technology-based manufacturer that fully develops Carbon and its derivative materials for use in high-performance applications. | Innovation through Engineering | Create through Hard Work | Efficiency through Purpose | Responsibility through Expectation | Quality Starts With Us!"
+  },
+  "https://www.hs-rm.de": {
+    "website_home_url": "https://www.hs-rm.de/",
+    "website_home_title": "Praxisnahe Studiengänge in Wiesbaden & Rüsselsheim",
+    "website_home_meta_description": "Studium an der staatlichen Hochschule RheinMain: Über 70 Studiengänge in Wiesbaden und Rüsselsheim – praxisnah & international studieren und forschen.",
+    "website_home_headings": "Studium | Vor dem Studium | Im Studium | Nach dem Studium | Campusleben | Forschung | Profil | Wissenschaftliche Karriere",
+    "website_about_url": "https://www.hs-rm.de/ueber-uns",
+    "website_about_title": "Über uns: Profil, Organisation & Fachbereiche",
+    "website_about_meta_description": "Lernen Sie die Hochschule RheinMain kennen: Leitbild, Profile, Mitarbeitende, Zentrale Einrichtungen, Abteilungen und Fachbereiche. Informationen zu den Campus, Meldungen und Termine der Hochschule.",
+    "website_about_headings": "Studium | Vor dem Studium | Im Studium | Nach dem Studium | Campusleben | Forschung | Profil | Wissenschaftliche Karriere"
+  },
+  "https://www.hologt.com": {
+    "website_home_url": "https://hologt.com/",
+    "website_home_title": "Laser Patterning System | holoGT",
+    "website_home_meta_description": "Precision Laser Patterning System for Advanced Micro- and Nanostructuring. Revolutionizing Micro- and Nanostructuring.",
+    "website_home_headings": "Products | holoGT Fyeld. ONE Engineered for excellence, built for professionals. | Holographic gratings | holoGT brings high-precision photonics within everyone's reach | Applications | News | Support & Contact | Contact form:",
+    "website_about_url": "https://hologt.com/about",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.gdmissionsystems.com": {
+    "website_home_url": "https://gdmissionsystems.com/",
+    "website_home_title": "General Dynamics Mission Systems",
+    "website_home_meta_description": "We develop mission critical C4ISR solutions across the land, sea, air, space and cyber domains.",
+    "website_home_headings": "Land Products, Programs & Services | Sea Products, Programs & Services | Air Products, Programs & Services | Space Products, Programs & Services | Cyber Products, Programs & Services | About General Dynamics Mission Systems | All News, Webinars & Events | Careers at General Dynamics Mission Systems",
+    "website_about_url": "https://gdmissionsystems.com/about-us",
+    "website_about_title": "About Us - General Dynamics Mission Systems",
+    "website_about_meta_description": "General Dynamics Mission Systems is a business unit of General Dynamics, the global aerospace and defense company. We are a leading provider of mission critical C4ISR systems across the land, sea, air, space and cyber domains.",
+    "website_about_headings": "Land Products, Programs & Services | Sea Products, Programs & Services | Air Products, Programs & Services | Space Products, Programs & Services | Cyber Products, Programs & Services | About General Dynamics Mission Systems | All News, Webinars & Events | Careers at General Dynamics Mission Systems"
+  },
+  "https://www.gwu-lasertechnik.de": {
+    "website_home_url": "https://gwu-lasertechnik.de/",
+    "website_home_title": "Welcome - GWU-Lasertechnik",
+    "website_home_meta_description": "Since more than 30 years GWU-Lasertechnik are well known experts for crystals, optics and non-linear frequency conversion. Contact us!",
+    "website_home_headings": "GWU-Lasertechnik – Best of Photonics",
+    "website_about_url": "https://gwu-lasertechnik.de/about-us/",
+    "website_about_title": "About us - GWU-Lasertechnik",
+    "website_about_meta_description": "More than 30 years well-known experts for crystals, optics and non-linear frequency conversion. Find out more about our Company History!",
+    "website_about_headings": "About us: | Learn more about our History: | Bringing Non-linear Optics to the Market | First commercial BBO OPO | Improving OPO-Technology | Ultrafast OEM Devices | Narrow linewidth OPOs | 3rd generation of GWU-OPOs"
+  },
+  "https://www.ibsen.com": {
+    "website_home_url": "https://www.ibsen.com",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "451 Client Error:  for url: https://www.ibsen.com/"
+  },
+  "https://www.hypoptics.com": {
+    "website_home_url": "https://www.hypoptics.com/",
+    "website_home_title": "Optical Components, Lens Assembly, Optical Design & Manufacturing, Prototyping & LRIP",
+    "website_home_meta_description": "Decades experience of high precision optical components fabrication and lens assembly. Expertise: optical design, rapid prototyping, LRIP volume production, built to print.",
+    "website_home_headings": "",
+    "website_about_url": "https://www.hypoptics.com/about-us/company-profile.html",
+    "website_about_title": "Company Profile - Hyperion Optics",
+    "website_about_meta_description": "Hyperion Optics is a leading optics supplier of photonics products including optical components, lens systems and opto-mechanical assemblies in UV, Visible, NIR, SWIR applications.Our clients spanning...",
+    "website_about_headings": "About Hyperion Optics"
+  },
+  "https://www.i-z-gmbh.de": {
+    "website_home_url": "https://www.i-z-gmbh.de/",
+    "website_home_title": "Ingenieurbüro Zippel: Konstruktion - Einkauf - Lohnfertigung",
+    "website_home_meta_description": "Das Ingenieurbüro Zippel bietet Dienstleistung bundesweit an: rund um Konstruktion, Einkauf und Lohnfertigung für verschiedene Branchen, Prototypenfertigung / Musterbau / Technische Dokumentation / Lohnfertigung / Teilefertigung / Maschinenbau / Werkstatt / Metallbau / Zerspanung / Präzisionsteile / Optik / Feinmechanik / Drehen / Fräsen / CNC Fertigung / CNC Drehen / CNC Fräsen / CNC Lohnfertigung / Sondermaschinenbau / Sondermaschinen",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.ilt.fraunhofer.de": {
+    "website_home_url": "https://www.ilt.fraunhofer.de/",
+    "website_home_title": "Ihr Partner für Innovationen - Fraunhofer ILT",
+    "website_home_meta_description": "Willkommen beim Fraunhofer-Institut für Lasertechnik ILT! Erfahren Sie hier mehr über unser Leistungsspektrum | Lasertechnik – Forschung – Industrie",
+    "website_home_headings": "Fraunhofer-Institut für Lasertechnik ILT | Allgegenwärtige Laser | Spin-off mit neuartiger Scanner-Technologie | Aufbruch in die Zukunftsenergie Fusion | Laserbasierte Fertigung komplexer Glasoptiken | Festkörperbatterien: Hochenergie-Speicher der nächsten Generation | Neuigkeiten im Überblick | Pressemeldungen",
+    "website_about_url": "https://www.ilt.fraunhofer.de/de/stellen/Unternehmenskultur.html",
+    "website_about_title": "Unternehmenskultur - Fraunhofer ILT",
+    "website_about_meta_description": "",
+    "website_about_headings": "Unternehmenskultur | Gute Gründe am Fraunhofer ILT zu arbeiten gibt es viele. | Friedericke Brackmann | Felix Fischer | Maximilian Flesch | Sarah Klein | Michael Steinhoff | Milena Zuric"
+  },
+  "https://www.i-photonics.lt": {
+    "website_home_url": "https://i-photonics.lt/",
+    "website_home_title": "Vacuum Coating Systems & Thin-Film Coating Services | I-Photonics",
+    "website_home_meta_description": "I-Photonics provides advanced coating systems and thin-film solutions ✓ High-quality equipment ✓ Custom solutions ✓ Ongoing technical support ✓ Order now >>",
+    "website_home_headings": "Vacuum Coating Systems | Thin-film Coating | Our Products | Ortus 700 | Ortus 900 | Ortus 1100 | Ortus 1500 | Lidiz 700",
+    "website_about_url": "https://i-photonics.lt/news-and-events/news",
+    "website_about_title": "Vacuum Coating Systems & Thin-Film Coating Services | I-Photonics",
+    "website_about_meta_description": "I-Photonics provides advanced coating systems and thin-film solutions ✓ High-quality equipment ✓ Custom solutions ✓ Ongoing technical support ✓ Order now >>",
+    "website_about_headings": "Company News | Mike Ivanovski Presents IR Coatings at Photonics Talks | Day 1 at Optatec 2026: I-Photonics Team On-Site 👋 | I-Photonics at EPIC AGM & Summit 2026 | I-Photonics Team Visits OPIE 2026 | Mike Ivanovski to Speak at Photonics Talks at Optatec 2026 | Join I-Photonics Beer Party at Optatec Messe 2026! | I-Photonics at SPIE Photonics Europe 2026 in Strasbourg"
+  },
+  "https://www.hwlscientific.com": {
+    "website_home_url": "https://www.hwlscientific.com/",
+    "website_home_title": "Home",
+    "website_home_meta_description": "vibration isolation, active vibrations damping, AVI, TS-Series",
+    "website_home_headings": "Vibration Isolation Solutions | Active Vibration Isolation | Years of Experience | Happy Customers | Setups",
+    "website_about_url": "https://www.hwlscientific.com/company/about-us",
+    "website_about_title": "Company",
+    "website_about_meta_description": "vibration isolation, active vibrations damping, AVI, TS-Series",
+    "website_about_headings": "Vibration Isolation Solutions | HWL Scientific Instruments GmbH | Company History | Years of Experience | Happy Customers | Setups"
+  },
+  "https://www.ibe-optics.com": {
+    "website_home_url": "https://www.ibe-optics.com/",
+    "website_home_title": "IBE | Custom Precision Optics for Imaging, Cine, Industry",
+    "website_home_meta_description": "IB/E Optics is a optical design, manufacturing and service provider for high-end customized optics for cine, film, Industry, Medical, Science and Defence.",
+    "website_home_headings": "Custom | High-end | Optical Systems | We solve optical problems other can't... | What we do | About us | Innovation | DEVELOPMENT",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.innolite.de": {
+    "website_home_url": "https://www.innolite.de/",
+    "website_home_title": "Innolite - Home",
+    "website_home_meta_description": "",
+    "website_home_headings": "This is Innolite: | Tailored Molds & Optics | This is Innolite: | Ultra Precision Machine Tools | This is Innolite: | Alignment Turning | This is Innolite: | Ultra Sonic Machining",
+    "website_about_url": "https://www.innolite.de/company.html",
+    "website_about_title": "Innolite - Company",
+    "website_about_meta_description": "",
+    "website_about_headings": "Experience | All along the process chain | Our team | Dr. Christian Wenzel | Rainer Klar | Lucas Pesch | Jobs description | Ausbildungsbetrieb"
+  },
+  "https://www.inficon.com": {
+    "website_home_url": "https://www.inficon.com/en",
+    "website_home_title": "Homepage | INFICON",
+    "website_home_meta_description": "INFICON is a leading provider of innovative instrumentation, critical sensor technologies, and Smart Manufacturing/Industry 4.0 software solutions.",
+    "website_home_headings": "Innovation based on proven technology | Work at INFICON | Latest news",
+    "website_about_url": "https://www.inficon.com/en/company/about-us",
+    "website_about_title": "About Us | INFICON",
+    "website_about_meta_description": "INFICON is headquartered in Switzerland and has world-class manufacturing facilities around the world.",
+    "website_about_headings": "About Us | Downloads"
+  },
+  "https://www.iv-ir-optics.com": {
+    "website_home_url": "https://www.hellma-materials.com/",
+    "website_home_title": "Hellma Materials",
+    "website_home_meta_description": "",
+    "website_home_headings": "When every photon counts® | Update aus Kalifornien: So präsentiert sich Hellma Materials auf der Photonics West 2026 | Hellma Materials auf der W3+ Fair 2025 | KONTEC 2025 –",
+    "website_about_url": "https://www.hellma-materials.com/unternehmen/unternehmensleitlinien/",
+    "website_about_title": "Unternehmensleitlinien – Hellma Materials",
+    "website_about_meta_description": "",
+    "website_about_headings": "Unternehmensleitlinien | Unternehmenspolitik der Hellma Materials GmbH | 1. KUNDEN | 2. MITARBEITER | 3. PRODUKTE UND QUALITÄT | 4. WETTBEWERBER | 5. UMWELT UND RESSOURCEN | 6. ÖFFENTLICHKEIT"
+  },
+  "https://www.lensation.de": {
+    "website_home_url": "https://www.lensation.de/",
+    "website_home_title": "Lensation GmbH – smart lenses. smart solutions.",
+    "website_home_meta_description": "Besuchen Sie uns auf der Optatec in Frankfurt.Kostenlose Eintrittskarten auf Anfrage.Wir freuen uns auf Sie! Meet us at Optatec in Frankfurt!Get your free tickets on request.We look forward to your visit! Welcome to the World of Lenses. Lensation provides free of charge consulting about lenses, camera sensors, illu ...",
+    "website_home_headings": "Never underestimate the small. | High Resolution Line Scan Lenses | Powerful lenses for large sensors | Welcome to the World of Lenses. | Latest News | S-Mount Lenses | C-Mount Lenses | OEM Design",
+    "website_about_url": "https://www.lensation.de/about-us/",
+    "website_about_title": "About us – Lensation GmbH",
+    "website_about_meta_description": "Lensation GmbH, Karlsruhe Founded in 2006, Lensation GmbH specializes in the manufacturing, distribution and design of industrial lenses. We provide free of charge consulting about lenses, illumination, optical components and Smart Cameras. In addition we offer a wide range of optical products. You're searching pro ...",
+    "website_about_headings": "About us | Lensation GmbH, Karlsruhe | Compare"
+  },
+  "https://www.kydiamond.ca": {
+    "website_home_url": "https://kydiamond.ca/",
+    "website_home_title": "Home - K&Y Diamond",
+    "website_home_meta_description": "K&Y new modern high-tech facility completed in 2018 Click here to view K&Y new modern high-tech facility completed in 2018 Over 50 years of combined diamond cutting experience acquired in Germany and Switzerland has put K&Y Diamond at the forefront of today’s precision diamond technology. In fact, unmatched expertise in the field uniquely qualifies K&Y […]",
+    "website_home_headings": "Contact lenses / IOL's | Electro optics | Spectacle lens tools | Jewelry / watch making | PCD & CBN tools | Diamond tool care | K&Y new modern high-tech facility completed in 2018 | Over 50 years of combined diamond cutting experience acquired in Germany and Switzerland has put K&Y Diamond at the forefront of today’s precision diamond technology. In fact, unmatched expertise in the field uniquely qualifies K&Y to perform some of the industry’s most specialized tasks.",
+    "website_about_url": "https://kydiamond.ca/about/",
+    "website_about_title": "About - K&Y Diamond",
+    "website_about_meta_description": "We turn precision technology into industrial artistry and clever engineering for all of our customers. K&Y Diamond is an ultra-precision diamond tool manufacturer recognized worldwide. We combine more than 50 years of expertise with cutting edge technology to provide our customers with the best quality tools available. Our strength lies in our optimal manufacturing processes. […]",
+    "website_about_headings": "We turn precision technology into industrial artistry and clever engineering for all of our customers."
+  },
+  "https://www.lapmaster-wolters.de": {
+    "website_home_url": "https://lapmaster-wolters.de/",
+    "website_home_title": "Startseite Lapmaster Wolters – Führender Full Service-Anbieter für anspruchsvolle Lösungen der Oberflächenfeinstbearbeitung: Lapmaster Wolters",
+    "website_home_meta_description": "Führender Full Service-Anbieter für anspruchsvolle Lösungen oder Oberflächenfeinstbearbeitung",
+    "website_home_headings": "Sägen, Läppen, Schleifen & Polieren | Ihr Anbieter für Halbleitertechnologie | Zuhause in vielen Industrien | Neugier, Mut und Innovationskraft | Vom Maschinenbauer zum Lösungsanbieter | Präzision auf Nano-Ebene | Schlüsselkompetenzen perfekt kombiniert | Zu Hause in vielen Industrien",
+    "website_about_url": "https://lapmaster-wolters.de/unternehmen",
+    "website_about_title": "Über Uns: Lapmaster Wolters",
+    "website_about_meta_description": "Sie haben hohe Ansprüche an Qualität, Maßhaltigkeit und Effizienz? Challenge accepted. Die ständig steigenden Anforderungen durch neue Materialien an herausragende Ergebnisse sind Teil unseres Alltags, dem wir mit Erfahrungen und Know-how aus vielen Industriebereichen, aus der Einzel- und Serienfertigung, aus Kleinbetrieben ebenso wie aus internationalen Konzernen begegnen. Durch intensive Forschung und Entwicklung in den Bereichen Engineering, Mechatronik und Verfahrenstechnik, aber auch durch die Zusammenarbeit mit unseren Kunden und vielen Forschungseinrichtungen sowie durch den intensiven Erfahrungsaustausch der Tochtergesellschaften festigen wir permanent unsere Technologieführerschaft.",
+    "website_about_headings": "Unser Unternehmen: Lapmaster Wolters | Sie haben hohe Ansprüche an Qualität, Maßhaltigkeit und Effizienz? | Erfolg durch Teamgeist und Präzision | Wer Präzision schätzt, blickt Richtung Lapmaster Wolters | Von Pionieren und Zukunftsdenkern | Tradition und Innovation sind für uns kein Gegensatz"
+  },
+  "https://www.lighttrans.com": {
+    "website_home_url": "https://www.lighttrans.com/",
+    "website_home_title": "VirtualLab Fusion - Optical Modeling and Design Software",
+    "website_home_meta_description": "VirtualLab Fusion is a unique optical design software designed for multiscale optics simulations. It simplifies even the most complex optical design tasks.",
+    "website_home_headings": "Release 2026.1 | The Digital Twin Platform for Light | XR Tech Winner | Diffractive Lightguides | A Case Study On Metalenses | Ultrashort Pulses | Gratings | Release 2025.2",
+    "website_about_url": "https://www.lighttrans.com/product/virtuallab-fusion-technology/incorporate-diffraction-where-necessary.html",
+    "website_about_title": "Incorporate Diffraction Where Necessary",
+    "website_about_meta_description": "Optical Engineering, Optics Software VirtualLab, Diffractive Optical Elements (DOE) Fabrication: VirtualLab Fusion",
+    "website_about_headings": "Incorporate Diffraction Where Necessary | Wondering whether you need geometric or wave optics simulation? | Fast algorithms power every diffraction integral."
+  },
+  "https://www.fresnelx.com": {
+    "website_home_url": "https://fresnelx.com/",
+    "website_home_title": "Fresnel X – A new generation of optical performance for critical systems",
+    "website_home_meta_description": "",
+    "website_home_headings": "A new generation of optical performance for critical systems | features Light. Efficient. Wide optical field. | Is advanced Fresnel optics relevant to your system? | Discuss your system constraints with our R&D team | technology What matters most in compact optical systems | how it works Access differentiated Fresnel technology | technology Core promise | See more. Carry less. Perform better.",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.mahr.com": {
+    "website_home_url": "https://www.mahr.com/en-int/",
+    "website_home_title": "Mahr Group",
+    "website_home_meta_description": "",
+    "website_home_headings": "Welcome to the Mahr Group | Metrology | Metering Systems | Rotary Stroke Bearings | Welcome to Mahr | Our Corporate Divisions | News from Mahr | Who we are & what makes us special",
+    "website_about_url": "https://www.mahr.com/en-int/company",
+    "website_about_title": "Company",
+    "website_about_meta_description": "We have been leading the way in the development and manufacture of measuring technology, ball-bearing guides and dosing technology for almost 160 years.",
+    "website_about_headings": "For more than 160 years - our Mahr mission | Our objective: never settle for mediocrity | Our craft | Fifth generation family business | We're up for the task | Progress through motion | What drives us | Why we do what we do"
+  },
+  "https://www.mpnics.com": {
+    "website_home_url": "https://www.mpnics.com",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='www.mpnics.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)')))"
+  },
+  "https://www.megatech.com": {
+    "website_home_url": "https://www.megatech.com/",
+    "website_home_title": "Semiconductor Equipment, Thin Film Consumables | Megatech Group",
+    "website_home_meta_description": "Home - Megatech is the largest independent supplier of equipment and services to the semiconductor and thin film industries in the UK.",
+    "website_home_headings": "INDUSTRIES WE SUPPLY | Supplying & Supporting Industries Worldwide | Our Brands | Connect to us",
+    "website_about_url": "https://www.megatech.com/about-us",
+    "website_about_title": "About Us - Megatech",
+    "website_about_meta_description": "About Us - Megatech Group is the largest independent supplier of equipment and services to the semiconductor and thin film industries in the UK.",
+    "website_about_headings": "About Us | Downloads | Our History | Connect to us"
+  },
+  "https://www.jennyscience.ch": {
+    "website_home_url": "https://www.jennyscience.com/de",
+    "website_home_title": "Linearmotorachsen & Servocontroller | Jenny Science",
+    "website_home_meta_description": "Kompakte Linearmotorachsen und Servocontroller für präzise Automationssysteme. Von Jenny Science für Laborautomation, Elektronikfertigung und Maschinenbau.",
+    "website_home_headings": "Linearmotoren, Linearmotorachsen und Servocontroller für präzise Automation | Was ist ein Linearmotor? | Vorteile von Linearmotoren und Direktantrieben in automatisierten Maschinen | Kompakte Linearmotorachsen für maximale Dynamik | Linearmotorachsen modular kombinieren – vom Einzelantrieb zum Automationssystem | Wartungsarme Direktantriebe mit integrierter Forceteq-Kraftmessung | Linearmotorachsen, Drehachsen und Servocontroller – Lösungen im Überblick | LINAX® Linearmotorachsen für präzise Automationssysteme",
+    "website_about_url": "https://www.jennyscience.com/de/ueber-uns",
+    "website_about_title": "Jenny Science AG – Linearmotoren für smarte Automation",
+    "website_about_meta_description": "Warum Jenny Science AG? Schweizer Hersteller für Linearmotoren & Hohlwellenmotoren – präzise Lösungen für Industrie 4.0-Automatisierung.",
+    "website_about_headings": "Jenny Science AG | Die Kunst der Bewegung | AUSZUG KUNDENPORTFOLIO"
+  },
+  "https://www.kuenemund.de": {
+    "website_home_url": "https://www.kuenemund.de/",
+    "website_home_title": "Home - Künemund-Gruppe - Wälzlager. Dichtungen. Lineartechnik.",
+    "website_home_meta_description": "Künemund – immer die richtige Lösung Wälzlager. Dichtungen. Lineartechnik. 150.000 Artikel für sie Umfangreiches Produktangebot Dank der EDV-Vernetzung unserer Betriebe und Lager können wir Ihnen über 150.000 verschiedene Artikel ständig zur Verfügung stellen. Produktübersicht Konfiguration Linearführungen Konfigurieren Sie Ihre individuelle Linearführung bequem mit unserem",
+    "website_home_headings": "Künemund – immer die richtige Lösung | Wälzlager. Dichtungen. Lineartechnik. | 150.000 Artikel für sie | Immer die richtige Lösung | Verkauf inklusive technischer Beratung | Individuelle Lösungen aus eigener Fertigung | Branchen | Aktuelles",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.msd-optics.com": {
+    "website_home_url": "https://www.msd-optics.com/",
+    "website_home_title": "Optical components | MSD Optics",
+    "website_home_meta_description": "We're your ISO certified optical components manufacturer. Explore flat polished windows, polished glass ball lenses & spherical lenses.",
+    "website_home_headings": "MSD OPTICS | Changing s​tatu​s-quo​ for optical components | About MSD Optics - optical components | What's new at MSD Optics | Discover our products | Cylinders | Cubes and plates | Flat polished Windows",
+    "website_about_url": "https://www.msd-optics.com/",
+    "website_about_title": "Optical components | MSD Optics",
+    "website_about_meta_description": "We're your ISO certified optical components manufacturer. Explore flat polished windows, polished glass ball lenses & spherical lenses.",
+    "website_about_headings": "MSD OPTICS | Changing s​tatu​s-quo​ for optical components | About MSD Optics - optical components | What's new at MSD Optics | Discover our products | Cylinders | Cubes and plates | Flat polished Windows"
+  },
+  "https://www.ohara-gmbh.com": {
+    "website_home_url": "https://www.ohara-gmbh.com/",
+    "website_home_title": "Ohara GmbH: Home",
+    "website_home_meta_description": "",
+    "website_home_headings": "Produkte | Optisches Glas | News | Bleiben Sie auf dem Laufenden | Das | Unternehmen | OHARA – Ihr Lieferant für optisches Material | OHARA",
+    "website_about_url": "https://www.ohara-gmbh.com/ohara/das-unternehmen.html",
+    "website_about_title": "Ohara GmbH: Das Unternehmen",
+    "website_about_meta_description": "",
+    "website_about_headings": "OHARA | Shop | Dialog | Wichtiges"
+  },
+  "https://www.madde.co.kr/eng/": {
+    "website_home_url": "https://www.madde.co.kr/eng/",
+    "website_home_title": "MADDE",
+    "website_home_meta_description": "",
+    "website_home_headings": "팝업레이어 알림 | WE PRINT UNIVERSE | MADDE is pioneers innovation in manufacturing through 3D printing | Creativity | Contribution | Commitment | Freedom in Manufacturing | Semiconductor",
+    "website_about_url": "https://www.madde.co.kr/eng/page/?pid=company01",
+    "website_about_title": "MADDE",
+    "website_about_meta_description": "",
+    "website_about_headings": "ABOUT | MADDE is | Mission & Vision | Freedom in Manufacturing | We Print Universe | CORE VALUE | CORE VALUE | CORE VALUE"
+  },
+  "https://www.nanoFaktur.com": {
+    "website_home_url": "https://nanofaktur.com/",
+    "website_home_title": "Nanofaktur",
+    "website_home_meta_description": "",
+    "website_home_headings": "Piezo Antriebe & Nano-Positionierung | Regelelektronik | Anwendungen | Vielseitige Digital-Controller | MPO Piezo Stapel | PPa Parallel-Hebel | Spiegelversteller | Mikroskopie",
+    "website_about_url": "https://nanofaktur.com/ueber-uns/",
+    "website_about_title": "Über uns – Nanofaktur",
+    "website_about_meta_description": "",
+    "website_about_headings": "Über uns | Über uns | Management | Ralf Stamm | Klaus Pollak | Klaus-Dieter Müller | Cunman Zhang | Ralf Stamm"
+  },
+  "https://www.loew-praezision.de": {
+    "website_home_url": "https://www.loew-praezision.de/",
+    "website_home_title": "Präzisionsteile und Zerspanung - LOEW Präzisionsteile",
+    "website_home_meta_description": "LOEW ist Ihre Highend Manufaktur für Präzisionsteile und Zerspanung. Wir fertigen komplexe Bauteile aus verschiedensten Werkstoffen.",
+    "website_home_headings": "Die H ighend Manufaktur | PRÄZISION | Verbindung aus Know How und Leidenschaft. | Wir sind LOEW Präzisionsteile und Zerspanung | Kernleistungen | Produkte | Kernbranchen | Ihre Branche ist nicht aufgeführt?",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.osp.viavisolutions.com": {
+    "website_home_url": "https://www.osp.viavisolutions.com",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='www.osp.viavisolutions.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.osp.viavisolutions.com'. (_ssl.c:1032)\")))"
+  },
+  "https://www.optaplus.com": {
+    "website_home_url": "https://optaplus.com/",
+    "website_home_title": "Home - Optaplus",
+    "website_home_meta_description": "Your ideas into focus. We create the components for your opto-mechanical systems",
+    "website_home_headings": "Our Certification and Policy | Latest news | Applications | Measurement & Control Technology | Engineering | Machine Vision & Image Processing | Medical & Laser Technology | Sensors for Industrial Automation",
+    "website_about_url": "https://optaplus.com/about-us/",
+    "website_about_title": "Meet Our Team - Learn More About Optaplus",
+    "website_about_meta_description": "Your ideas into focus. We create the components for your opto-mechanical systems",
+    "website_about_headings": "About Us | Your Ideas Into Focus | Our Team"
+  },
+  "https://www.optilayer.com": {
+    "website_home_url": "https://optilayer.com/",
+    "website_home_title": "OptiLayer GmbH – OptiLayer GmbH",
+    "website_home_meta_description": "",
+    "website_home_headings": "We proudly present the revolutionary new 2025 OptiLayer Pro, OptiChar Pro, OptiRE Pro, OL Monitor software, which provides greater performance under Windows, Mac OS, Linux. Please contact your distributor for more details. | OptiLayer – Your partner in design, analysis, post-production characterization of optical coatings and on-line support of optical coatings production. | OptiLayer Core Expertise | Workshops calendar | Our products | Support | About Us | Search",
+    "website_about_url": "https://optilayer.com/about-us/",
+    "website_about_title": "About us – OptiLayer GmbH",
+    "website_about_meta_description": "",
+    "website_about_headings": "About us | Our products | Support | About Us | Search | Products | Products | Support"
+  },
+  "https://www.levicron.com": {
+    "website_home_url": "https://levicron.com/",
+    "website_home_title": "Levicron GmbH - Startseite",
+    "website_home_meta_description": "Levicron - Ein innovativer Hersteller von ultrapräzisen aerostatisch gelagerten Werkzeug- & Werkstückmotorspindeln für Fräs-, Schleif-, Bohr- & Drehanwendungen.",
+    "website_home_headings": "",
+    "website_about_url": "https://levicron.com/company",
+    "website_about_title": "Unternehmen - Levicron GmbH",
+    "website_about_meta_description": "Levicron - weltweit führend in ultrapräzisen Spindellösungen mit höchster Präzision und Leistung für CNC-basierte Bearbeitungsprozesse. Erfahren Sie mehr...",
+    "website_about_headings": "Unternehmen | Unsere langjährigen Partner"
+  },
+  "https://www.otfstudio.com": {
+    "website_home_url": "https://www.otfstudio.com/",
+    "website_home_title": "OTF Studio",
+    "website_home_meta_description": "tareo, OTF Studio, software for optical coatings, design of multilayer coatings, characterization of optical coatings, deposition process control",
+    "website_home_headings": "⭐ New version of OTF Studio 26.25 is released. | Learn about Hardware and Operating system | 📢 OTF Studio Workshop in Jena, Germany | 📅 27–29 May 2026 | A genda, registration form, and important information are available here. | OTF Studio ® Thin Film Software | OTF Studio, ® developed since early 2023, is a modern solution for the design, analysis, monitoring, and reverse engineering of multilayer optical coatings. The software is already well established in the industry, recognized for its rapid evolution, robust software architecture, and advanced capabilities. | Powered by a newly developed highly effective computational framework, OTF Studio, ® ensures both computational speed and stability. Continuous innovation and integration of user feedback have quickly made it a reliable and leading tool for professionals in the optical thin-film field.",
+    "website_about_url": "https://www.otfstudio.com/about-us",
+    "website_about_title": "About us",
+    "website_about_meta_description": "optical coating software, thin film design software, thin film characterization software, multilayer design software",
+    "website_about_headings": "Members of our team have unique competence: expertise in multilayer optics, software development, physics, numerical methods, data analysis, and hands-on experience in thin film production | Dr. Michael Trubetskov is winner of recent optical interference coatings design contests | Networks:"
+  },
+  "https://www.picotronic.de": {
+    "website_home_url": "https://www.picotronic.de/picopage/",
+    "website_home_title": "Laser Module | Picotronic GmbH",
+    "website_home_meta_description": "Picotronic® bietet hochwertige Laser in zertifizierter Qualität. Vielfältiges Sortiment und individuelle Sonderlösungen. Überzeugen Sie sich selbst!",
+    "website_home_headings": "Laser Module | Lasersicherheit | DOE Laser - so setzen Sie Zeichen | Die PICOTRONIC® Lasersuche | PICOMARK-650-600-60DEG | DB635-5-5-FA(14x45)-CON | LH450-15-24(20x80)-PL-F300 | LFD405-1-24(16x90)-NT",
+    "website_about_url": "https://www.picotronic.de/picopage/de/index/aboutus",
+    "website_about_title": "Über uns | Picotronic GmbH",
+    "website_about_meta_description": "Picotronic® offers high-quality lasers in certified quality. Wide range of products and individual special solutions. Convince yourself!",
+    "website_about_headings": "Über uns | Wir machen es möglich. | Unendliche Auswahl. | Vertrauen ist gut, Kontrolle ist besser. | Beratung und Service auf Augenhöhe! | Lasersicherheit | DOE Laser - so setzen Sie Zeichen | Die PICOTRONIC® Lasersuche"
+  },
+  "https://www.photonics-hub.de": {
+    "website_home_url": "https://www.photonics-hub.de/",
+    "website_home_title": "Photonics Hub: Photonics Hub GmbH",
+    "website_home_meta_description": "",
+    "website_home_headings": "Photonics Hub Gemeinsam mehr erreichen! | Gemeinsam mehr erreichen! | Veranstaltungen | Photonics Hub Online Seminar: UV-Laserlicht-Transport über Multimode UV-Fasern mit Kerndurchmessern über 100 µm - Teil 2 | Optence Online Seminar: Strahlende Perspektiven?! Indien im Überblick | Kick-Off-Veranstaltung: Thematische Erweiterung Optence – Halbleiter, Elektronik, Mikrofluidik | Photonics Hub Online Seminar: Basiswissen Optik - Teil I | News",
+    "website_about_url": "https://www.photonics-hub.de/wir-ueber-uns/gesellschafter.html",
+    "website_about_title": "Photonics Hub: Gesellschafter",
+    "website_about_meta_description": "",
+    "website_about_headings": "Kontakt | Photonics Hub GmbH"
+  },
+  "https://www.optolabltd.com": {
+    "website_home_url": "https://www.optolabltd.com/",
+    "website_home_title": "Opto Lab - Ihr Partner für optische Produkte",
+    "website_home_meta_description": "Entdecken Sie maßgeschneiderte optische Produkte und Systeme bei Opto Lab.",
+    "website_home_headings": "Optik-Engineering nach Ihren Spezifikationen | Über Opto Lab | Kontakt",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.optotune.com": {
+    "website_home_url": "https://www.optotune.com/",
+    "website_home_title": "Home - Optotune",
+    "website_home_meta_description": "Optotune leads in adaptive tunable optics solutions, powering imaging, medical devices, AR/VR, laser processing, and projection with proven technology worldwide.",
+    "website_home_headings": "High-performance tunable optics | Products that make the difference | Markets | Custom solutions for OEM & ODM | Optotune at a glance | What customers say | Awards | Inactive",
+    "website_about_url": "https://www.optotune.com/about-us/",
+    "website_about_title": "About us - Optotune",
+    "website_about_meta_description": "Meet Optotune, a global leader in adaptive optics and tunable lenses. Learn about our mission, innovation, and expertise in optical solutions.",
+    "website_about_headings": "Making optical innovation happen since 2008 | Fast facts | What drives us | Meet our management team | Responsibility & ESG | Recognition & press | Inactive | Inactive"
+  },
+  "https://www.precizika.com": {
+    "website_home_url": "https://www.precizika.com/",
+    "website_home_title": "Precizika Metrology | Developing linear and angle encoders",
+    "website_home_meta_description": "Developing and producing rotary, linear and angle encoders. The goal to develop standard and tailor made solutions for special motion measurement tasks.",
+    "website_home_headings": "At the heart of precise motion | Meet us | Latest news | Applications | About us | Contact us",
+    "website_about_url": "https://www.precizika.com/about-us/",
+    "website_about_title": "About us | Precizika Metrology",
+    "website_about_meta_description": "Precizika Metrology is a Lithuanian based company developing feedback devices for precise motion measuring that focuses on customized products",
+    "website_about_headings": "About us"
+  },
+  "https://www.plasmaprocessgroup.com": {
+    "website_home_url": "https://plasmaprocessgroup.com/",
+    "website_home_title": "Ion Beam Sputter Solutions | Sources Grids and Power Supplies",
+    "website_home_meta_description": "Plasma Process Group manufactures ion beam sources and hardware for IBS systems. We offer ion beam sputter solutions for your vacuum system.",
+    "website_home_headings": "ION BEAM SOLUTIONS | The 6×50 CM Linear RF Ion Source for Large Area Thin Film Manufacturing | Our Newest Innovation in Ion Beam Products | Sources | Power Supplies | Ion Beam Grid Assemblies | Techne 2e – Our Enhanced System | Ion Beam Sputter Equipment",
+    "website_about_url": "https://plasmaprocessgroup.com/about-plasma-process-group/",
+    "website_about_title": "About Plasma Process Group | Mission | History | Strategy",
+    "website_about_meta_description": "The 20 year history of Plasma Process Group in a brief summary. From our garages to our existing facility we have grown. Our goal is to see our customers succeed using ion beam sources. Our mission is providing the best customer service possible. Our strategy is to help customers who use ion beam sources to produce the highest quality coatings on the planet.",
+    "website_about_headings": "About Plasma Process Group | Celebrating over 20 years of helping customers! | Our History | PPG Mission, Vision, and Values | Our Strategy | Ping Us! | Welcome to Plasma Process Group"
+  },
+  "https://www.polytec.com": {
+    "website_home_url": "https://www.polytec.com/",
+    "website_home_title": "Measure what matters - Polytec",
+    "website_home_meta_description": "",
+    "website_home_headings": "Turn measurement data into confident decisions | Our measurement technologies | Vibrometry | Velocimetry | Surface Metrology | Photonics | Process Analytics | No budget? Just measure.",
+    "website_about_url": "https://www.polytec.com/en/company",
+    "website_about_title": "Company - Polytec",
+    "website_about_meta_description": "",
+    "website_about_headings": "Polytec—measure what matters | Today Polytec specializes in the technological fields of | Your distribution partner for Europe | Innovative from the very outset | Awards"
+  },
+  "https://www.pfo-bg.com": {
+    "website_home_url": "https://pfo-bg.com/",
+    "website_home_title": "Plant For Optics – Plant for Optics",
+    "website_home_meta_description": "",
+    "website_home_headings": "Need a quotation? | Past, present, future. We`re Plant For Optics | HISTORY | HISTORY | ACTIVITIES | ACTIVITIES | NEWS | NEWS",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.satisloh.com": {
+    "website_home_url": "https://www.satisloh.com/",
+    "website_home_title": "Satisloh | Optical Manufacturing Solutions for Ophthalmic & Precision Optics | Satisloh",
+    "website_home_meta_description": "Satisloh offers manufacturing solutions for the ophthalmic and precision optics industries - machines, services, software, consumables, parts and automation",
+    "website_home_headings": "Satisloh | Ophthalmic | Precision Optics | Services & Support | A career at Satisloh. Why work for us? | What's your passion? | Career opportunities | Check out our",
+    "website_about_url": "https://www.satisloh.com/who-we-are",
+    "website_about_title": "Who we are | Optical Manufacturing Technology | Satisloh",
+    "website_about_meta_description": "Satisloh is a global leader in manufacturing of machines and solutions for ophthalmic & precision optics, enabling companies to produce lenses and optics.",
+    "website_about_headings": "Satisloh | THE ART OF MAKING LENSES | More about us | Our Vision & Mission | Our Values | Satisloh Group | Diversity & Inclusion | Satisloh Worldwide"
+  },
+  "https://www.pog.eu": {
+    "website_home_url": "https://www.pog.eu/de/",
+    "website_home_title": "POG Präzisionsoptik Gera GmbH – POG Präzisionsoptik Gera GmbH",
+    "website_home_meta_description": "Als mittelständisches Photonikunternehmen entwickeln und fertigen wir kundenspezifische optische Systeme, Mikrostrukturen und Komponenten.",
+    "website_home_headings": "Von UV bis IR – Präzision im ganzen Spektrum | Unternehmensnachrichten | Stellenangebote | Produkte & Lösungen | Wir bieten Perspektiven | Ihre Karriere bei POG | Unsere Stellenanzeigen",
+    "website_about_url": "https://www.pog.eu/de/",
+    "website_about_title": "POG Präzisionsoptik Gera GmbH – POG Präzisionsoptik Gera GmbH",
+    "website_about_meta_description": "Als mittelständisches Photonikunternehmen entwickeln und fertigen wir kundenspezifische optische Systeme, Mikrostrukturen und Komponenten.",
+    "website_about_headings": "Von UV bis IR – Präzision im ganzen Spektrum | Unternehmensnachrichten | Stellenangebote | Produkte & Lösungen | Wir bieten Perspektiven | Ihre Karriere bei POG | Unsere Stellenanzeigen"
+  },
+  "https://www.qedmrf.com": {
+    "website_home_url": "https://qedtech.com/",
+    "website_home_title": "QED Technologies | Optics Polishing & Metrology | Fabrication",
+    "website_home_meta_description": "Discover QED Technologies – Innovators in precision optics polishing and metrology systems for aerospace, semiconductors, and beyond.",
+    "website_home_headings": "Decades of Innovation. One Standard of Quality. | Polishing with MRF® (Magnetorheological Finishing) | Measuring with SSI™ (Subaperture Stitching Interferometry) | Measuring with NMF™ (Nanomefos) | Made by QED Optics® Custom Optics Manufacturing | Dive Deeper | Why Choose QED Technologies | Performance Proven",
+    "website_about_url": "https://qedtech.com/about-qed/",
+    "website_about_title": "About QED Technologies | Global Optics Innovation Leader",
+    "website_about_meta_description": "Learn how QED Technologies became a global leader in optical polishing and metrology, with facilities in the US and Europe.",
+    "website_about_headings": "About QED Technologies® | We’re Building What’s Next | Global Leadership in Precision Optics | Pioneering Deterministic Polishing and Metrology | Expanding Capabilities Through Global Growth | The Team Behind the Technology | About QED Technologies Europe | Recent Company News"
+  },
+  "https://www.schneider-om.com": {
+    "website_home_url": "https://www.schneider-om.com/",
+    "website_home_title": "",
+    "website_home_meta_description": "One of the world's leading companies for the development and production of machines and solutions for ophthalmics, precision optics and ultra-precision optics.",
+    "website_home_headings": "Ophthalmics | Precision Optics | Upcoming Exhibitions | Aachen Polymer… | DigiCon | Ultra Precision Optics | CSI-P modulo ONE | The power lab of the next decade",
+    "website_about_url": "https://www.schneider-om.com/company.html",
+    "website_about_title": "",
+    "website_about_meta_description": "SCHNEIDER is one of the world’s leading companies for the development and production of machines and solutions for ophthalmics, (ultra-)precision optics.",
+    "website_about_headings": "Company | About SCHNEIDER | SCHNEIDER Worldwide | W&L Coating Systems | Subscribe to our news"
+  },
+  "https://www.sfk-service.de": {
+    "website_home_url": "https://www.sfk-service.de/",
+    "website_home_title": "Metall- und Kunststoffteile",
+    "website_home_meta_description": "Die SFK-Service GmbH in Berlin ist Ihr Spezialist für die Maßanfertigung von Kunststoffteilen, mechanischen Teilen und Optoelektronik. Besuchen Sie uns.",
+    "website_home_headings": "Ihr Partner aus Berlin für die Fertigung mechanischer Komponenten nach Ihren Anforderungen | Entdecken Sie unser Serviceangebot | Individuelle Kundenwünsche | Einwilligung zum Datenschutz",
+    "website_about_url": "https://www.sfk-service.de/unternehmen",
+    "website_about_title": "Produzent - SFK-Service GmbH - Berlin",
+    "website_about_meta_description": "Die SFK-Service GmbH in Berlin ist bereits seit über 20 Jahren Produzent von Bauteilen und Komponenten aus Kunststoff und Metall. Erfahren Sie mehr.",
+    "website_about_headings": "Seit 20 Jahren Ihr Produzent von Metall- und Kunststoffteilen in Berlin | Präzise Fertigung mit Tradition, Innovation und Flexibilität | Kooperation und Partnerschaft bei der Entwicklung innovativer optoelektronischer Lösungen"
+  },
+  "https://www.pureon.com": {
+    "website_home_url": "https://pureon.com/",
+    "website_home_title": "Home - Pureon",
+    "website_home_meta_description": "From bottom to top, from start to end, from diamond to pad – We are a vertically integrated surface solutions provider.",
+    "website_home_headings": "Pureon - Surface Finishing Solutions | Find your solution | Total Process Solutions | Industries | Advanced Optics | Semiconductor & Electronics | Precision Industry | Luxury Goods",
+    "website_about_url": "https://pureon.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6NjM3NiwidG9nZ2xlIjpmYWxzZX0%3D",
+    "website_about_title": "Home - Pureon",
+    "website_about_meta_description": "From bottom to top, from start to end, from diamond to pad – We are a vertically integrated surface solutions provider.",
+    "website_about_headings": "Pureon - Surface Finishing Solutions | Find your solution | Total Process Solutions | Industries | Advanced Optics | Semiconductor & Electronics | Precision Industry | Luxury Goods"
+  },
+  "https://www.sindlhauser.de": {
+    "website_home_url": "https://www.sindlhauser.de/",
+    "website_home_title": "Sindlhauser Materials GmbH in Kempten (Allgäu)",
+    "website_home_meta_description": "Sindlhauser Materials liefert Sputter-Targets, LaB6-Keramik und -Kathoden, Suspensionen, Granulate / Bedampfungs­rohstoffe für die Beschichtungsindustrie.",
+    "website_home_headings": "Herzlich willkommen bei Sindlhauser Materials | Ihre Vision im Blick",
+    "website_about_url": "https://www.sindlhauser.de/unternehmen-vakuumbeschichtung-werkstoffe-allgaeu.html",
+    "website_about_title": "Sindlhauser, ein Unternehmen mit Zukunft im Allgäu",
+    "website_about_meta_description": "Seit 1995 liefern wir für Industrieunternehmen in der ganzen Welt unterschiedlichste Materialien zur Vakuum-Beschichtung.",
+    "website_about_headings": "Ein Unternehmen mit Zukunft"
+  },
+  "https://www.santec.com": {
+    "website_home_url": "https://www.santec.com/",
+    "website_home_title": "Santec",
+    "website_home_meta_description": "TOP(日本語) santec Holdings株式会社は愛知県小牧市の会社です。光技術を応用した製品を世に送り出しています。 光通信用部品、光測定器、光画像センシング、ビジネスソリューションの事業領域で、社会に求められる新しい価値を創造し続けています。",
+    "website_home_headings": "Products | 光測定器 | 光部品 | 光イメージング / センシング | ビジネスソリューション | 医療機器 | News ニュース | 資料請求・お問い合わせ",
+    "website_about_url": "https://www.santec.com/jp/about/index.html",
+    "website_about_title": "企業情報 | Santec",
+    "website_about_meta_description": "会社案内 santec Holdings株式会社は愛知県小牧市の会社です。光技術を応用した製品を世に送り出しています。 光通信用部品、光測定器、光画像センシング、ビジネスソリューションの事業領域で、社会に求められる新しい価値を創造し続けています。",
+    "website_about_headings": "会社案内 | トップメッセージ | マネジメントチーム | 経営理念 | 沿革 | 会社概要 | グループ会社一覧 | コアテクノロジー"
+  },
+  "https://www.skylinemetalworks.com.tw": {
+    "website_home_url": "https://www.skylinemetalworks.com.tw/",
+    "website_home_title": "Skyline Metalworks | Precision CNC Manufacturing Taiwan",
+    "website_home_meta_description": "ISO 9001:2015 certified precision CNC manufacturing for optical, semiconductor, and defense industries. Taiwan-based, serving global clients with high-precision components.",
+    "website_home_headings": "A Total Engineering Solution for High-Precision Components | Core Competencies | One-Stop Manufacturing | DFM Engineering Support | Global Quality Standards | Why Partner with Skyline Metalworks? | Industries We Serve | Ready to Start Your Project?",
+    "website_about_url": "https://www.skylinemetalworks.com.tw/about",
+    "website_about_title": "About Us | Skyline Metalworks Group | Skyline Metalworks",
+    "website_about_meta_description": "Skyline Metalworks Group - Taiwan-based ISO 9001:2015 certified precision manufacturer since 1996. D-U-N-S® registered. Strategic partner for optics, semiconductor, and defense industries.",
+    "website_about_headings": "About Skyline Metalworks Group | Precision Manufacturing Excellence Since 1996 | Our Core Values | Uncompromising Quality | Continuous Innovation | Reliable Partnership | Your Design, Our Protection | Strict NDA Compliance"
+  },
+  "https://www.qd-europe.com": {
+    "website_home_url": "https://qd-europe.com/de/en/",
+    "website_home_title": "Quantum Design Germany",
+    "website_home_meta_description": "For over 45 years, we have been one of the leading European distributors of high-tech instrumentation and consumables for scientific, academic and industrial research.",
+    "website_home_headings": "Quantum Design Oxford Products | Magnetism | Materials science | Spectroscopy | Imaging | Electron microscopy | Cryogenics | Optics",
+    "website_about_url": "https://qd-europe.com/de/en/about-us/contact/",
+    "website_about_title": "Contact",
+    "website_about_meta_description": "",
+    "website_about_headings": "Contact | Directors | Product Managers | Order processing | Service | Finance | Human resources | Administration"
+  },
+  "https://www.optotech.net": {
+    "website_home_url": "https://www.optotech.net/",
+    "website_home_title": "Home | OptoTech",
+    "website_home_meta_description": "",
+    "website_home_headings": "Welcome to OptoTech | Vision. Precision. Passion. | Lens Production on a New Level | Mark Hollmann as New SBA Manager Ophthalmic | Precision Without the Wait | NEW: IQ-Synergy Taper | Expansion of Coating-Portfolio | Progress in Sustainability and Energy Efficiency",
+    "website_about_url": "https://www.optotech.net/en/company/about-us",
+    "website_about_title": "About Us | OptoTech",
+    "website_about_meta_description": "",
+    "website_about_headings": "Welcome to OptoTech | Your technological partner for optical machinery and process technology | Welcome to OptoTech | OptoTech at a Glance | OptoTech worldwide | OptoTech Optikmaschinen GmbH"
+  },
+  "https://www.smaract.com": {
+    "website_home_url": "https://www.smaract.com/en/",
+    "website_home_title": "Your Partner for High Precision in Positioning, Automation and Metrology. - SmarAct",
+    "website_home_meta_description": "Discover SmarAct's innovative solutions for high precision positioning, automation, and metrology across various industries.",
+    "website_home_headings": "Automation Stations for Microassembly Production | SMARBOTIC | SMARSHIFT | METIRIO® Optical Encoder | SMARFLEX | SMARSLIDE | PICOSCALE Interferometer | Be Yourself and Shape the Future With Us",
+    "website_about_url": "https://www.smaract.com/en/company",
+    "website_about_title": "SmarAct - Innovations in Precision Technology - SmarAct",
+    "website_about_meta_description": "SmarAct leads in high-precision positioning and automation, enabling advancements in semiconductor, life sciences, and research applications.",
+    "website_about_headings": "SmarAct - Innovations in Precision Technology | Who we are: Future Driven by Precision with Hightech Made in Oldenburg | Milestones – Our Journey Through Space and Time | ... and how it's going | How it started ... | Three Business Units | Shaping the World of Tomorrow | Production-ready manufacturing of precision optical assemblies"
+  },
+  "https://www.tascon.eu": {
+    "website_home_url": "https://www.tascon.eu/en/",
+    "website_home_title": "Tascon - Laboratory for Surface Analysis | tascon.eu - Tascon - Surface Analysis",
+    "website_home_meta_description": "Tascon is a worldwide leading provider of surface analytical services | tascon.eu",
+    "website_home_headings": "Tascon - at your surface! | Tascon is a leading international provider of surface analysis services. We are serving customers in industrial sectors such as automotive, chemicals, electronic, glass, life sciences, or pharmaceuticals industry. Our company has an international reputation solving a wide range of complex problems using state-of-the art instrumentation and leveraging a dedicated, customer-oriented team of experts. Tascon has a flexible accreditation (DIN ISO/IEC 17025) which ensures the quality of our analytical services and makes us a reliable partner for research and development. Developing your concepts is our priority. | Problems with the surface? | More than just data | You already know what you need | rush analysis available | Understand your problem | Formulate the analysis strategy",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.trioptics.com": {
+    "website_home_url": "https://www.trioptics.com/",
+    "website_home_title": "Home | TRIOPTICS",
+    "website_home_meta_description": "We offer optical measurement and manufacturing systems for quality control and assembly of lenses, lens systems, camera modules.",
+    "website_home_headings": "Simplify and visualize | Ensuring correlation through uniform inspection | Camera & Lidar innovations made easy and fast | Contract manufacturing | Team up with TRIOPTICS | Measurement solutions for VR and AR | Worldwide standard for optical metrology | In the field of optical measurement, we create standards instead of just fulfilling them.",
+    "website_about_url": "https://www.trioptics.com/trioptics/about-us",
+    "website_about_title": "About us | TRIOPTICS",
+    "website_about_meta_description": "TRIOPTICS develops and produces the most comprehensive range of optical measurement and production technology for optical systems worldwide.",
+    "website_about_headings": "About us | Optics is our passion | 30 years of expertise in optical metrology | What drives us | Pioneering Spirit | Know-How | Customer Orientation | Diversity"
+  },
+  "https://www.spectrogon.com": {
+    "website_home_url": "https://www.spectrogon.com/",
+    "website_home_title": "Spectrogon | Optical filters, thin film coatings and holographic diffraction gratings",
+    "website_home_meta_description": "",
+    "website_home_headings": "Spectrogon develops and manufactures Optical Filters, other Thin Film Coatings and Holographic Gratings, for various applications and industries. | The headquarters and production are in Stockholm, Sweden. | Spectrogon develops and manufactures Optical Filters, other Thin Film Coatings and Holographic Gratings, for various applications and industries. | The headquarters and production are in Stockholm, Sweden.",
+    "website_about_url": "https://www.spectrogon.com/",
+    "website_about_title": "Spectrogon | Optical filters, thin film coatings and holographic diffraction gratings",
+    "website_about_meta_description": "",
+    "website_about_headings": "Spectrogon develops and manufactures Optical Filters, other Thin Film Coatings and Holographic Gratings, for various applications and industries. | The headquarters and production are in Stockholm, Sweden. | Spectrogon develops and manufactures Optical Filters, other Thin Film Coatings and Holographic Gratings, for various applications and industries. | The headquarters and production are in Stockholm, Sweden."
+  },
+  "https://www.sunyang-optics.com.tw": {
+    "website_home_url": "https://sunyang-optics.com.tw/",
+    "website_home_title": "上暘光學股份有限公司 |",
+    "website_home_meta_description": "",
+    "website_home_headings": "New Design of Dental microscope objective Lens | 8M Automotive Lens | Specialist for 4K2K Projection Lens | Company Info. | RFQ | Specialist for 1080P/4K 2K Projection Lens | News | Products",
+    "website_about_url": "https://sunyang-optics.com.tw/aboutus/",
+    "website_about_title": "上暘光學股份有限公司 | About Us",
+    "website_about_meta_description": "",
+    "website_about_headings": "About Us | Headquarter | Factory | Our expertise"
+  },
+  "https://www.thm.de": {
+    "website_home_url": "https://www.thm.de/site/",
+    "website_home_title": "TH Mittelhessen",
+    "website_home_meta_description": "Technische Hochschule Mittelhessen - University of Applied Sciences",
+    "website_home_headings": "NEXTBIKE FÜR MITARBEITENDE | E-CAMPUS UMSTELLUNG - WARTUNGSPHASE | UNTERSTÜTZUNG IN KRISENSITUATIONEN | KI UND PRÜFUNGEN | INFORMATIONEN ZUR CORONA-LAGE | GettING Started | Aus dem Hochtemperaturspeicher wird ein Spin-off | Ringvorlesung am 12. Mai mit Dr. Uwe Schneidewind",
+    "website_about_url": "https://www.thm.de/site/hochschule/profil/ueber-uns.html",
+    "website_about_title": "Über uns",
+    "website_about_meta_description": "Technische Hochschule Mittelhessen - University of Applied Sciences",
+    "website_about_headings": "Hochschulprofil | Motivation, Qualität, Agilität und Vielfalt - wertgebundene Hochschulentwicklung | Talente.Technik.Zukunft. – breites Spektrum an Studiengängen | THM-Campus als Lern- und Lebensort | Internationalisierung in der und für die Region | Forschung an der THM – anwendungsnah und transferorientiert | Überzeugende Rahmenbedingungen für alle Beschäftigungsgruppen | Profil"
+  },
+  "https://www.universalphotonics.com": {
+    "website_home_url": "https://www.universalphotonics.com/",
+    "website_home_title": "Universal Photonics, Inc Welcome",
+    "website_home_meta_description": "Universal Photonics Website",
+    "website_home_headings": "Name the application. We have solutions. | Quick Links | Stay Connected",
+    "website_about_url": "https://www.universalphotonics.com/Company/FeaturedProducts",
+    "website_about_title": "Universal Photonics, Inc Featured Products",
+    "website_about_meta_description": "Universal Photonics Website",
+    "website_about_headings": "Quick Links | Stay Connected"
+  },
+  "https://www.wooptix.com": {
+    "website_home_url": "https://www.wooptix.com",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "403 Client Error: Forbidden for url: https://www.wooptix.com/"
+  },
+  "https://www.stock-konstruktion.de": {
+    "website_home_url": "https://stock-konstruktion.info/",
+    "website_home_title": "Stock Konstruktion GmbH - Stock Konstruktion GmbH",
+    "website_home_meta_description": "Maschinenbau für die Optikindustrie – Wir konstruieren und bauen Läpp‑ & Poliermaschinen mit oder ohne NC/CNC Steuerung in Serie oder als Spezialanfertigung nach Kundenwunsch, Ultraschallreinigungsanlagen und bieten Service, Wartung & CNC‑Fertigung.",
+    "website_home_headings": "Stock Konstruktion GmbH | Einladung Optatec 2026 | Neuheit 2025 | Produkte | Service | Willkommen bei Stock Konstruktion GmbH",
+    "website_about_url": "https://stock-konstruktion.info/",
+    "website_about_title": "Stock Konstruktion GmbH - Stock Konstruktion GmbH",
+    "website_about_meta_description": "Maschinenbau für die Optikindustrie – Wir konstruieren und bauen Läpp‑ & Poliermaschinen mit oder ohne NC/CNC Steuerung in Serie oder als Spezialanfertigung nach Kundenwunsch, Ultraschallreinigungsanlagen und bieten Service, Wartung & CNC‑Fertigung.",
+    "website_about_headings": "Stock Konstruktion GmbH | Einladung Optatec 2026 | Neuheit 2025 | Produkte | Service | Willkommen bei Stock Konstruktion GmbH"
+  },
+  "https://www.somos-group.com": {
+    "website_home_url": "https://www.somos-group.com/",
+    "website_home_title": "Accueil (fr) - SOMOS GROUP",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.uccomponents.com": {
+    "website_home_url": "https://www.uccomponents.com/",
+    "website_home_title": "UC Components",
+    "website_home_meta_description": "",
+    "website_home_headings": "We Vent Fasteners Like Your Business Depends on it... | Because it Does.",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.waiv-ftir.com/": {
+    "website_home_url": "https://www.waiv-ftir.com/",
+    "website_home_title": "WAIV FTIR GmbH | Spectroscopy",
+    "website_home_meta_description": "WAIV FTIR GmbH develops a groundbreaking broadband FTIR spectrometer, combining high-resolution performance with compact design. Built for scientists and industry, our system simplifies spectral diagnostics with one-click usability and browser-based software.",
+    "website_home_headings": "See Beyond. Unlock 500 microns | VISION | OUR PRODUCT | OPTIMIZED PERFORMANCE | COMPACT | ADVANCED SENSOR TECHNOLOGY | WHY WAIV | COLLABORATIONS",
+    "website_about_url": "https://www.waiv-ftir.com/about",
+    "website_about_title": "About | WAIV FTIR GmbH",
+    "website_about_meta_description": "Learn more about WAIV FTIR GmbH — a bold startup redefining broadband spectroscopy. Meet the team behind Aura and our mission to simplify scientific diagnostics.",
+    "website_about_headings": "Improving Lab-Life By a bit Everyday | OUR MISSION | Driving a Simpler Future | Operational Excellence | WHO WE ARE | EKATERINA | KING | ERIK"
+  },
+  "https://www.valtechcorp.com": {
+    "website_home_url": "https://valtechcorp.com/",
+    "website_home_title": "Home - Valtech Corporation",
+    "website_home_meta_description": "Valtech Corporation has manufactured specialty chemicals for a variety of high-technology markets worldwide for over 30 years. Our VALTRON® brand of epoxy adhesives, specialty molded polymers, and formulated detergents have proven to be a fundamental component within these industries. Statement Regarding Coronavirus Learn More",
+    "website_home_headings": "Valtron ® | SPIE Optifab 2025 | SPIE Photonics West 2025 | Why Wait? Reach out to Valtech",
+    "website_about_url": "https://valtechcorp.com/company/",
+    "website_about_title": "Company - Valtech Corporation",
+    "website_about_meta_description": "Valtech Corporation, a global specialty chemical manufacturer of high-performance products that fulfill diverse market applications for the photovoltaic, semiconductor, computer disk drive, precision optical, ophthalmic lens, medical device and instrumentation, precision metalworking, ceramics, and LED markets. Our extensive line of specialty products includes a broad range of custom-made epoxy adhesives and protective coatings, high-purity aqueous-based […]",
+    "website_about_headings": "Company | About Valtech | Want to Join Our Team?"
+  },
+  "https://www.zeiss.com/spectroscopy": {
+    "website_home_url": "https://www.zeiss.com/spectroscopy/home.html?vaURL=www.zeiss.com/spectroscopy",
+    "website_home_title": "ZEISS Spectroscopy",
+    "website_home_meta_description": "We offer a wide range of optical gratings, spectrometer modules and systems for the best performance in a variety of industries and applications.",
+    "website_home_headings": "Related ZEISS Websites | A broad spectrum of quality ZEISS Spectroscopy | Where we measure to make a difference Applications & Industries | How we measure to make a difference | Upcoming events | You would like to discover more? | Contact & Service | Service & Support",
+    "website_about_url": "https://www.zeiss.com/spectroscopy/about-us.html",
+    "website_about_title": "About Us | Get to know ZEISS Spectroscopy",
+    "website_about_meta_description": "ZEISS Spectroscopy is a holistic expert in UV-NIR solutions, helping customers increase process efficiency by supporting quality assurance requirements.",
+    "website_about_headings": "Related ZEISS Websites | Professional solutions in spectroscopy Taking partnership to the next level | ZEISS Spectroscopy Your expert in holistic solutions | Strength in numbers Manufacturing solutions and sharing successes | Our four defining principles | World leading optical performance | Customized solutions | Long-term partnership"
+  },
+  "https://www.schall-messen.de": {
+    "website_home_url": "https://schall-messen.de/",
+    "website_home_title": "Schall macht Messen für Märkte",
+    "website_home_meta_description": "Mit den international anerkannten Fachmessen für Qualitätssicherung (Control), optische Technologien, Komponenten und Systeme (Optatec), Stanztechnik (Stanztec), Produktions- und Montageautomatisierung (Motek), Klebtechnologie (Bondexpo), Kunststoffverarbeitung (Fakuma), Blechbearbeitung (Blechexpo) und Fügetechnologie (Schweisstec)",
+    "website_home_headings": "Schall macht Messen für Märkte | „ Erfahren sorgen wir dafür, dass die richtigen Anbieter mit den richtigen Zielgruppen zusammenkommen. Und exakt deshalb lassen wir den Tacho weiterfliegen und machen das, wofür wir schon immer brennen: Messen für Märkte . “ | Schall Messen: Neuigkeiten | Kunststoff trifft Charakter – die Fakuma-Story | Langjährige Partnerschaft verlängert: Fakuma setzt auf Messeplatz Friedrichshafen | Die ganze Welt der Kunststoffe trifft sich zur 30. Fakuma im Herbst 2026 | Schall veranstaltet zum zehnten Mal die Blechexpo auf der Messe Stuttgart | Mit voller Kraft ins neue Jahr: Herzlichen Dank für 2024 und auf ein agiles Jahr 2025!",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.tecportoptics.com": {
+    "website_home_url": "https://tecportoptics.com/",
+    "website_home_title": "Tecport Optics » We serve to serve again!",
+    "website_home_meta_description": "Tecport Optics is a leading manufacturer of custom thin-film deposition systems for optics, imaging, medical, and telecom applications.",
+    "website_home_headings": "WELCOME TO TECPORT | How Can We Help You? | Tecport pledges to ensure its customers are the frontrunners in their respective industry. | Process Development | Retrofit and Upgrade | eCommerce | Our Products | We Serve You Wherever You Are",
+    "website_about_url": "https://tecportoptics.com/about/",
+    "website_about_title": "About » Tecport Optics",
+    "website_about_meta_description": "About Tecport Optics Founded in 1997, Tecport Optics designs, manufactures, sells and services state-of-the-art thin film vacuum deposition systems to customers across the globe. Working vigorously with its world-class instrument suppliers, Tecport builds the most reliable, efficient, and flexible coating systems in the world, customized to the meet the technical specifications of a variety of industries. Dedicated",
+    "website_about_headings": "About Tecport Optics | Who We Are | Get In Touch | How May We Serve You? | Important Links | Contact Us | Stay In Touch!"
+  },
+  "https://www.xonox-tec.com": {
+    "website_home_url": "https://www.xonox-tec.com/",
+    "website_home_title": "Home XONOX GmbH Interferometers, Transmission Spheres, Metrology",
+    "website_home_meta_description": "XONOX Technology Fizeau Interferometer, Fizeau Transmission Sphere, Fringe Analysis Software, Measurement System and Edge Painting System for Precision Optics",
+    "website_home_headings": "Interferometer Systems | Measurement Systems | Lens Treatment Systems | Software | CONTACT | Social NETWORK | INFORMATION",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.zeeko.co.uk": {
+    "website_home_url": "https://www.zeeko.co.uk/home/",
+    "website_home_title": "Zeeko LTD – Pioneering Excellence",
+    "website_home_meta_description": "",
+    "website_home_headings": "zeekoltd",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.dmgmori.com": {
+    "website_home_url": "https://uk.dmgmori.com?redirect=i",
+    "website_home_title": "DMG MORI UK",
+    "website_home_meta_description": "DMG MORI is a worldwide leader of cutting machine tools for turning and milling, as well as a comprehensive supplier in additive manufacturing using powder nozzle and powder bed.",
+    "website_home_headings": "DMG MORI UK | Current highlights",
+    "website_about_url": "https://uk.dmgmori.com/company/locations/dmg-mori-uk",
+    "website_about_title": "DMG MORI UK Ltd. - DMG MORI UK",
+    "website_about_meta_description": "DMG MORI UK Ltd.",
+    "website_about_headings": "DMG MORI UK Ltd. | DMG MORI UK Ltd."
+  }
+}

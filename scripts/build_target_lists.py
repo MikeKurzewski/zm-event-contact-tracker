@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import html
+import argparse
 import json
 import random
 import re
@@ -16,8 +17,14 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "data"
-OUTPUT_DIR = ROOT / "output"
+EVENTS_DIR = ROOT / "events"
+DEFAULT_EVENT_SLUG = "hannover-messe"
+DEFAULT_EVENT_NAME = "Hannover Messe"
+DEFAULT_EXPORT_URL = "https://www.hannovermesse.de/en/application/exhibitor-index/csvExport?rt=ex&sort=AZ"
+
+EVENT_DIR = EVENTS_DIR / DEFAULT_EVENT_SLUG
+DATA_DIR = EVENT_DIR / "data"
+OUTPUT_DIR = EVENT_DIR / "output"
 CACHE_PATH = DATA_DIR / "profile_cache.json"
 WEBSITE_CACHE_PATH = DATA_DIR / "website_profile_cache.json"
 RAW_EXPORT_PATH = DATA_DIR / "hannover_exhibitors_raw.csv"
@@ -27,7 +34,7 @@ MANUFACTURERS_PATH = OUTPUT_DIR / "zetamotion_manufacturer_targets.csv"
 PARTNERS_PATH = OUTPUT_DIR / "zetamotion_partner_targets.csv"
 PRIORITY_PATH = OUTPUT_DIR / "zetamotion_priority_meeting_targets.csv"
 
-EXPORT_URL = "https://www.hannovermesse.de/en/application/exhibitor-index/csvExport?rt=ex&sort=AZ"
+EXPORT_URL = DEFAULT_EXPORT_URL
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -563,7 +570,73 @@ COUNTRY_BOOSTS = [
 ]
 
 
+def slugify_event(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", (value or "").strip().lower()).strip("-")
+    if not slug:
+        raise ValueError("Event slug cannot be empty.")
+    return slug
+
+
+def configure_event(event_slug: str, event_name: str, export_url: str) -> None:
+    global EVENT_DIR
+    global DATA_DIR
+    global OUTPUT_DIR
+    global CACHE_PATH
+    global WEBSITE_CACHE_PATH
+    global RAW_EXPORT_PATH
+    global ENRICHED_PATH
+    global RELEVANT_PATH
+    global MANUFACTURERS_PATH
+    global PARTNERS_PATH
+    global PRIORITY_PATH
+    global EXPORT_URL
+
+    normalized_slug = slugify_event(event_slug)
+    EVENT_DIR = EVENTS_DIR / normalized_slug
+    DATA_DIR = EVENT_DIR / "data"
+    OUTPUT_DIR = EVENT_DIR / "output"
+    CACHE_PATH = DATA_DIR / "profile_cache.json"
+    WEBSITE_CACHE_PATH = DATA_DIR / "website_profile_cache.json"
+    RAW_EXPORT_PATH = DATA_DIR / "hannover_exhibitors_raw.csv"
+    ENRICHED_PATH = DATA_DIR / "hannover_exhibitors_enriched.csv"
+    RELEVANT_PATH = OUTPUT_DIR / "zetamotion_relevant_companies.csv"
+    MANUFACTURERS_PATH = OUTPUT_DIR / "zetamotion_manufacturer_targets.csv"
+    PARTNERS_PATH = OUTPUT_DIR / "zetamotion_partner_targets.csv"
+    PRIORITY_PATH = OUTPUT_DIR / "zetamotion_priority_meeting_targets.csv"
+    EXPORT_URL = export_url
+
+    EVENT_DIR.mkdir(parents=True, exist_ok=True)
+    manifest_path = EVENT_DIR / "event.json"
+    if not manifest_path.exists():
+        manifest = {
+            "name": event_name.strip() or normalized_slug.replace("-", " ").title(),
+            "description": "CSV-driven scouting dashboard for booth-side outreach.",
+        }
+        manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build event-scoped scouting CSVs.")
+    parser.add_argument(
+        "--event-slug",
+        default=DEFAULT_EVENT_SLUG,
+        help="Folder slug under events/ for this event.",
+    )
+    parser.add_argument(
+        "--event-name",
+        default=DEFAULT_EVENT_NAME,
+        help="Display name used on the dashboard event picker.",
+    )
+    parser.add_argument(
+        "--export-url",
+        default=DEFAULT_EXPORT_URL,
+        help="Hannover-style CSV export URL to scrape.",
+    )
+    return parser.parse_args()
+
+
 def ensure_dirs() -> None:
+    EVENT_DIR.mkdir(parents=True, exist_ok=True)
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -1109,9 +1182,12 @@ def sort_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
 
 
 def main() -> None:
+    args = parse_args()
+    configure_event(args.event_slug, args.event_name, args.export_url)
     ensure_dirs()
     session = make_session()
 
+    print(f"Building event CSVs in {EVENT_DIR}")
     print("Downloading official Hannover Messe exhibitor export...")
     raw_csv = download_export(session)
     rows = parse_export(raw_csv)

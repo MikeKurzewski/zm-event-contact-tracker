@@ -56,6 +56,23 @@ export type DatasetSummary = {
   targets: ScoutTarget[];
 };
 
+export type ScoutEvent = {
+  slug: string;
+  name: string;
+  description: string;
+  datasets: DatasetSummary[];
+  totalTargets: number;
+  updatedAt: string;
+};
+
+type EventManifest = {
+  name?: string;
+  description?: string;
+};
+
+const EVENTS_DIR = "events";
+const DEFAULT_EVENT_SLUG = "hannover-messe";
+
 const DATASET_FILES: Record<
   DatasetKey,
   { file: string; label: string; description: string }
@@ -86,6 +103,57 @@ const DATASET_FILES: Record<
     description: "Existing CRM accounts that also appear in the Hannover exhibitor data."
   }
 };
+
+function humanizeSlug(value: string) {
+  return value
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function eventDir(eventSlug: string) {
+  return path.join(process.cwd(), EVENTS_DIR, eventSlug);
+}
+
+function eventOutputDir(eventSlug: string) {
+  return path.join(eventDir(eventSlug), "output");
+}
+
+async function pathExists(filePath: string) {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function readEventManifest(eventSlug: string): Promise<EventManifest> {
+  const manifestPath = path.join(eventDir(eventSlug), "event.json");
+  if (!(await pathExists(manifestPath))) {
+    return {};
+  }
+
+  try {
+    return JSON.parse(await fs.readFile(manifestPath, "utf-8")) as EventManifest;
+  } catch {
+    return {};
+  }
+}
+
+async function discoverEventSlugs() {
+  const eventsPath = path.join(process.cwd(), EVENTS_DIR);
+  if (!(await pathExists(eventsPath))) {
+    return [];
+  }
+
+  const entries = await fs.readdir(eventsPath, { withFileTypes: true });
+  return entries
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort((left, right) => left.localeCompare(right, undefined, { sensitivity: "base" }));
+}
 
 function asArray(value: string | undefined) {
   return (value ?? "")
@@ -282,8 +350,12 @@ function mergeTargets(dataset: DatasetKey, targets: ScoutTarget[]) {
   });
 }
 
-async function readCsv(fileName: string) {
-  const filePath = path.join(process.cwd(), "output", fileName);
+async function readCsv(eventSlug: string, fileName: string) {
+  const filePath = path.join(eventOutputDir(eventSlug), fileName);
+  if (!(await pathExists(filePath))) {
+    return [];
+  }
+
   const content = await fs.readFile(filePath, "utf-8");
   return parse(content, {
     columns: true,
@@ -291,10 +363,14 @@ async function readCsv(fileName: string) {
   }) as Record<string, string>[];
 }
 
-export async function loadDatasets(): Promise<DatasetSummary[]> {
+export async function loadDatasets(eventSlug = DEFAULT_EVENT_SLUG): Promise<DatasetSummary[]> {
   const entries = await Promise.all(
     Object.entries(DATASET_FILES).map(async ([key, meta]) => {
-      const rows = await readCsv(meta.file);
+      const rows = await readCsv(eventSlug, meta.file);
+      if (!rows.length) {
+        return null;
+      }
+
       const normalizedTargets = rows.map((row) => normalizeTarget(key as DatasetKey, row));
       const targets = mergeTargets(key as DatasetKey, normalizedTargets);
 
@@ -307,5 +383,47 @@ export async function loadDatasets(): Promise<DatasetSummary[]> {
     })
   );
 
-  return entries;
+  return entries.filter((entry): entry is DatasetSummary => entry !== null);
+}
+
+export async function loadEvent(eventSlug: string): Promise<ScoutEvent | null> {
+  const slugs = await discoverEventSlugs();
+  if (!slugs.includes(eventSlug)) {
+    return null;
+  }
+
+  const manifest = await readEventManifest(eventSlug);
+  const datasets = await loadDatasets(eventSlug);
+  const outputPath = eventOutputDir(eventSlug);
+  let updatedAt = "";
+
+  if (await pathExists(outputPath)) {
+    const outputEntries = await fs.readdir(outputPath);
+    const stats = await Promise.all(
+      outputEntries
+        .filter((fileName) => fileName.endsWith(".csv"))
+        .map((fileName) => fs.stat(path.join(outputPath, fileName)))
+    );
+    const latestMtime = Math.max(0, ...stats.map((stat) => stat.mtimeMs));
+    updatedAt = latestMtime ? new Date(latestMtime).toISOString() : "";
+  }
+
+  return {
+    slug: eventSlug,
+    name: manifest.name || humanizeSlug(eventSlug),
+    description: manifest.description || "",
+    datasets,
+    totalTargets: datasets.reduce((total, dataset) => total + dataset.targets.length, 0),
+    updatedAt
+  };
+}
+
+export async function loadEvents(): Promise<ScoutEvent[]> {
+  const slugs = await discoverEventSlugs();
+  const events = await Promise.all(slugs.map((slug) => loadEvent(slug)));
+  return events.filter((event): event is ScoutEvent => event !== null);
+}
+
+export async function loadDefaultEvent(): Promise<ScoutEvent | null> {
+  return loadEvent(DEFAULT_EVENT_SLUG);
 }

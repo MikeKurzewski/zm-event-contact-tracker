@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import argparse
 import csv
+import json
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -9,12 +11,18 @@ from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
+EVENTS_DIR = ROOT / "events"
+DEFAULT_EVENT_SLUG = "hannover-messe"
+DEFAULT_EVENT_NAME = "Hannover Messe"
 ACCOUNTS_PATH = ROOT / "docs" / "existing-crm-companies" / "accounts.csv"
 LEADS_PATH = ROOT / "docs" / "existing-crm-companies" / "leads.csv"
-EXHIBITORS_PATH = ROOT / "data" / "hannover_exhibitors_enriched.csv"
-OUTPUT_PATH = ROOT / "output" / "crm_hannovermesse_matches.csv"
-ACCOUNTS_OUTPUT_PATH = ROOT / "output" / "crm_hannovermesse_accounts_matches.csv"
-LEADS_OUTPUT_PATH = ROOT / "output" / "crm_hannovermesse_lead_matches.csv"
+EVENT_DIR = EVENTS_DIR / DEFAULT_EVENT_SLUG
+DATA_DIR = EVENT_DIR / "data"
+OUTPUT_DIR = EVENT_DIR / "output"
+EXHIBITORS_PATH = DATA_DIR / "hannover_exhibitors_enriched.csv"
+OUTPUT_PATH = OUTPUT_DIR / "crm_hannovermesse_matches.csv"
+ACCOUNTS_OUTPUT_PATH = OUTPUT_DIR / "crm_hannovermesse_accounts_matches.csv"
+LEADS_OUTPUT_PATH = OUTPUT_DIR / "crm_hannovermesse_lead_matches.csv"
 
 COMPANY_SUFFIXES = {
     "ab",
@@ -76,6 +84,57 @@ GENERIC_BRAND_TOKENS = {
     "technologies",
     "tools",
 }
+
+
+def slugify_event(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", (value or "").strip().lower()).strip("-")
+    if not slug:
+        raise ValueError("Event slug cannot be empty.")
+    return slug
+
+
+def configure_event(event_slug: str, event_name: str) -> None:
+    global EVENT_DIR
+    global DATA_DIR
+    global OUTPUT_DIR
+    global EXHIBITORS_PATH
+    global OUTPUT_PATH
+    global ACCOUNTS_OUTPUT_PATH
+    global LEADS_OUTPUT_PATH
+
+    normalized_slug = slugify_event(event_slug)
+    EVENT_DIR = EVENTS_DIR / normalized_slug
+    DATA_DIR = EVENT_DIR / "data"
+    OUTPUT_DIR = EVENT_DIR / "output"
+    EXHIBITORS_PATH = DATA_DIR / "hannover_exhibitors_enriched.csv"
+    OUTPUT_PATH = OUTPUT_DIR / "crm_hannovermesse_matches.csv"
+    ACCOUNTS_OUTPUT_PATH = OUTPUT_DIR / "crm_hannovermesse_accounts_matches.csv"
+    LEADS_OUTPUT_PATH = OUTPUT_DIR / "crm_hannovermesse_lead_matches.csv"
+
+    EVENT_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    manifest_path = EVENT_DIR / "event.json"
+    if not manifest_path.exists():
+        manifest = {
+            "name": event_name.strip() or normalized_slug.replace("-", " ").title(),
+            "description": "CSV-driven scouting dashboard for booth-side outreach.",
+        }
+        manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Cross-reference CRM companies against an event export.")
+    parser.add_argument(
+        "--event-slug",
+        default=DEFAULT_EVENT_SLUG,
+        help="Folder slug under events/ for this event.",
+    )
+    parser.add_argument(
+        "--event-name",
+        default=DEFAULT_EVENT_NAME,
+        help="Display name used if the event manifest does not exist yet.",
+    )
+    return parser.parse_args()
 
 
 def normalize_name(value: str) -> str:
@@ -273,6 +332,13 @@ def write_output(path: Path, rows: List[Dict[str, str]], fieldnames: List[str]) 
 
 
 def main() -> None:
+    args = parse_args()
+    configure_event(args.event_slug, args.event_name)
+    if not EXHIBITORS_PATH.exists():
+        raise FileNotFoundError(
+            f"{EXHIBITORS_PATH} does not exist. Run build_target_lists.py for this event first."
+        )
+
     rows = build_output_rows()
     if not rows:
         raise RuntimeError("No CRM-to-Hannover matches found.")

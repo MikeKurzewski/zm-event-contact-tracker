@@ -1,7 +1,9 @@
 "use client";
 
 import { useDeferredValue, useEffect, useState } from "react";
+import Link from "next/link";
 import {
+  ArrowLeft,
   Building2,
   ExternalLink,
   Factory,
@@ -12,7 +14,7 @@ import {
   Star
 } from "lucide-react";
 
-import type { DatasetKey, DatasetSummary, ScoutTarget } from "@/lib/targets";
+import type { DatasetKey, DatasetSummary, ScoutEvent, ScoutTarget } from "@/lib/targets";
 import { cn, humanizeLabel } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -44,6 +46,7 @@ import {
 } from "@/components/ui/sheet";
 
 type Props = {
+  event: ScoutEvent;
   datasets: DatasetSummary[];
 };
 
@@ -173,7 +176,7 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
 
         <div className="grid gap-5">
           <DetailSection label="Recommended Angle" value={target.outreachAngle} />
-          <DetailSection label="Official Hannover Overview" value={target.officialOverview} />
+          <DetailSection label="Official Event Overview" value={target.officialOverview} />
           <DetailSection label="Company Website Overview" value={target.companySiteHome} />
           <DetailSection label="About / Company Page" value={target.companySiteAbout} />
           <DetailSection label="Matched Keywords" value={target.matchedKeywords.join(", ")} />
@@ -200,7 +203,7 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
           <Button asChild className="w-full sm:w-auto" variant="outline">
             <a href={target.profileUrl} rel="noreferrer" target="_blank">
               <ExternalLink data-icon="inline-end" />
-              Hannover Profile
+              Event Profile
             </a>
           </Button>
         ) : null}
@@ -217,8 +220,9 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
   );
 }
 
-export function ScoutDashboard({ datasets }: Props) {
-  const [activeDataset, setActiveDataset] = useState<DatasetKey>("priority");
+export function ScoutDashboard({ event, datasets }: Props) {
+  const initialDataset = datasets[0]?.key ?? "priority";
+  const [activeDataset, setActiveDataset] = useState<DatasetKey>(initialDataset);
   const [selectedId, setSelectedId] = useState<string>("");
   const [query, setQuery] = useState("");
   const [selectedHall, setSelectedHall] = useState("");
@@ -227,7 +231,15 @@ export function ScoutDashboard({ datasets }: Props) {
   const deferredQuery = useDeferredValue(query);
   const deferredHall = useDeferredValue(selectedHall);
 
-  const active = datasets.find((dataset) => dataset.key === activeDataset) ?? datasets[0];
+  const active =
+    datasets.find((dataset) => dataset.key === activeDataset) ??
+    datasets[0] ?? {
+      key: "priority" as DatasetKey,
+      label: "No CSV datasets",
+      description: "No dashboard CSVs were found in this event's output folder.",
+      targets: []
+    };
+
   const availableHalls = [...new Set(active.targets.flatMap((target) => target.hallNumbers))].sort(compareHallNumbers);
   const filteredTargets = active.targets.filter(
     (target) => targetMatchesSearch(target, deferredQuery) && targetMatchesHall(target, deferredHall)
@@ -266,6 +278,29 @@ export function ScoutDashboard({ datasets }: Props) {
     };
   }, []);
 
+  if (!datasets.length) {
+    return (
+      <div className="min-h-screen bg-background">
+        <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-8 md:px-6">
+          <Button asChild className="w-fit" variant="outline">
+            <Link href="/">
+              <ArrowLeft data-icon="inline-start" />
+              Events
+            </Link>
+          </Button>
+          <Card className="border-dashed border-border bg-card">
+            <CardHeader>
+              <CardTitle>{event.name}</CardTitle>
+              <CardDescription>
+                No dashboard CSVs were found in this event&apos;s output folder.
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen overflow-x-clip bg-background">
       <div className="mx-auto flex w-full max-w-[1600px] flex-col gap-8 px-4 py-6 md:px-6 md:py-8 xl:px-8">
@@ -273,15 +308,21 @@ export function ScoutDashboard({ datasets }: Props) {
           <CardHeader className="gap-5">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
               <div className="flex max-w-3xl min-w-0 flex-col gap-3">
+                <Button asChild className="w-fit" variant="outline" size="sm">
+                  <Link href="/">
+                    <ArrowLeft data-icon="inline-start" />
+                    Events
+                  </Link>
+                </Button>
                 <CardDescription className="text-xs font-semibold uppercase tracking-[0.28em] text-muted-foreground">
-                  Hannover Messe Scout
+                  Event Scout
                 </CardDescription>
                 <CardTitle className="break-words text-3xl tracking-tight md:text-4xl">
-                  CSV-driven scouting dashboard for booth-side outreach
+                  {event.name}
                 </CardTitle>
                 <p className="break-words text-sm leading-7 text-muted-foreground">
-                  The app reads the generated CSV outputs directly from the repo and surfaces booth numbers,
-                  scoring, target type, and company context in a clean mobile-friendly layout.
+                  {event.description ||
+                    "CSV-driven scouting dashboard for booth-side outreach. The app reads this event's generated CSV outputs directly from the repo."}
                 </p>
               </div>
               <div className="grid w-full min-w-0 gap-3 sm:grid-cols-3 lg:w-auto lg:min-w-[320px]">
