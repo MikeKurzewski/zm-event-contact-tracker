@@ -170,6 +170,20 @@ python scripts/build_optatec_target_lists.py --event-slug optatec --event-name "
 
 That script downloads the official Optatec complete XLSX export, scrapes the paginated exhibitor cards and profiles, enriches company websites where available, scores the rows with Optatec-specific optics/metrology/manufacturing signals, and writes the same dashboard CSV filenames under `events/optatec/`.
 
+AI+ Power 2026 uses a Wix exhibitor list, so it also has a dedicated ingestion script:
+
+```bash
+python scripts/build_aipower_target_lists.py --event-slug ai-plus-power-2026 --event-name "AI+ Power 2026"
+```
+
+For a fast refresh from the official exhibitor list only, without fetching every exhibitor website:
+
+```bash
+python scripts/build_aipower_target_lists.py --event-slug ai-plus-power-2026 --event-name "AI+ Power 2026" --skip-website-enrichment
+```
+
+That script extracts the `2026ExhibitorList` records embedded in the page's Wix warmup data, normalizes booth refs, scores AI solution and infrastructure companies with AI+ Power-specific partner signals, and writes the same dashboard CSV filenames under `events/ai-plus-power-2026/`.
+
 The dashboard does not currently use a database. It is build-time/file-based and intended to stay lightweight.
 
 ## Deployment

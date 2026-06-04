@@ -1,0 +1,778 @@
+{
+  "http://www.innotecoinc.com/en": {
+    "website_home_url": "http://www.innotecoinc.com/en",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "http://www.innotecoinc.com/about",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "http://www.coremail.ai/": {
+    "website_home_url": "http://www.coremail.ai/",
+    "website_home_title": "Coremail | Professional Email Solutions | The Worldwide Leader in Enterprise Cloud Email",
+    "website_home_meta_description": "Coremail offers cloud and on-prem email tailored for business needs in Hong Kong. Protect your business emails with an AI-powered system. Get professional email solutions for your business with secure and efficient services.",
+    "website_home_headings": "Professional Email Solutions for 27 Years | 1 Billion End-Users Trust Coremail | Coremail's Products | {{ item.title }} | About Coremail | {{item.title}} | Coremail's Customers | Why choose Coremail?",
+    "website_about_url": "http://www.coremail.ai/AboutUs.html#formSection",
+    "website_about_title": "About Us | Email Systems | Corporate Mailboxes | Leading Email Solution Service Provider - Coremail",
+    "website_about_meta_description": "Coremail has been focusing on email security and technical services for 26 years and is a leading email solution service provider. We are committed to independent research and development, and our products cover email systems, corporate mailboxes, etc., serving more than 1 billion end users.",
+    "website_about_headings": "COREMAIL WAS FOUNDED IN 1999 | {{item.title}} | COREMAIL CONSISTLY FOCUSING ON EMAIL FOR 26 YEARS"
+  },
+  "http://www.muxic.io": {
+    "website_home_url": "https://www.muxic.io/",
+    "website_home_title": "Muxic Limited | AI Entertainment | Hong Kong",
+    "website_home_meta_description": "MUXIC.IO is brought to you by a team of 15-year industry veterans hailing from the I.T. solutions and Entertainment space. We aim to revolutionise music for the next generation. Hong Kong's first music sharing platform for the next generation of entertainment, empowering creators and their fans to seamlessly immerse themselves into the Music Metaverse and create a new form of user experience and music ecosystem.",
+    "website_home_headings": "VISION | WHO WE ARE | MISSION | Core Team | Kenneth Chau | CEO & FOUNDER | Kenneth Chau is currently serving as the Honorary President of the Hong Kong Science Park Technology Incubation Network (TIN), dedicated to cultivating Hong Kong's innovative technology companies and promoting the development of the technology industry. Under Kenneth’s leadership, TIN has developed into the largest technology start-up organization in Hong Kong with more than five hundred corporate members. | Prof. Francis Lau",
+    "website_about_url": "https://www.muxic.io/",
+    "website_about_title": "Muxic Limited | AI Entertainment | Hong Kong",
+    "website_about_meta_description": "MUXIC.IO is brought to you by a team of 15-year industry veterans hailing from the I.T. solutions and Entertainment space. We aim to revolutionise music for the next generation. Hong Kong's first music sharing platform for the next generation of entertainment, empowering creators and their fans to seamlessly immerse themselves into the Music Metaverse and create a new form of user experience and music ecosystem.",
+    "website_about_headings": "VISION | WHO WE ARE | MISSION | Core Team | Kenneth Chau | CEO & FOUNDER | Kenneth Chau is currently serving as the Honorary President of the Hong Kong Science Park Technology Incubation Network (TIN), dedicated to cultivating Hong Kong's innovative technology companies and promoting the development of the technology industry. Under Kenneth’s leadership, TIN has developed into the largest technology start-up organization in Hong Kong with more than five hundred corporate members. | Prof. Francis Lau"
+  },
+  "http://www.ourlanterns.com": {
+    "website_home_url": "https://www.ourlanterns.com/",
+    "website_home_title": "Lantern AI | 10x Faster Hiring with Conversational AI Interviews",
+    "website_home_meta_description": "Replace initial phone screenings with Lantern's human-like AI agent. Screen candidates 24/7, reduce time-to-hire, and win the talent war.",
+    "website_home_headings": "Hire 10x Faster with Conversational AI Interviews | Play with our interview demo | Building an Authentic and Humane Recruiting Journey | Instant, Human-Like Interviews | Gets curious, just like a real interviewer | Catch Zzz’s while we screen | Skip phone interviews and hire faster | 1 minute setup with zero learning curve",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://aaico.com": {
+    "website_home_url": "https://www.opus.com/",
+    "website_home_title": "Opus by AppliedAI — Automate Regulated Processes with AI",
+    "website_home_meta_description": "Opus is the AI platform for regulated industries. Discover, Build, Run, and Optimise Continuously — all on one platform.",
+    "website_home_headings": "Automate regulated business processes with AppliedAI. | Agents automate your processes. Or reimagine them, AI-first. | Discover, Build, Run, and Optimise. All on one platform. | Discover the possibilities. | Build your workflows. | Run your business. | Optimise continuously. | AI is everywhere except in the bottom line. These teams changed that.",
+    "website_about_url": "https://www.opus.com/news",
+    "website_about_title": "Newsroom — Opus by AppliedAI",
+    "website_about_meta_description": "Press releases, partnership news, and company announcements from AppliedAI — the team building Opus, the agentic process execution platform for regulated industries.",
+    "website_about_headings": "Press releases and company news. | AppliedAI and McKinsey partner to deliver agentic AI to regulated enterprises | All announcements | Firstsource and AppliedAI report real-world results from strategic partnership | AppliedAI and McKinsey partner to deliver agentic AI to regulated enterprises | McKinsey and AppliedAI collaborate to rapidly rewire regulated enterprise processes with AI | Firstsource invests in AppliedAI to power next-generation enterprise automation | Coverage & mentions"
+  },
+  "http://www.iready.com.hk": {
+    "website_home_url": "https://www.iready.com.hk/",
+    "website_home_title": "iReady Hong Kong – Achieve more with ready to go solutions",
+    "website_home_meta_description": "",
+    "website_home_headings": "Empower. Innovate. Transform with iReady | Innovative Business Solutions | Professional Content & Advisory | Technology-Enhanced Learning | Creative AI Solutions | About iReady | Personalized advisory services | Technological solutions to boost operational efficiency",
+    "website_about_url": "https://www.iready.com.hk/about-us/",
+    "website_about_title": "About Us – iReady Hong Kong",
+    "website_about_meta_description": "",
+    "website_about_headings": "About Us | About iReady"
+  },
+  "https://advoo.ai": {
+    "website_home_url": "https://www.advoo.ai/",
+    "website_home_title": "Advoo",
+    "website_home_meta_description": "Advoo landing page rendered with Next.js SSR for main site homepage experience.",
+    "website_home_headings": "From assets to campaign-ready visuals | Advoo absorbs your brand DNA Just like a Advoo top-tier hire | As your business scales Your AI evolves with it | Not an AI tool | Plan social calendars | Translate product specs | Design visuals | Extend to offline",
+    "website_about_url": "https://www.advoo.ai/about",
+    "website_about_title": "Advoo",
+    "website_about_meta_description": "Advoo - An AI-powered/human alike marketing agent that run your brand for you by creating and publishing ads, generating visuals & copyâhelping businesses save time, cut costs, and grow smarter.",
+    "website_about_headings": ""
+  },
+  "https://dawoolppt.com/#/en": {
+    "website_home_url": "https://dawoolppt.com/#/en",
+    "website_home_title": "(주)다울피피티 - TOTAL PRODUCTION SOLUTION COMPANY",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "https://dawoolppt.com/about",
+    "website_about_title": "(주)다울피피티 - TOTAL PRODUCTION SOLUTION COMPANY",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://ece.hku.hk/": {
+    "website_home_url": "https://ece.hku.hk/",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "403 Client Error: Forbidden for url: https://ece.hku.hk/"
+  },
+  "https://dbinsight.ai/": {
+    "website_home_url": "https://dbinsight.ai/",
+    "website_home_title": "DBinsight.ai",
+    "website_home_meta_description": "",
+    "website_home_headings": "Optimize your daily work with Ai tools and agent | Train your own AI for content generation | Image Generation | PO / Invoice Extractions | Business Cards Extractions | Reimbursement Workflow (available very soon) | Your Data, AI-Ready | Why DBinsight.ai",
+    "website_about_url": "https://dbinsight.ai/about.html",
+    "website_about_title": "DBinsight.ai",
+    "website_about_meta_description": "",
+    "website_about_headings": "About Us | About DBinsight.ai | What we're building | Why now | Our Vision & Mission | Our Vision | Our Mission | Where we are today"
+  },
+  "http://setsail.ai/": {
+    "website_home_url": "https://chatbot.com.hk/",
+    "website_home_title": "Set Sail | Agentic AI Platform for Service Automation",
+    "website_home_meta_description": "Set Sail provides an intelligent Agentic AI platform for business service automation across various messaging and voice channels.",
+    "website_home_headings": "Agentic AI Platform for Business Service Automation | Proven ROI Across Every Channel | Trusted by Leading Global Brands | Unlock True Enterprise Automation with Agentic AI. | The Agentic AI Platform | Build Your Intelligent Enterprise with Agentic AI | Contact Us | Our Global Presence",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://coinpost.jp/": {
+    "website_home_url": "https://coinpost.jp/",
+    "website_home_title": "CoinPost｜仮想通貨ビットコインニュース・投資情報",
+    "website_home_meta_description": "国内最大手の仮想通貨（暗号資産）メディア。ビットコイン、イーサリアム、XRPなどのニュース速報・価格情報・買い方・初心者解説を毎日配信。",
+    "website_home_headings": "今注目のコンテンツ",
+    "website_about_url": "https://coinpost.jp/corporate/",
+    "website_about_title": "CoinPost",
+    "website_about_meta_description": "",
+    "website_about_headings": "Our Service | Media | Movie | YouTube | Welfare x Web3.0 | Proof of Concept | NFT広告 | ビットコメント"
+  },
+  "https://ameo.ai": {
+    "website_home_url": "https://ameo.ai/",
+    "website_home_title": "AMEO Connect Limited — AI Products That Actually Work",
+    "website_home_meta_description": "AMEO Connect Limited builds real AI products across enterprise automation, computer vision, gaming, and cultural AI. Based in Hong Kong.",
+    "website_home_headings": "We Build AI Products That Actually Work | Our AI Product Portfolio | AMEO CRM | AMEO Smart WMS | AMEO Roblox Builder | AMEO Fortune | AMEO CLASH VPN | Building the Future of Intelligent Software",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://clawbi.ai": {
+    "website_home_url": "https://clawbi.ai/",
+    "website_home_title": "clawbi - Your Personal Executive AI Assistant",
+    "website_home_meta_description": "clawbi harnesses the power of OpenClaw to deliver a personal AI assistant that manages your life, research, and family with bank-grade security.",
+    "website_home_headings": "The Executive Assistant You've Always Deserved. | A Proactive Partner That Grows With You. | Orchestration & Scheduling | Deep Research & Discovery | Proactive Communication Management | Prepares Your Daily Brief | Organize and Prioritize To-Dos | Summarize a Youtube video",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://foresys.com.hk/": {
+    "website_home_url": "https://foresys.com.hk/",
+    "website_home_title": "FORE Systems Limited | ç§å ç³»çµ±æéå ¬å¸",
+    "website_home_meta_description": "ç§å ç³»çµ±æéå ¬å¸æä¾è¡æ¥­è»ä»¶ç³»çµ±è AI ä¸å¤§å¹³å°ï¼æåæ³å¾ãæ éãä¼æ¥­è³æºç®¡çåæºè½åµæ°æç¨ã",
+    "website_home_headings": "ç§å äººå·¥æºè½ ç³»çµ± FORE Systems Limited | å ¬å¸å®ä½ | ä¸éæ¯å ¬å¸ å ©æ¢ç¢åç·ï¼å ­åä¸»è¦è§£æ±ºæ¹æ¡ | å¾ æç è¡æ¥­ç³»çµ± å° AI åµæ°æç¨ | AI ä¸å¤§å¹³å° | è¡æ¥­è»ä»¶ç³»çµ± | éæ¼æå | FORE Systems Limited",
+    "website_about_url": "https://foresys.com.hk/index.html#company-positioning",
+    "website_about_title": "FORE Systems Limited | ç§å ç³»çµ±æéå ¬å¸",
+    "website_about_meta_description": "ç§å ç³»çµ±æéå ¬å¸æä¾è¡æ¥­è»ä»¶ç³»çµ±è AI ä¸å¤§å¹³å°ï¼æåæ³å¾ãæ éãä¼æ¥­è³æºç®¡çåæºè½åµæ°æç¨ã",
+    "website_about_headings": "ç§å äººå·¥æºè½ ç³»çµ± FORE Systems Limited | å ¬å¸å®ä½ | ä¸éæ¯å ¬å¸ å ©æ¢ç¢åç·ï¼å ­åä¸»è¦è§£æ±ºæ¹æ¡ | å¾ æç è¡æ¥­ç³»çµ± å° AI åµæ°æç¨ | AI ä¸å¤§å¹³å° | è¡æ¥­è»ä»¶ç³»çµ± | éæ¼æå | FORE Systems Limited"
+  },
+  "https://en.brtech.kr/": {
+    "website_home_url": "https://en.brtech.kr/",
+    "website_home_title": "BRTECH",
+    "website_home_meta_description": "E-CO PAINTER automotive painting simulator | Autonomous paint robot — development & manufacturing",
+    "website_home_headings": "Sustainable development for people and the environment | BRTECH to the World | Contact us | Company | Name | Phone | Email | Message",
+    "website_about_url": "https://en.brtech.kr/about",
+    "website_about_title": "About BRTECH > COMPANY > BRTECH",
+    "website_about_meta_description": "About BRTECH",
+    "website_about_headings": "About BRTECH | Innovation Driven by Technology | Driving Change with Advanced Technology | Sustainable Growth | Business Areas | Drone | Battery | Simulator"
+  },
+  "https://fnewmedia.com/": {
+    "website_home_url": "https://fnewmedia.com/",
+    "website_home_title": "Founder New Media",
+    "website_home_meta_description": "",
+    "website_home_headings": "Cross The Border, | Seize The Future. | OUR PARTNERS | What we offer | WE ARE YOUR DIGITAL PARTNER TOWARDS SUCCESS IN CHINA. | What we do best | Hong Kong’s RedNote Experts: Official Partners for Market Entry | AMAP - Official Partners for Digital Navigation",
+    "website_about_url": "https://fnewmedia.com/about/",
+    "website_about_title": "About - Founder New Media",
+    "website_about_meta_description": "About Founder New Media We Connect Your Brand to China. Founder News Media is a leading digital marketing agency specializing in the Chinese market. We help international businesses navigate the complexities of China's digital ecosystem, turning cultural barriers into growth opportunities. Contact Us Trusted by our customers & partners What…",
+    "website_about_headings": "About Founder New Media | We Connect Your Brand to China. | Trusted by our customers & partners | What We Do | Why Partner With Us? | WE ARE YOUR DIGITAL PARTNER TOWARDS SUCCESS IN CHINA. | Expert Insight | 8+ YEARS"
+  },
+  "https://hk.canon/en/business": {
+    "website_home_url": "https://hk.canon/en/business",
+    "website_home_title": "Home - Canon Hong-Kong",
+    "website_home_meta_description": "",
+    "website_home_headings": "Popular Searches | Recommended Products | Featured Products | Popular Categories | Multi-function Devices | Document Scanners | Flatbed Scanners | Cheque Scanners",
+    "website_about_url": "https://hk.canon/en/business/events",
+    "website_about_title": "Corporate Events - Canon Hong Kong",
+    "website_about_meta_description": "Stay informed with event news, announcements, and updates on Canon events.",
+    "website_about_headings": "Popular Searches | Recommended Products | Explore Corporate Events | Check My Booking"
+  },
+  "https://everonlearning.com": {
+    "website_home_url": "https://everonlearning.com/",
+    "website_home_title": "Home | Everon",
+    "website_home_meta_description": "",
+    "website_home_headings": "Moodle LMS 5.0: Unlock the power of AI for your courses | Gibbon SIS: Perfect match with Everon's Moodle LMS | Ignite Learning, Inspire Growth | with Customized Solutions | Our Solutions | Unlock the Power of AI with Moodle LMS | A School Platform created by Educators, for Educators | Take Online Learning With You, Wherever You Go",
+    "website_about_url": "https://everonlearning.com/en/about-everon-learning-solutions",
+    "website_about_title": "About Us | Everon",
+    "website_about_meta_description": "<div class=\"az-element az-section\" style=\"padding-top:100px;padding-bottom:100px;\" data-dxpr-builder-libraries=\"\" data-az-id=\"gbo6fnph3w\" data-azat-pid=\"gb2tokqy5o\" id=\"gb2tokqy5o\" data-azb=\"az_section\" data-az-human-readable=\"Section\" data-az-human-readable-en=\"Section\" data-azat-fluid=\"no\" data-azat-fullheight=\"no\" data-azat-vertical_centering=\"no\" data-azat-box_model=\"000000\" data-azat-style=\"padding-top:100px;padding-bottom:100px;\"><div cla",
+    "website_about_headings": "Moodle LMS 5.0: Unlock the power of AI for your courses | Gibbon SIS: Perfect match with Everon's Moodle LMS | Everon Learning Solutions | Mission | Core Values | Global Reach & Experience | Key Offerings | Educational Philosophy"
+  },
+  "https://dthinkr.ai": {
+    "website_home_url": "https://www.dthinkr.ai/",
+    "website_home_title": "dthinkr",
+    "website_home_meta_description": "Unlock your imagination with AI.",
+    "website_home_headings": "Drive Innovations for Real-World Challenges | Business Use Cases | Democratize Innovation | Frequently Asked Questions | Is dthinkr suitable for beginners without prior knowledge of design thinking? | Can I create a unique business or product proposition with dthinkr? | Who can benefit from using dthinkr? | Is there a free trial available?",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://hkt.com": {
+    "website_home_url": "https://hkt.com/",
+    "website_home_title": "HKT",
+    "website_home_meta_description": "HKT",
+    "website_home_headings": "香港電訊是一個科技解決方案提供者，致力優化網絡連接，成就可持續的未來。 | 投資者關係",
+    "website_about_url": "https://hkt.com/about-hkt/",
+    "website_about_title": "HKT",
+    "website_about_meta_description": "HKT",
+    "website_about_headings": "關於香港電訊 | 董事會及管理層 | 里程碑 | 傳媒中心 | 投資者關係 | 可持續發展"
+  },
+  "https://itrendforce.com/": {
+    "website_home_url": "https://itrendforce.com/",
+    "website_home_title": "iTrendForce – Your AI Ally",
+    "website_home_meta_description": "Professional AI Analytic solutions provider specializing in Causal AI, Building Analysis, and Video Analytics to transform your business operations.",
+    "website_home_headings": "Our Vision | AI Applications For Modern Days Operation Challenges | Transform Your Business with AI-Powered Analytics | Our AI Analytic Solutions | Causal Analyst - Ari | AI Video Analyst | Why Choose iTrendForce | AI Expertise",
+    "website_about_url": "https://itrendforce.com/about",
+    "website_about_title": "iTrendForce – Your AI Ally",
+    "website_about_meta_description": "Professional AI Analytic solutions provider specializing in Causal AI, Building Analysis, and Video Analytics to transform your business operations.",
+    "website_about_headings": "Our Vision | AI Applications For Modern Days Operation Challenges | Transform Your Business with AI-Powered Analytics | Our AI Analytic Solutions | Causal Analyst - Ari | AI Video Analyst | Why Choose iTrendForce | AI Expertise"
+  },
+  "https://fptsoftware.com/": {
+    "website_home_url": "https://fptsoftware.com/",
+    "website_home_title": "FPT Software | Leading in Digital transformation & IT Consulting services",
+    "website_home_meta_description": "FPT Software is a global technology solutions provider, headquartered in Vietnam. The company delivers world-class solutions and services in Smart factories, Digital platforms, RPA, AI, IoT, Cloud, among others.",
+    "website_home_headings": "We are an AI-First Company | Accelerating | Next-Level Transformation | Delivering Breakthrough Speed, Scalability and Quality, Powered by AI | AI Transformation for Chelsea FC | AI for Insurance | AI for Healthcare | A Global AI Transformation Partner",
+    "website_about_url": "https://fptsoftware.com/",
+    "website_about_title": "FPT Software | Leading in Digital transformation & IT Consulting services",
+    "website_about_meta_description": "FPT Software is a global technology solutions provider, headquartered in Vietnam. The company delivers world-class solutions and services in Smart factories, Digital platforms, RPA, AI, IoT, Cloud, among others.",
+    "website_about_headings": "We are an AI-First Company | Accelerating | Next-Level Transformation | Delivering Breakthrough Speed, Scalability and Quality, Powered by AI | AI Transformation for Chelsea FC | AI for Insurance | AI for Healthcare | A Global AI Transformation Partner"
+  },
+  "https://jedtech.hk": {
+    "website_home_url": "https://jedtech.hk/",
+    "website_home_title": "J.E.D Tech",
+    "website_home_meta_description": "",
+    "website_home_headings": "æ·å¦è³è¨ç§æé¡§åæéå ¬å¸ | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å",
+    "website_about_url": "https://jedtech.hk/#about_us",
+    "website_about_title": "J.E.D Tech",
+    "website_about_meta_description": "",
+    "website_about_headings": "æ·å¦è³è¨ç§æé¡§åæéå ¬å¸ | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å | éå¾æ´»å"
+  },
+  "https://kubot.ai/": {
+    "website_home_url": "https://kubot.ai/",
+    "website_home_title": "Kubot AI â Start as One. Scale as Many.",
+    "website_home_meta_description": "Kubot is your AI assistant. Hire your dedicated AI staffs, connect your favourite tools and automate your workflow.",
+    "website_home_headings": "Start as One. Scale as Many. Kubot AI | Work Smarter with Kubot AI | Solo No Longer Means Small | Everything you need, all in one place | Personal to Full Organisation â Knowledge Base | Multi-Agent Collaboration | AI Assistant | AI Designer",
+    "website_about_url": "https://kubot.ai/about",
+    "website_about_title": "Kubot AI â Start as One. Scale as Many.",
+    "website_about_meta_description": "Kubot is your AI assistant. Hire your dedicated AI staffs, connect your favourite tools and automate your workflow.",
+    "website_about_headings": "Start as One. Scale as Many. Kubot AI | Work Smarter with Kubot AI | Solo No Longer Means Small | Everything you need, all in one place | Personal to Full Organisation â Knowledge Base | Multi-Agent Collaboration | AI Assistant | AI Designer"
+  },
+  "https://radari.ai/": {
+    "website_home_url": "https://radari.ai/",
+    "website_home_title": "AI Agency - Radari AI Limited",
+    "website_home_meta_description": "AI solution provider in Hong Kong for Startups and SMEs. We build tailor-made and affordable solutions for you with professional industry experience.",
+    "website_home_headings": "AI Agency in Hong Kong | AI Agency in Hong Kong | AI Agency in Hong Kong | Radari AI Solution Suite | Radari AI Solution Suite | Radari AI Solution Suite | AI Chatbot | AI Chatbot",
+    "website_about_url": "https://radari.ai/about-us",
+    "website_about_title": "Radari AI - About Us",
+    "website_about_meta_description": "Radari AI creates opportunities and shares the success of others with our expertise in advanced AI technology and reliable project experience.",
+    "website_about_headings": "About Us | About Us | About Us | AI belongs to everyone. | AI belongs to everyone. | AI belongs to everyone. | âI am grateful to be an entrepreneur in the beginning of AI era, so that I can help local companies with AI to save costs, make revenues and scale. My goal is always to create opportunities and share the success of others with my expertise in advanced AI technology.â | âI am grateful to be an entrepreneur in the beginning of AI era, so that I can help local companies with AI to save costs, make revenues and scale. My goal is always to create opportunities and share the success of others with my expertise in advanced AI technology.â"
+  },
+  "https://rwa.ltd": {
+    "website_home_url": "https://rwa.ltd/",
+    "website_home_title": "RWA.ltd",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "https://rwa.ltd/about",
+    "website_about_title": "RWA.ltd",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://smert.ai": {
+    "website_home_url": "https://smert.ai/",
+    "website_home_title": "smert.ai | AI Consulting and Robotics",
+    "website_home_meta_description": "End-to-end AI consulting services and revolutionary robotics solutions. 60% labor savings, 24/7 operation, +30% sales growth.",
+    "website_home_headings": "",
+    "website_about_url": "https://smert.ai/about",
+    "website_about_title": "smert.ai | AI Consulting and Robotics",
+    "website_about_meta_description": "End-to-end AI consulting services and revolutionary robotics solutions. 60% labor savings, 24/7 operation, +30% sales growth.",
+    "website_about_headings": ""
+  },
+  "https://pcnc.re.kr/eng/?page_id=40": {
+    "website_home_url": "https://pcnc.re.kr/eng/?page_id=40",
+    "website_home_title": "TOAPING Korean E Library for Easy Online Reading | PCNC",
+    "website_home_meta_description": "Learn Korean globally with PCNC’s TOAPING, featuring an AI-powered E-library, books, workbooks, and tools for effective learning.",
+    "website_home_headings": "TOAPING Global",
+    "website_about_url": "https://pcnc.re.kr/eng/",
+    "website_about_title": "pcnc company",
+    "website_about_meta_description": "pcnc company",
+    "website_about_headings": "A Journey for a Happy World for Everyone | Passion to find a heart-throbbing dream | AI-based personalized recommendations | Reading Service TOAPING | Topic Conversation and Curation with Generative AI | Blockchain-based Historical Distribution | Various expressive activities | Mentoring & Consulting"
+  },
+  "https://nexstride.hk/": {
+    "website_home_url": "https://www.nexstride.hk//",
+    "website_home_title": "NexStride | 企業 AI 自動化與智能代理方案",
+    "website_home_meta_description": "NexStride 提供企業 AI 自動化、智能代理與流程升級方案，協助團隊提升效率與決策能力。",
+    "website_home_headings": "以智能科技，驅動企業未來 | 數字說話，成效看得見 | 企業核心服務體系 | 智能財務系統 FinAuditor | 人力資源與人才分析 HR-Buddy | 智能採購管理 ProcureAgent | 客戶關係與銷售預測 SalesBot | 智能生產排程 OpsMaster",
+    "website_about_url": "https://www.nexstride.hk/about",
+    "website_about_title": "關於 NexStride | AI 企業轉型團隊",
+    "website_about_meta_description": "認識 NexStride 的方法論、技術架構與企業 AI 轉型實踐能力。",
+    "website_about_headings": "重新定義企業智能 | 為什麼選擇 NexStride？ | Cloud Native | 我們的核心優勢 | 極速部署，立竿見影 | 數據驅動，決策無誤 | 伴隨成長的彈性架構 | 企業級資安標準"
+  },
+  "https://tetra.hk": {
+    "website_home_url": "https://tetra.hk",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='tetra.hk', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+  },
+  "https://smelab.com.hk": {
+    "website_home_url": "https://smelab.com.hk/",
+    "website_home_title": "SME Lab 中小企研究所 - 專注中小企及商業資訊，企業創新平台",
+    "website_home_meta_description": "SME Lab 中小企研究所是香港首個「企業創新平台」，擁有60,000名會員！我們為會員提供4大得益：1. 線上資訊如文章、影片、會員優惠等；2. 活動包括線上及線下工作坊、培訓課程等；3. 交流活動如體驗參觀、交流會等；4. 8 大支援服務，涵蓋品牌形象設計、政府資助、數碼科技提升等，全面提升企業可持續發展機會。",
+    "website_home_headings": "精彩頻道 | 精選文章 | 精選影片 | 即將舉行",
+    "website_about_url": "https://smelab.com.hk/about-us",
+    "website_about_title": "關於我們 | SME Lab 中小企研究所",
+    "website_about_meta_description": "SME Lab 中小企研究所 致力於透過專業團隊及豐富的人脈資源，以走在最前線的親身經歷幫助中小企業應對市場挑戰，提升競爭力。 我們匯聚來自不同領域的專家，為中小企業提供八大支援服務，幫助商家掌握全方位的營商策略，穩步發展。 SME Lab 集合資訊、服務及體驗 我們的信念是：要贏，就一起贏。",
+    "website_about_headings": "SME Lab 中小企研究所"
+  },
+  "https://sleekflow.io/": {
+    "website_home_url": "https://sleekflow.io/",
+    "website_home_title": "AI Suite for Revenue-Driving Conversations | SleekFlow",
+    "website_home_meta_description": "Internationally trusted AI omnichannel messaging suite & agents to unlock more revenue. Connect WhatsApp, Instagram, SMS & more to automate campaigns, leads & support.",
+    "website_home_headings": "The AI suite for revenue-driving conversations | AI conversational operation system trusted by B2C brands | AI workforce for your entire customer journey | Your AI agent improves itself | Complete tasks like a real employee | Drive revenue with unbiased insights | From the first click to repeat purchase, a complete AI suite | Unify leads from chats, email, and calls",
+    "website_about_url": "https://sleekflow.io/about",
+    "website_about_title": "About Us - Discover what SleekFlow can do for you | SleekFlow",
+    "website_about_meta_description": "Revolutionise how businesses sell on socials. SleekFlow powers the future of e-commerce and enables full conversational journeys across popular messaging applications like WhatsApp",
+    "website_about_headings": "Revolutionizing business workflows through meaningful conversations | Discover what SleekFlow can do for your Business."
+  },
+  "https://votee.ai/": {
+    "website_home_url": "https://votee.ai/",
+    "website_home_title": "Votee AI | Custom AI Solutions & LLM Development",
+    "website_home_meta_description": "Votee offers custom AI solutions. From custom LLMs to generative AI, we provide the tools you need to build the modern AI stack.",
+    "website_home_headings": "Change Is the Only Constant - Votee's Adaptable AI. | Discover AI Innovations Spotlight | Craft Your Own AI Agent Workflow | LLMs for â Your Local Language | Agentic â RAG Chatbot (including Voice) | Vision Model for â Document Data Extraction | Stay in the Loop | Cookie Settings",
+    "website_about_url": "https://votee.ai/about",
+    "website_about_title": "Votee AI | About Us",
+    "website_about_meta_description": "Learn about Votee's unique journey. We're an AI innovator blending cutting-edge LLM tech with a mindful, flow-driven philosophy.",
+    "website_about_headings": "For us, AI has always been the tool, not the goal. | 12+ | 30+ | 3 | Votee's AI Footprints | The Votee SPARK | Your AI Partner, No Matter Where You Are | Cookie Settings"
+  },
+  "https://native-t.com/": {
+    "website_home_url": "https://native-t.com/",
+    "website_home_title": "Home Page - Native",
+    "website_home_meta_description": "",
+    "website_home_headings": "Is Native secure for sensitive and confidential documents? | How does Native differ from generic AI translators like ChatGPT? | Can I customize translations to match my company's preferred tone and terminology? | What file formats does Native support? | How many files can be translated at the same time? | Is there a free trial? | Can I collaborate with others on the same document?",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.aixsociety.com": {
+    "website_home_url": "https://aixsociety.com/",
+    "website_home_title": "AiX Society - 人工智能應用研究學會 - AiX Society 人工智能應用研究學會",
+    "website_home_meta_description": "Discover AiX Society—Hong Kong’s leading artificial intelligence research hub. Explore AI applications, Dingtalk, events, and insights driving innovation in Asia’s AI community.",
+    "website_home_headings": "Empowering Company’s Intelligent with AI Digital Employees | Thank You | HK01 Enterprise AI Transformation Day 2026 | Dingtalk Wukong Your AI-Native Workspace for Getting Real Work Done | Latest News - HOT OpenClaw | News Catagory | Book (2) | Cyber Insurance (3) | Event (3)",
+    "website_about_url": "https://aixsociety.com/our-team/",
+    "website_about_title": "Our Team - AiX Society 人工智能應用研究學會",
+    "website_about_meta_description": "Join AI Empowerment Society and discover how our expert-led training and tailored LLM solutions can transform your business and career. Start your AI journey",
+    "website_about_headings": "Unlock the Power of | About AiX Society 人工智能應用研究學會 | Our Expert Team | Join Us Today"
+  },
+  "https://www.astri.org/": {
+    "website_home_url": "https://www.astri.org/",
+    "website_home_title": "ASTRI - Hong Kong Applied Science And Technology Research Institute Company Limited",
+    "website_home_meta_description": "Hong Kong Applied Science and Technology Research Institute Company Limited (ASTRI) was founded by the Government of the Hong Kong SAR in 2000 with the mission of enhancing Hong Kong’s competitiveness in technology-based industries through applied research.",
+    "website_home_headings": "Enhancing Hong Kong’s | ‍ ‍Technology Competitiveness | Latest News | Latest Events | Our Key Figures | More about ASTRI",
+    "website_about_url": "https://www.astri.org/about/",
+    "website_about_title": "About ASTRI | ASTRI - Hong Kong Applied Science And Technology Research Institute Company Limited",
+    "website_about_meta_description": "Hong Kong Applied Science and Technology Research Institute (ASTRI) is founded in 2000 by the Government of the Hong Kong Special Administrative Region. As",
+    "website_about_headings": "About ASTRI | Related Pages | More about ASTRI"
+  },
+  "https://www.carryai.co/": {
+    "website_home_url": "https://www.carryai.co/",
+    "website_home_title": "CarryAI VLM AI Analytics",
+    "website_home_meta_description": "Advanced Vision-Language Model AI Solutions for Real-World Applications. Transform visual data into actionable intelligence with cutting-edge VLM technology.",
+    "website_home_headings": "CarryAI - Advanced Vision-Language Model AI Solutions | Vision-Language Model AI for Facility Management, PropTech & Construction Tech | Image Understanding | Facility Management | PropTech | Construction Tech | Why CarryAI's Enterprise VLM Stands Apart | VLM AI in Action",
+    "website_about_url": "https://www.carryai.co/about",
+    "website_about_title": "CarryAI VLM AI Analytics",
+    "website_about_meta_description": "Advanced Vision-Language Model AI Solutions for Real-World Applications. Transform visual data into actionable intelligence with cutting-edge VLM technology.",
+    "website_about_headings": "CarryAI - Advanced Vision-Language Model AI Solutions | Vision-Language Model AI for Facility Management, PropTech & Construction Tech | Image Understanding | Facility Management | PropTech | Construction Tech | Why CarryAI's Enterprise VLM Stands Apart | VLM AI in Action"
+  },
+  "https://www.citictel-cpc.com": {
+    "website_home_url": "https://www.citictel-cpc.com/",
+    "website_home_title": "Your Trusted ICT Solution Partner | CITIC TELECOM CPC",
+    "website_home_meta_description": "Discover our IT support services in Hong Kong. Providing a variety of enterprise-grade solutions of certified excellence, we are the leading company for IT solutions. Improve your business efficiency at the affordable price!",
+    "website_home_headings": "SIEM-MiiND | AI SOC | AI Pentest | AI Databank | SIEM-MiiND | AI SOC | AI Pentest | AI Databank",
+    "website_about_url": "https://www.citictel-cpc.com/en-hk/about-us-partners",
+    "website_about_title": "CITIC TELECOM CPC | CITIC TELECOM CPC",
+    "website_about_meta_description": "Serving multinational enterprises by addressing their specific ICT requirements with highly scalable tailored solutions, comprising TrueCONNECT™ private network solutions, TrustCSI™ information security solutions, DataHOUSE™ cloud data center solutions, and SmartCLOUD™ cloud computing solutions.",
+    "website_about_headings": "Global Ecosystem Partners"
+  },
+  "https://www.codefreesoft.com": {
+    "website_home_url": "https://www.codefreesoft.com/",
+    "website_home_title": "Code Free Soft Ltd",
+    "website_home_meta_description": "Established in 2012, Code Free Soft LTD is a leading enterprise solution and internet technology specialist in Hong Kong. Code Free Soft LTD helps corporate clients expand their market and user community in the internet space through big data analytics, cloud computing services, and cross-platform mobile application projects. Also, Code Free Soft LTD plays a pivotal role in internet revolution. Code Free Soft LTD advocates sustainable and full range services range from consultation, development, analysis, to fully realize online value to corporations. Code Free Soft LTD is now rapidly developing a new division to further develop innovative solutions across various computer / mobile platforms and exploring new business opportunities.",
+    "website_home_headings": "Code Free & Swift! Build Your Business Systems In The Cloud | “ Creating apps on both web and mobile has never been easier. Gain insight anytime, anywhere. ” | Our Services | Cloud Based Business Application Platform | Social Monitoring & Analytics | Mobile & Web-based Application | DIGITAL MARKETING | Our Clients",
+    "website_about_url": "https://www.codefreesoft.com/aboutus.html",
+    "website_about_title": "About Us | Code Free Soft Ltd",
+    "website_about_meta_description": "Established in 2012, Code Free Soft LTD is a leading enterprise solution and internet technology specialist in Hong Kong. It helps corporate clients expand their market and user community in the internet space through big data analytics, cloud computing services, and cross-platform mobile application projects. Also, Code Free Soft LTD plays a pivotal role in internet revolution. It advocates sustainable and full range services range from consultation, development, analysis, to fully realize online value to corporations. It is now rapidly developing a new division to further develop innovative solutions across various computer / mobile platforms and exploring new business opportunities.",
+    "website_about_headings": "Who We Are | Our Clients | Our Partners"
+  },
+  "https://jojo.ventures/": {
+    "website_home_url": "https://jojo.ventures/",
+    "website_home_title": "JoJo Ventures - Leading AI Creative Studio | AI Video Production & Creative Consultancy",
+    "website_home_meta_description": "Pioneering The Future Of Storytelling - We are an AI-Native StudioCrafting Revolutionary Contents for Commercials, Films, TV, and Immersive Experiences.",
+    "website_home_headings": "Pioneering The Future | Of Storytelling | Trusted By | What We Do | Client's Work | The AI Video Partner You Can Trust | Stand Out From The Noise! | Featured On",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.astasys.com/": {
+    "website_home_url": "https://www.astasys.com/en",
+    "website_home_title": "Asta Systems Limited 亞軟科技有限公司",
+    "website_home_meta_description": "Asta Systems Ltd 成立於 2000 年，是備受信賴的 Odoo 銀級合作夥伴，專注於提供具變革性的 Odoo ERP 及先進 AI 解決方案。我們已成功協助數百家客戶，推動涵蓋零售、批發、貿易、專業服務、非政府組織 (NGO)、政府機構、律師事務所、銀行金融與教育等多元行業的數碼創新。",
+    "website_home_headings": "AI + Enterprise Resource Planning System | Odoo caters to all of your requirements | Odoo Certification | ​ | HAVE EVERYTHING YOU NEED | ON ONE PLATFORM | DISCOVER THE MODULES (scroll using the buttons below) | EFFECTIVE SALES MANAGEMENT",
+    "website_about_url": "https://www.astasys.com/en/aboutus",
+    "website_about_title": "aboutUs | Asta Systems Limited",
+    "website_about_meta_description": "",
+    "website_about_headings": "Leading Digital Transformation | Empowering the Future of Business | 值得信賴的 Odoo 銀級夥伴 與數碼創新推手 | Empowering Diverse Industries | Odoo ERP Expertise | Advanced AI Integration | Localized Professional Support | Ready to Embark on Your Digital Transformation Journey?"
+  },
+  "https://www.avcit.com": {
+    "website_home_url": "https://www.avcit.com/",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "10000+ References | High quality pre-sale and after-sale service, more than 10,000 references",
+    "website_about_url": "https://www.avcit.com/about-us/",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "About AVCiT | Why us | What We Provide | Revolutionary Technologies | Research & Development | Core Competitiveness by Focusing on System Development | R&D Management & Patent and Certificate | Manufacture"
+  },
+  "https://united.com.hk": {
+    "website_home_url": "https://www.united.com.hk/",
+    "website_home_title": "MYOB ABSS會計軟件香港官方 | POS零售 CRM軟件 - United Technologies",
+    "website_home_meta_description": "聯訊科技從事 IT solution 超過25年, 是 ABSS MYOB 香港官方服務供應商，自主研發 ABSS MYOB 集成的 CRM, POS, 也是Microsoft和Lenovo的白金伙伴。我們以全面的 IT Solution 及 MYOB會計軟件著稱，為客戶建議最佳和合適科技產品。",
+    "website_home_headings": "我們提供專業的 IT 電腦技術支援服務 | ABSS Add-on Solutions | abss 會計軟件 | 客戶關係管理系統及市場推廣 CRM | 零售管理系統 POS | IT 外判 電腦技術支援 | 最全面的會計軟件技術支援 | 全方位 資料防護優化方案",
+    "website_about_url": "https://www.united.com.hk/about-us/",
+    "website_about_title": "United Technologies 聯訊科技 - 關於我們 - ABSS MYOB 會計軟件",
+    "website_about_meta_description": "United Technologies 聯訊科技(國際)有限公司成立於1994年, 致力為客戶提供資訊科技服務和方案。我們的專業團隊主力服務中小企。我們銷售及教學 MYOB 會計軟件, POS零售系統, CRM系統, 公司電腦,伺服器等, 同時也提供外判 電腦技術支援服務",
+    "website_about_headings": "關於我們 | 我們的服務 | 培訓 | 顧問服務 | IT 電腦技術支援 | 度身訂製 Add-ons Solution | 企業醫生｜數碼轉型與ESG專家 | United Technologies (Int’l) Limited Technology Principals"
+  },
+  "https://www.connectar.group/": {
+    "website_home_url": "https://www.connectar.group/",
+    "website_home_title": "HOME | ConnectAR",
+    "website_home_meta_description": "",
+    "website_home_headings": "4+ | 30+ | 8+ | STORYTELLAR | OUR PRODUCTS | snappop | Our latest innovation - 3D Immersive Kiosk | THE TEAM",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.hkwanlong.com": {
+    "website_home_url": "https://www.hkwanlong.com/",
+    "website_home_title": "Coming Soon",
+    "website_home_meta_description": "",
+    "website_home_headings": "hkwanlong.com",
+    "website_about_url": "https://www.hkwanlong.com/about",
+    "website_about_title": "Coming Soon",
+    "website_about_meta_description": "",
+    "website_about_headings": "hkwanlong.com"
+  },
+  "https://www.enjoyneer.com.hk": {
+    "website_home_url": "https://www.enjoyneer.com.hk/",
+    "website_home_title": "Enjoyneer 工程思 | STEM | Hong Kong",
+    "website_home_meta_description": "Enjoyneer是全港首間以工程學主題之教育機構，以工程教育 (Engineering Education) 增進青少年及小朋友對科技的認識，讓同學們透過有趣的活動了解工程師及產品研發的工作，學習從書本上學到的知識應用於日常生活當中，從而鼓勵同學主動學習，並訓練他們解決問題的能力和團隊合作精神。課程由專業團隊設計，包括工程系博士、工程師、註冊教師等，確保教學質素。",
+    "website_home_headings": "YOUR STEAM EDUCATION PARTNER | What We Offer | STEAM興趣班 | 教師培訓 | 專案指導 | 課程設計 | 重點課程 | Switch",
+    "website_about_url": "https://www.enjoyneer.com.hk/about-us",
+    "website_about_title": "關於我們 | Enjoyneer",
+    "website_about_meta_description": "",
+    "website_about_headings": "關於工程思 | Dr. Leo LEUNG 梁家傑博士 | Jonathan HUI 許偉樂先生 | Biana LAU 劉思雅老師 | Cyrus Lam 林海揚先生 | 關於團隊"
+  },
+  "https://www.everidge.co.jp/company/ja": {
+    "website_home_url": "https://www.everidge.co.jp/company/ja",
+    "website_home_title": "COMPANY - エバーリッジ株式会社",
+    "website_home_meta_description": "「デジタル」×「リアル」の力で、 イベントマーケティングに変革を起こす。",
+    "website_home_headings": "",
+    "website_about_url": "https://www.everidge.co.jp/home/ja",
+    "website_about_title": "エバーリッジ株式会社",
+    "website_about_meta_description": "「デジタル」×「リアル」の力で、 イベントマーケティングに変革を起こす。",
+    "website_about_headings": ""
+  },
+  "https://www.gftechnovation.com.hk": {
+    "website_home_url": "https://www.gftechnovation.com.hk/",
+    "website_home_title": "GF Technovation",
+    "website_home_meta_description": "GF Technovation, a Guardforce Company, aims at enriching the society and people’s lives by innovative ideas and technology applications.",
+    "website_home_headings": "",
+    "website_about_url": "https://www.gftechnovation.com.hk/en/our-company",
+    "website_about_title": "Our Company - GF Technovation",
+    "website_about_meta_description": "GF Technovation, a Guardforce Company, aims at enriching the society and people’s lives by innovative ideas and technology applications.",
+    "website_about_headings": "Our Company"
+  },
+  "https://www.iflytek.com": {
+    "website_home_url": "https://www.iflytek.com/en/",
+    "website_home_title": "World-leading AI Solution Provider of Language Exchange & Machine Learning-iFLYTEK",
+    "website_home_meta_description": "World-leading AI Solution Provider of Language Exchange & Machine Learning",
+    "website_home_headings": "World-leading AI Solution Provider of Language Exchange & Machine Learning-iFLYTEK | News and Events",
+    "website_about_url": "https://www.iflytek.com/en/about-us/about.html",
+    "website_about_title": "iFLYTEK-iFLYTEK",
+    "website_about_meta_description": "iFLYTEK",
+    "website_about_headings": "Create a Better World with AI | To Listen and Speak, Understand and Think | Our History"
+  },
+  "https://www.innox.ai": {
+    "website_home_url": "https://www.innox.ai/",
+    "website_home_title": "INNOX AI | Your AI Innovation Partner",
+    "website_home_meta_description": "InnDesk AI marketplace for finance & logistics ops, CozyOffice 2.5D visual AI office, and enterprise agent workspaces from INNOX AI.",
+    "website_home_headings": "One-stop Solution For Tailored AI Services | Your AI Innovation Partner | Automate workflows with tailor-made AI Agent | Transform manual processes into instant AI actions | Map your AI transformation with an expert strategic blueprint | Cloud-hosted AI Agent platform built in a 2.5D virtual office UI | Your dedicated AI and data science consultancy | 10+ Industries",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.i-gen.ai/": {
+    "website_home_url": "https://www.i-gen.ai/",
+    "website_home_title": "【香港第一 Ai 工具平台】 i-gen: 節省80%成本，提升200%效率 | Ai Marketing 全自動化",
+    "website_home_meta_description": "正在尋找最強 Ai 工具？i-gen 是專為香港中小企設計的 Ai Marketing 行銷自動化平台。一站式解決 AI SEO、多渠道推廣及廣告投放，實證助200+企業節省80%成本、提升200%效率。立即預約免費諮詢，體驗「1人=4人」的威力。",
+    "website_home_headings": "想擁有專業的Marketing 團隊？ | 用 i-gen，一個人就做到 市場調查＋規劃＋內容製作＋SEO＋設計＋廣告＋發佈＋成效報告 | 你是否遇到這些問題？ | 請SEO公司太貴 （$10K–30K/月） | 內容寫不出來 | 社交媒體 沒時間更新 | 網站流量停滯 | 請人做行銷 成本太高",
+    "website_about_url": "https://www.i-gen.ai/category/company-trends/",
+    "website_about_title": "〈公司動向〉彙整頁面 - i-Gen",
+    "website_about_meta_description": "",
+    "website_about_headings": "分類: 公司動向 | CEO 陳偉傑與數碼港及文青局帶領香港青年人參觀騰訊 | 《AI Marketing 實戰講座》 | Your Marketing Partner | 頁面 | 分類"
+  },
+  "https://www.hexcubes.com/": {
+    "website_home_url": "https://www.hexcubes.com/",
+    "website_home_title": "立方汇",
+    "website_home_meta_description": "企业服务 十年海外人才服务经验 打造顶级人才服务体验 了解更多 立方资讯 掌握第一手资讯",
+    "website_home_headings": "立方匯 人才链接一切 | HEX CUBES | 企业服务 | 我们知道，您需要的是真实且有力量的支持 | 我们的合作伙伴 | 联系我们 | 联系我们",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.kuailutech.com/": {
+    "website_home_url": "https://www.kuailutech.com/en/",
+    "website_home_title": "Home - Kuailu Technology",
+    "website_home_meta_description": "Streamline your enterprise with Kuailu Tech. Our all-in-one AI engine connects departments for peak efficiency, complete data security, and total traceability.",
+    "website_home_headings": "Login | Kuailu | AI Intelligent Office | The smart management platform that empowers businesses to decide with intelligence, speed, and precision | 7 Core Product Scenario | Solutions | The All-in-One AI Office Platform — Built for Rapid Customization | Customer Relationship Management",
+    "website_about_url": "https://www.kuailutech.com/en/about-us/",
+    "website_about_title": "About Us - Kuailu Technology",
+    "website_about_meta_description": "Kuailu AI Intelligent Office The smart management platform that empowers businesses to decide with intelligence, speed, and precision About Kuailu Technology One platform for smart work, collaboration, and governed data — engineered for global teams that need speed without sacrificing auditability or control. Kuailu Intelligent Office is our global product identity: a one-stop AI office […]",
+    "website_about_headings": "Login | Kuailu | AI Intelligent Office | The smart management platform that empowers businesses to decide with intelligence, speed, and precision | One platform for smart work, collaboration, and governed data — engineered for global teams that need speed without sacrificing auditability or control. | Kuailu Intelligent Office is our global product identity: a one-stop AI office system that connects worksheets, workflows, meetings, and AI experts on one tenant-aware foundation. | With AI agents as the engine, we integrate HR, finance, procurement, administration, and CRM so teams spend less time switching tools and more time on outcomes — enterprise-grade security and traceability by design. | Two minutes on how Kuailu Cloud, Meeting, and AI Expert fit together — from daily operations to executive-ready visibility."
+  },
+  "https://www.maxims.com.hk/zh-hk/contact-us": {
+    "website_home_url": "https://www.maxims.com.hk/zh-hk/contact-us",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "403 Client Error: Forbidden for url: https://www.maxims.com.hk/zh-hk/contact-us"
+  },
+  "https://www.ln.edu.hk/orkt": {
+    "website_home_url": "https://www.ln.edu.hk/orkt",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "403 Client Error: Forbidden for url: https://www.ln.edu.hk/orkt"
+  },
+  "https://www.logitech.com/zh-hk": {
+    "website_home_url": "https://www.logitech.com/zh-hk",
+    "website_home_title": "ç¾ æé¦æ¸¯",
+    "website_home_meta_description": "ç¼æç¾ æé¦æ¸¯çåµæ°ä¸çä¸¦è³¼è²· MXãæ©æ¢°å¼éµç¤ãç¡ç·æ»é¼ ãç¶²è·¯æå½±æ©ãè³æ©ï¼å«éº¥å é¢¨ï¼ãè»é«ç­ç³»åç¢å",
+    "website_home_headings": "è§¸åæªä¾ï¼ææ§èªå¦ | è§¸åæªä¾ï¼ææ§èªå¦ | POPï¼å¼é é¢¨å° | å¨èé©ååå §å·¥ä½ | å¼·å¤§çä¾¿ææ§ãé©ç¨æ¼å¹³æ¿é»è ¦ã | éå°æ°¸çºç¶ççè¨­è¨ | è¬äºé½éè¦ | æ¨ç±¤å¾éè¦",
+    "website_about_url": "https://www.logitech.com/zh-hk/about",
+    "website_about_title": "éæ¼ç¾ æ - æåçæ äºåæåçå°æ³¨éé»",
+    "website_about_meta_description": "ç¾ ææ¯ä¸å®¶å¤åçå ¬å¸ï¼è´åæ¼è¨­è¨ééé³æ¨ãéæ²ãè¦è¨åéç®ï¼å°äººåé£çµå¨ä¸èµ·çç¢åã",
+    "website_about_headings": "éæ¼ Logitech | éæ¼ Logitech | éæ¼æå | ç­è§£æåçé å°åé | Hanneke Faber | Guy Gecht | Matteo Anversa | æåçæ­·å²"
+  },
+  "https://www.eduhk.hk/KnowledgeTransfer/en/index.html": {
+    "website_home_url": "https://www.eduhk.hk/KnowledgeTransfer/en/index.html",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='www.eduhk.hk', port=443): Max retries exceeded with url: /KnowledgeTransfer/en/index.html (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002C897D98910>: Failed to resolve 'www.eduhk.hk' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "https://www.hp.com/hk": {
+    "website_home_url": "https://www.hp.com/hk-zh/home.html",
+    "website_home_title": "筆記簿型電腦、桌面電腦、打印機等 | HP® 惠普香港",
+    "website_home_meta_description": "在官方 HP® 網站瞭解有關 HP 打印機、筆記簿型電腦、桌面電腦等",
+    "website_home_headings": "Your Cart is Empty | 先進人工智能 性能，配合長達 34 小時的電池續航時間 | 全新 HP OmniBook 5 14\" 人工智能個人電腦 | 先進人工智能 性能，配合長達 34 小時的電池續航時間 | 全新 HP OmniBook 5 14\" 人工智能個人電腦 | HP Poly 耳機咪高峰 | HP Poly 耳機採用頂級技術，讓你隨時隨地都能聽到和被聽到，出色的清晰度令你不受干擾 | 迎接成功新時代",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.nulink.com.hk": {
+    "website_home_url": "https://nulink.com.hk/",
+    "website_home_title": "Nulink Solutions | Enterprise IT Services & Metis AI | Hong Kong",
+    "website_home_meta_description": "Nulink Solutions is a leading IT service provider in Hong Kong offering Microsoft 365, Azure, cloud migration, network security, and Metis AI - enterprise private AI infrastructure.",
+    "website_home_headings": "",
+    "website_about_url": "https://nulink.com.hk/about",
+    "website_about_title": "Nulink Solutions | Enterprise IT Services & Metis AI | Hong Kong",
+    "website_about_meta_description": "Nulink Solutions is a leading IT service provider in Hong Kong offering Microsoft 365, Azure, cloud migration, network security, and Metis AI - enterprise private AI infrastructure.",
+    "website_about_headings": ""
+  },
+  "https://www.odoo.com": {
+    "website_home_url": "https://www.odoo.com/",
+    "website_home_title": "Open Source ERP and CRM | Odoo",
+    "website_home_meta_description": "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.",
+    "website_home_headings": "All your business on one platform. | Simple, efficient, yet affordable! 18.00 GBP / month for ALL apps | Level up your quality of work | Optimized for productivity | Native AI across all your business | Enterprise software done right . | Unleash your growth potential | Odoo Experience on YouTube",
+    "website_about_url": "https://www.odoo.com/industries/corporate-gifts",
+    "website_about_title": "Corporate Gifts | Industry | Odoo",
+    "website_about_meta_description": "",
+    "website_about_headings": "The best software to power your Corporate Gifts | No code Mode | Mix & Match Magic | Treat yourself to a time-saving quotation template | Wrap up every opportunity | All the features done right . | One need , one app . | Unleash your growth potential"
+  },
+  "https://www.omnichat.ai/hk/": {
+    "website_home_url": "https://www.omnichat.ai/hk/",
+    "website_home_title": "AI-Native Agentic Customer Experience Platform｜Omnichat HK",
+    "website_home_meta_description": "Omnichat: The leading AI-Native Agentic Customer Experience Platform and Social CRM with Omni AI. Use Agentic AI to build automated customer journeys for WhatsApp, IG, and FB without coding. Generate end-to-end workflows and assets in seconds to scale revenue and engagement.",
+    "website_home_headings": "The #1 AI Social CRM | for Sales, Marketing & Customer Support | Omni AI by Omnichat | Omnichannel Conversational AI Platform Trusted by 5,000+ Brands Worldwide | Why Omnichat ？ | Official WhatsApp Business Solution Provider (BSP), Meta Partner & LINE Tech Partner | Scale Revenue and Engagement for Marketing Automation & Support | Build High-Converting Chat Campaigns in Seconds with Agentic AI",
+    "website_about_url": "https://www.omnichat.ai/hk/",
+    "website_about_title": "AI-Native Agentic Customer Experience Platform｜Omnichat HK",
+    "website_about_meta_description": "Omnichat: The leading AI-Native Agentic Customer Experience Platform and Social CRM with Omni AI. Use Agentic AI to build automated customer journeys for WhatsApp, IG, and FB without coding. Generate end-to-end workflows and assets in seconds to scale revenue and engagement.",
+    "website_about_headings": "The #1 AI Social CRM | for Sales, Marketing & Customer Support | Omni AI by Omnichat | Omnichannel Conversational AI Platform Trusted by 5,000+ Brands Worldwide | Why Omnichat ？ | Official WhatsApp Business Solution Provider (BSP), Meta Partner & LINE Tech Partner | Scale Revenue and Engagement for Marketing Automation & Support | Build High-Converting Chat Campaigns in Seconds with Agentic AI"
+  },
+  "https://www.ourlanterns.com": {
+    "website_home_url": "https://www.ourlanterns.com/",
+    "website_home_title": "Lantern AI | 10x Faster Hiring with Conversational AI Interviews",
+    "website_home_meta_description": "Replace initial phone screenings with Lantern's human-like AI agent. Screen candidates 24/7, reduce time-to-hire, and win the talent war.",
+    "website_home_headings": "Hire 10x Faster with Conversational AI Interviews | Play with our interview demo | Building an Authentic and Humane Recruiting Journey | Instant, Human-Like Interviews | Gets curious, just like a real interviewer | Catch Zzz’s while we screen | Skip phone interviews and hire faster | 1 minute setup with zero learning curve",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.nespresso.com/pro/hk/en": {
+    "website_home_url": "https://www.nespresso.com/pro/hk/en",
+    "website_home_title": "Nespresso Professional Hong Kong",
+    "website_home_meta_description": "Immerse yourself in the online world of Nespresso! You can conveniently order your Grands Crus, machines and accessories online.",
+    "website_home_headings": "Nespresso Professional Hong Kong | Why become a customer | How to become a customer? | COMPACT AND STYLISH COFFEE MACHINE ZENIUS AND GEMINI ARE AVAILABLE ONLINE | OTHER COFFEE MACHINE SALES ARE HANDLED BY OUR DEDICATED SALES TEAM | Footer",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.prudential.com.hk": {
+    "website_home_url": "https://www.prudential.com.hk/tc/",
+    "website_home_title": "保誠香港：提供人壽、醫療、危疾、退休等保險產品 | 保誠香港",
+    "website_home_meta_description": "保誠香港提供多元化的理財策劃服務及產品，包括人壽保險、退休方案、健康及醫療保障、一般保險及企业僱員福利。立即了解我們的產品。",
+    "website_home_headings": "保誠全方位財富規劃 | 保誠健康方案 | 快速找到 所需資訊 | 繳付人壽保險 | 探索myPrudential功能 | 管理保單 | 了解索償方法​ | 醫療費用直付服務及醫療網絡",
+    "website_about_url": "https://www.prudential.com.hk/tc/about-us/our-company/",
+    "website_about_title": "關於保誠 | 保誠香港",
+    "website_about_meta_description": "認識保誠香港自1964年成立以來的發展歷程，見證數個十年的堅定承諾及創新成就，守護每個人生、誠就每個未來。",
+    "website_about_headings": "集團歷史 | 保誠的宗旨： 保障每個人生， 誠就每個未來。 | 保誠集團成員 | 信貸評級 | 集團歷史 | 保誠集團於1848年成立，主要為有貸款的專業人士提供人壽保險。保誠集團發展迅速，在20世紀初期已為當時英國三分之一的人口提供保障。 | 關注我們"
+  },
+  "https://www.redix.jp": {
+    "website_home_url": "https://www.redix.jp/",
+    "website_home_title": "fBbNXeNmW[",
+    "website_home_meta_description": "",
+    "website_home_headings": "fBbNXeNmW[Íu´®vuÖvu©Á±¢¢vðRZvgÉ¤iðéæJ­µsêÅuhWJ·éQ[ANZT[[J[Å·B | m©ÈZpÆ©RÈ­z@Vµ¢CtX^Cð²ñÄµÜ· | TOPICS | NEWS V îñ | irQ[V | oi[Xy[X | fBbNXeNmW[O[v | TuirQ[V",
+    "website_about_url": "https://www.redix.jp/concept.html",
+    "website_about_title": "REDIXÉÂ¢Ä - fBbNXeNmW[",
+    "website_about_meta_description": "",
+    "website_about_headings": "fBbNXeNmW[Íu´®vuÖvu©Á±¢¢vðRZvgÉ¤iðéæJ­µsêÅuhWJ·éQ[ANZT[[J[Å·B | fBbNXÉÂ¢Ä ABOUT US | uhRZvg@-- Concept -- | qXg[@-- History -- | rW@--Vision-- | ~bV@--Mission-- | irQ[V | oi[Xy[X"
+  },
+  "https://www.questxr.ai": {
+    "website_home_url": "https://www.questxr.ai/",
+    "website_home_title": "QuestXR - çµå AI è XR çéæ²åµä½å¹³å°ã",
+    "website_home_meta_description": "ç¡éç·¨ç¢¼ï¼è¼é¬æé æ²æµ¸å¼æå­¸ãå°å¯¶ãåéæ´»åèäºåé«é©ã",
+    "website_home_headings": "",
+    "website_about_url": "https://www.questxr.ai/about",
+    "website_about_title": "QuestXR - çµå AI è XR çéæ²åµä½å¹³å°ã",
+    "website_about_meta_description": "ç¡éç·¨ç¢¼ï¼è¼é¬æé æ²æµ¸å¼æå­¸ãå°å¯¶ãåéæ´»åèäºåé«é©ã",
+    "website_about_headings": ""
+  },
+  "https://www.presslogic.ai/": {
+    "website_home_url": "https://www.presslogic.ai/",
+    "website_home_title": "AI Ad-Tech & Media Solutions (2026) | PressLogic",
+    "website_home_meta_description": "For brands & publishers seeking growth: leverage our AI Ad-Tech ecosystem and data-driven media solutions to maximize ROI. Discover PressLogic today.",
+    "website_home_headings": "Our Ad-Tech Ecosystem | We're Not Just Blowing. We're Endorsed. | OUR BRANDS | ROI-focused Ad-Tech | Performance-driven Solution | Digital Media & Data-driven Content Strategy | Digital Media Asset | 5.4M+",
+    "website_about_url": "https://www.presslogic.ai/about",
+    "website_about_title": "About Us: Our Mission & Story (2025) | PressLogic",
+    "website_about_meta_description": "Discover our story, our technology, and our mission to revolutionize the ad-tech and media industry with AI-driven solutions. Learn more about PressLogic.",
+    "website_about_headings": "OUR MISSION | 1,000+ innovative projects every year since 2016, with impressive results for our clients. | Across Asia and Beyond: 6 Professional Services Offered Across 7 Markets | OUR VISION | Pioneer the | Future of Ad-Tech | through PressLogic’s diverse media brands, cutting-edge Ad-Tech products, visionary thinking and data-driven solutions | Our Team"
+  },
+  "https://www.paradm.com": {
+    "website_home_url": "https://www.paradm.com/eng/",
+    "website_home_title": "ParaDM",
+    "website_home_meta_description": "",
+    "website_home_headings": "ABOUT PARADM | Trusted by Global Brands | Power Tools | Featured case studies | what’s new | Hear from our customers | A smarter way to share files and track usage. Learn more | Products",
+    "website_about_url": "https://www.paradm.com/eng/AboutUs.aspx",
+    "website_about_title": "ParaDM - the information management solution provider in Hong Kong. | About Us",
+    "website_about_meta_description": "",
+    "website_about_headings": "Company | About Us | Our Mission | Our Philosophy | Company | About Us | Power Tools and Plug-ins | A smarter way to share files and track usage. Learn More"
+  },
+  "https://www.sds-techglobal.com/": {
+    "website_home_url": "https://www.sds-techglobal.com/",
+    "website_home_title": "SDS-Techglobal Limited - New-norm Modern Workplace",
+    "website_home_meta_description": "SDS-TechGlobal Limited (SDS) focus on delivering New-norm modern workplace, Smart Office, Unified Communications, Development and IOT …",
+    "website_home_headings": "SDS-Techglobal | Microsoft Teams | Office Solutions | Robotic Process Automation | Virtual Onboarding | Conference Room Design | About SDS | Member of",
+    "website_about_url": "https://www.sds-techglobal.com/about",
+    "website_about_title": "About — SDS-Techglobal Limited New-norm Modern Workplace",
+    "website_about_meta_description": "",
+    "website_about_headings": "About SDS | Visit Us | SDS-Techglobal"
+  },
+  "https://www.shure.com/en-ASIA": {
+    "website_home_url": "https://www.shure.com/en-ASIA",
+    "website_home_title": "Shure: Microphones, Wireless microphones, in-ear monitoring, earphones, headphones - Shure Asia",
+    "website_home_meta_description": "Leading global manufacturer of audio and collaboration technology, including microphones, wireless systems, conference room solutions and more.",
+    "website_home_headings": "The Bar That Removes Barriers | STUDIO SOUND IN YOUR POCKET | SLX-D+ Wireless | An Instant Audio Upgrade For Your Phone | Turn the Table | Engineered for Accuracy. Built for Engineers. | Shure Insights | Axient® Digital PSM Transmission Modes: Versatile Solutions for Every Application",
+    "website_about_url": "https://www.shure.com/en-ASIA/about-us/100years",
+    "website_about_title": "100 Years of Extraordinary Sound - Shure Asia",
+    "website_about_meta_description": "",
+    "website_about_headings": "100 years of extraordinary sound | 1925 – 1949 – The Beginning​ | Shure Radio Company | Model 44 Condenser | The Unidyne® Model 55 | Military Grade | 1950 – 1979 – The Growth​ | Phonograph Cartridges"
+  },
+  "https://www.yeeflow.com": {
+    "website_home_url": "https://www.yeeflow.com/",
+    "website_home_title": "Yeeflow | Governed Enterprise AI Application and Execution Platform",
+    "website_home_meta_description": "Build business applications faster, use AI inside workflows and dashboards, and execute governed actions across data, services, and external systems with Yeeflow.",
+    "website_home_headings": "Build faster with AI. Run real business work with control. | AI is part of the platform model, not a separate chatbot | AI-powered build | AI-powered use | AI-powered execution | Build, assist, act, connect, govern, and reuse | AI Builder | Copilot",
+    "website_about_url": "https://www.yeeflow.com/partners",
+    "website_about_title": "Yeeflow Partner Program",
+    "website_about_meta_description": "Explore the Yeeflow partner ecosystem, find trusted implementation partners, or apply to become a Yeeflow partner.",
+    "website_about_headings": "Grow with Yeeflow's partner ecosystem | Choose how you want to work with Yeeflow | Find a trusted Yeeflow partner | Become a Yeeflow partner | A partner ecosystem built for solution delivery | Consulting Partners | Implementation Partners | Technology Partners"
+  },
+  "https://www.socif.co/": {
+    "website_home_url": "https://www.socif.co/",
+    "website_home_title": "SOCIF - 為智慧城市出一分力 (香港交通、出行方案)",
+    "website_home_meta_description": "SOCIF 的專業團隊為智慧城市提供AIoT、智能交通運輸、人工智能、大數據分析、邊緣運算、物聯網及地理資訊系統相關的解決方案",
+    "website_home_headings": "智慧出行 物聯網方案 | SOCIF 為各行業提供人工智能物聯網方案，提升用戶出行體驗，優化商業數據收集分析，減少營運成本 | 行業方案 | 以科技帶動 城市交通脈絡 | 智慧出行項目",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  },
+  "https://www.weexpand.co": {
+    "website_home_url": "https://www.weexpand.co/",
+    "website_home_title": "Hire AI Agent for Lead Generation | WeExpand Agentic AI Services",
+    "website_home_meta_description": "Hire AI agent for lead generation with WeExpand Agentic AI Services. Automate and optimize your sales pipeline today!",
+    "website_home_headings": "Deploy AI Agents for your Business | We design and deploy AI agents for business process automation, specializing in Sales & Marketing for business growth. | Talk to our AI Agent and Schedule a meeting with you",
+    "website_about_url": "https://www.weexpand.co/aboutus",
+    "website_about_title": "WeExpand | Agentic AI",
+    "website_about_meta_description": "Elevate your B2B growth with WeExpand. Master AI Sales Prospecting, Marketing Content Strategy, KYC and AI lead generation in Hong Kong. We automate sales and market research via RPA.",
+    "website_about_headings": "\"We don't just advise; we execute. Our mission is to empower companies to scale sustainably in competitive landscapes by integrating enterprise sales methodologies with cutting-edge Agentic AI Sales & Marketing automation\" | Who are WE? Pioneering Agentic AI-Driven Market Expansion | Mr. Raymond Mak Our Founder & CEO | Our Contributions to the Community Snapshot for Sharing"
+  },
+  "https://www.teralec.com": {
+    "website_home_url": "https://www.teralec.com.mo/",
+    "website_home_title": "Home | Teralec Systems",
+    "website_home_meta_description": "",
+    "website_home_headings": "Innovative IT Services | About Our Company | Client Testimonials",
+    "website_about_url": "https://www.teralec.com.mo/about",
+    "website_about_title": "About | Teralec Systems",
+    "website_about_meta_description": "",
+    "website_about_headings": "About | Our Partners"
+  },
+  "https://www.hpe.com/us/en/home.html": {
+    "website_home_url": "https://www.hpe.com/us/en/home.html",
+    "website_home_title": "",
+    "website_home_meta_description": "",
+    "website_home_headings": "",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": "",
+    "website_fetch_error": "HTTPSConnectionPool(host='www.hpe.com', port=443): Read timed out. (read timeout=25)"
+  },
+  "https://www.matrade.gov.my/en": {
+    "website_home_url": "https://www.matrade.gov.my/en",
+    "website_home_title": "Home - MATRADE",
+    "website_home_meta_description": "MATRADE is a national trade promotion agency under the Ministry of Investment, Trade and Industry (MITI) to develop and promote Malaysia's export to the world",
+    "website_home_headings": "Export To The World ( Mega Menu ) (EN) | Export To The World | Source From Malaysia ( Mega Menu ) (EN) | Source from Malaysia | About MATRADE ( Mega Menu ) (EN) | About MATRADE | Corporate Info | Our People",
+    "website_about_url": "",
+    "website_about_title": "",
+    "website_about_meta_description": "",
+    "website_about_headings": ""
+  }
+}
