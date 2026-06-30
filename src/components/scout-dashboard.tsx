@@ -176,7 +176,6 @@ function TargetDetail({ target }: { target: ScoutTarget | null }) {
 
         <div className="grid gap-5">
           <DetailSection label="Recommended Angle" value={target.outreachAngle} />
-          <DetailSection label="Official Event Overview" value={target.officialOverview} />
           <DetailSection label="Company Website Overview" value={target.companySiteHome} />
           <DetailSection label="About / Company Page" value={target.companySiteAbout} />
           <DetailSection label="Matched Keywords" value={target.matchedKeywords.join(", ")} />
@@ -456,6 +455,9 @@ export function ScoutDashboard({ event, datasets }: Props) {
                         ) : null}
                       </div>
                     </div>
+                    <p className="line-clamp-2 break-words text-sm leading-6 text-muted-foreground">
+                      {target.overview || "No summary available."}
+                    </p>
                     <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.16em] text-muted-foreground">
                       {target.hallNumbers.length ? <span>Hall {target.hallNumbers.join(", ")}</span> : null}
                       {target.websiteLabel ? <span>{target.websiteLabel}</span> : null}
