@@ -159,8 +159,6 @@ MTA_POSITIVE_KEYWORDS = {
             "industrial supporting components",
             "fasteners",
             "hardware",
-            "casting",
-            "forging",
             "fabrication",
             "fabricated",
             "components",
@@ -168,8 +166,39 @@ MTA_POSITIVE_KEYWORDS = {
             "mould and die",
             "mold and die",
         ],
-        "weight": 5,
-        "cap": 28,
+        "weight": 4,
+        "cap": 22,
+    },
+    "textiles_footwear": {
+        "keywords": [
+            "fabric",
+            "fabrics",
+            "textile",
+            "textiles",
+            "woven",
+            "nonwoven",
+            "nonwovens",
+            "knit",
+            "knitted",
+            "garment",
+            "garments",
+            "apparel",
+            "shoe",
+            "shoes",
+            "footwear",
+            "sneaker",
+            "sneakers",
+            "leather",
+            "synthetic leather",
+            "upper",
+            "shoe upper",
+            "sole",
+            "outsole",
+            "insole",
+            "footwear components",
+        ],
+        "weight": 8,
+        "cap": 48,
     },
     "ai_digital": {
         "keywords": [
@@ -220,8 +249,6 @@ MANUFACTURING_HINTS = [
     "fabrication",
     "fabricator",
     "machining",
-    "casting",
-    "forging",
     "assembly",
     "processing",
 ]
@@ -259,7 +286,6 @@ INSTITUTION_EXCLUSION_KEYWORDS = [
 
 PARTS_COMPONENT_CATEGORY_HINTS = [
     "precision mechanical parts",
-    "casting, forging",
     "fabrication part",
     "electronics & industrial components",
     "industrial supporting components",
@@ -544,6 +570,8 @@ def has_parts_component_category(row: Dict[str, str]) -> bool:
 
 
 def derive_category(row: Dict[str, str], hit_map: Dict[str, List[str]], manufacturing_hits: List[str]) -> Tuple[str, str]:
+    if hit_map["textiles_footwear"] and manufacturing_hits:
+        return "manufacturer_target", "textile_footwear_or_fabric_manufacturer"
     if hit_map["parts_components"] and manufacturing_hits and has_parts_component_category(row):
         return "manufacturer_target", "precision_parts_or_component_manufacturer"
     if hit_map["inspection_metrology"]:
@@ -560,8 +588,10 @@ def derive_category(row: Dict[str, str], hit_map: Dict[str, List[str]], manufact
 
 
 def build_outreach_angle(category: str, subcategory: str) -> str:
+    if subcategory == "textile_footwear_or_fabric_manufacturer":
+        return "Qualify direct inspection needs for fabrics, textiles, shoes, footwear components, leather, uppers, soles, and related production QA."
     if subcategory == "precision_parts_or_component_manufacturer":
-        return "Qualify direct inspection needs for precision parts, fabricated components, casting, forging, machining, or assembly QA."
+        return "Qualify direct inspection needs for precision parts, fabricated components, machining, or assembly QA."
     if subcategory == "inspection_metrology_or_qa_partner":
         return "Explore partnership around inspection hardware, metrology workflows, QA stations, computer vision, or traceability."
     if subcategory == "ai_or_smart_factory_partner":
@@ -614,6 +644,8 @@ def score_row(row: Dict[str, str], include_company_website: bool = True) -> Dict
     manufacturing_hits = keyword_hits(full_text, MANUFACTURING_HINTS)
     if manufacturing_hits:
         score += 5
+    if hit_map["textiles_footwear"]:
+        score += 35
 
     negative_hits = keyword_hits(full_text, NEGATIVE_KEYWORDS)
     score -= min(len(negative_hits) * 4, 16)
